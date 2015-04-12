@@ -1,0 +1,30 @@
+\chapter{Introduction}\label{intro}
+This chapter will provide you with the brief introduction of the topic in question. The motivation of this research project, goals and the related work will be discussed in detail.
+
+\section{Motivation}\label{motivation}
+In engineering sciences, the term \textit{Architecture} has great significance. Similarly, if we talk about Software Engineering in particular, the importance of \textit{Software Architecture} cannot be neglected. It becomes an important activity in software development life cycle. In this modern era of complex software systems, the design and overall structure (Software Architecture) of a system are more significant aspects than the choice of algorithms and the data structures.\newline
+
+Designing the architecture of a software system is not sufficient, but there is one more important thing, which needs to be taken into consideration that “Software Architecture is fully implemented?” or “Code actually adheres to the targeted architectural model?” In practice, we have geographically distributed teams, located at different parts of the world, so there is always a \textit{Model-Code gap}, which affects the conformance of the architecture. There exist inconsistencies  between the model and the code, which are made accidentally or through the evolution of either of these.\newline
+
+\section{Problem Statement}\label{problemStatement}
+In the above presented scenario, Software architecture which is mainly specified using the Unified Modeling Language (UML) by architecture teams is handed over to implementation teams. During implementation, architecture is then violated, accidentally or not, by the implementation teams. In this way we have architecture violations in form of inconsistencies. These inconsistencies are also introduced, if either of these model or code evolve. For example, code evolves as result of added features or fixing of bugs. Model evolves in response to business planning needs. \newline
+
+If we run an implementation compliance analysis tool which detects the architecture violation, we get a lot of findings. Now, based on these findings, we need to introduce a \textit{Tolerated Model}, a mechanism for the prioritization of these violations (acceptable, not acceptable and critical) with respect to their level of severity. Some of these violations are tolerable and can be ignored, but some violations though trivial, can  result in system failure. With help of this tolerated model, we will review these violations and provide feedback to the developer or architect in order to remove the violation.  
+
+\section{Goals}
+The goal of this thesis is to find a way to prioritize architecture violations using findings from implementation compliance analysis tool. \\In order to achieve this goal, we need to know:
+
+\begin{itemize}
+	\item \textbf{What is a dependency in software architecture?}\newline
+				Do some literature work in order to understand the term Dependency in context of Software Architecture.
+	\item \textbf{Which dependencies are important for the practitioners?} \newline
+				Conduct interviews with practitioners at Intel to ask: \newline
+				- What is a Dependency? \newline
+				- Which Dependencies are relevant? \newline
+				- How to prioritize them?	 
+	\item \textbf{How to prioritize these dependencies in a real world environment?} \newline
+				Create a Tolerated dependency model
+				Create a review module for the dependency violations		
+\end{itemize}
+
+\section{Contributions}\label{contributions}
