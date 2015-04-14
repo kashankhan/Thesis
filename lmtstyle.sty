@@ -52,12 +52,11 @@
 \renewcommand{\author}[1]{ \newcommand{\insertauthor}{#1} }
 \newcommand{\matrikelnr}[1]{ \newcommand{\insertmatrikelnr}{#1} }
 %\newcommand{\address}[2]{ \newcommand{\insertaddress}{\parbox[t]{12cm}{#1\\#2}} }
-\newcommand{\street}[1]{ \newcommand{\insertstreet}{#1} }
-\newcommand{\town}[1]{ \newcommand{\inserttown}{#1} }
+%\newcommand{\street}[1]{ \newcommand{\insertstreet}{#1} }
+%\newcommand{\town}[1]{ \newcommand{\inserttown}{#1} }
+\newcommand{\supervisor}[1]{ \newcommand{\insertsupervisor}{#1} }
 \newcommand{\advisor}[1]{ \newcommand{\insertadvisor}{#1} }
-\newcommand{\datebegin}[1]{ \newcommand{\insertdatebegin}{#1} }
-\newcommand{\dateend}[1]{ \newcommand{\insertdateend}{#1} }
-
+\newcommand{\submissiondate}[1]{ \newcommand{\insertsubmissiondate}{#1} }
 
 % TITLE #######################################################################
 \newcommand{\makemtgtitle}
@@ -77,11 +76,11 @@
                                \Large  Technische Universit\"at M\"unchen
                                 \smallskip 
 
-                               \Large Lehrstuhl f\"ur Medientechnik
+                              % \Large Lehrstuhl f\"ur Medientechnik
                                \smallskip
                               }
 
-                              {\sf \large Prof. Dr.-Ing. Eckehard Steinbach} 
+                            %{\sf \large Prof. Dr.-Ing. Eckehard Steinbach} 
               \end{center}
 
 \vspace{4cm}
@@ -102,12 +101,12 @@
 	\setlength{\baselineskip}{0.2cm}
 	\large\begin{tabular}{ll}
 	Autor: &  \insertauthor\\
-	Matrikelnummer: & \insertmatrikelnr\\
-	Anschrift: & \insertstreet\\
-							& \inserttown \\
-	Betreuer: & \insertadvisor\\
-	Beginn: & \insertdatebegin\\
-	Abgabe: & \insertdateend
+	%Matrikelnummer: & \insertmatrikelnr\\
+	%Anschrift: & \insertstreet\\
+	%						& \inserttown \\
+	Supervisor: &\insertsupervisor\\
+	Advisor: & \insertadvisor\\
+	submission Data: & \insertsubmissiondate\\
 	\end{tabular}
 \end{center}
 }
@@ -122,11 +121,11 @@
                                \Large  Technische Universit\"at M\"unchen
                                 \smallskip
 
-                               \Large Chair of Media Technology
+                               %\Large Chair of Media Technology
                                \smallskip
                               }
 
-                              {\sf \large Prof. Dr.-Ing. Eckehard Steinbach} 
+                              %{\sf \large Prof. Dr.-Ing. Eckehard Steinbach} 
               \end{center}
 
 \vspace{4cm}
@@ -147,12 +146,12 @@
 	\setlength{\baselineskip}{0.2cm}
 	\large\begin{tabular}{ll}
 	Author: &  \insertauthor\\
-	Matriculation Number: & \insertmatrikelnr\\
-	Address: & \insertstreet\\
-					 & \inserttown\\
+	%Matriculation Number: & \insertmatrikelnr\\
+	%Address: & \insertstreet\\
+	%				 & \inserttown\\
+	Supervisor: &\insertsupervisor\\
 	Advisor: & \insertadvisor\\
-	Begin: & \insertdatebegin\\
-	End: & \insertdateend
+	submission Data: & \insertsubmissiondate\\
 	\end{tabular}
 \end{center}
 }}
