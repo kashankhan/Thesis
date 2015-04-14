@@ -65,25 +65,25 @@
 % MAIN PART:
 \pagenumbering{roman}
 % German abstract:
-\include{Kurzfassung}
+\include{Misc/Kurzfassung}
 % English abstract:
-\include{Abstract}
+\include{Misc/Abstract}
 % Table of contents:
 \tableofcontents 
 \include{Chapters/Chapter1}
 
 % Text Body (Hauptteil)
 % Could have multiple chaper-files, e.g.:
-\include{Body}
+\include{Misc/Body}
 %\include{StateOfTheArt}
 %\include{Problem}
 %\include{HowTo}
 %\include{Results}
 %  Conclusions (Zusammenfassung):
-\include{Conclusions}
+\include{Misc/Conclusions}
 % Appendix (Anhänge), could have multiple chaper-files:
 \appendix
-\include{Appendix}
+\include{Misc/Appendix}
 % List of figures (Abbildungsverzeichnis):
 \listoffigures
 % List of tables (Tabellenverzeichnis):
@@ -99,6 +99,6 @@
 % a) Style (with numbers: use unsrt):
 \bibliographystyle{alpha}
 % b) The File:
-\bibliography{Bibliography}
+\bibliography{Misc/Bibliography}
 
 \end{document} %*****************************************************
