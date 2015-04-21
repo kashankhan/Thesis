@@ -25,13 +25,34 @@ The World Health Organization [1] is predicting that the number of obese adults 
 
 Food recommendations have gotten a tremendous amount of success and still in research phase for further improvement. Along with significant advancement and feature set like similar recipes, recipe nutrition detail, where to buy ingredients from some research, some wholes are still remaining. Indeed recommendation techniques like collaborative, content and knowledge based filtering are good for job done. But food domain is not quite simple. User preference and taste not only change by their mood but much more depend upon their health. Therefore, Active learning and critiquing techniques are required to improve better recommendation. So that user can give their feed back and get what ever his preferences are. Mostly approaches are done critiquing by using rating of recipes and generate their result by using celebrative or content based filtering. Similarly, knowledge based filter digs some more; here rating is based on ingredients. Furthermore, persuasion of recommendation is always not guarantied in all cases. Clearly the system is not able to provide the best recommendations due to its detachment from the current situation; what is lacking in these approaches are intersection of persuasiveness, active learning and critiquing and last but not the least user preference context.\newline
 
+This work focuses on generation of health food recommendation on a mobile platform. Recommendation relies on user context, which allow user to critique, based on ingredients and recipes depends on his health and taste through which system will perform active learning. Lastly all recommendations should be persuasive in nature. in order to achieve persuasiveness in recommendations, we focus on user interface and the explanation of recommendation. Which helps user to get an idea why system generates this recommendation to me.\newline
 
+The following short description of the target scenario will illustrate the driving idea behind this research project.\newline
 
-
-For thesis we use iOS for develpment.
-
-focus of  this work
+ \textit{John is a software engineer and very health conscious. He has a tight schedule due to work and gym but loves to cook. He wants to keep track of his diet depends on his taste and preferences. Furthermore, he wants try out some new food base on his time schedule}\newline
 
 \section{Goals}
 
+On the basis of scenario, describes in last section, this work reflects the goals which are stated below:\newline
+
+A recommendation is valuable if it interests the user. To determine the generated recommendation is according to user interest entails to our first primary goal, which is offering Persuasive recommendations. Major factors should be considered before given suggestion is Message and Source. Therefore our Second goal is to implement Active Learning and Critiquing approach to justify our suggestion. Since Critiquing relies on context that’s why it is important to understand the Consumption and Accessibility context which infers our third goals.  Similarly understanding the food ontology refers in scenario helps us to understand forth goal of system. Finally how the user will interact with his device conveys our last goals, which is Mobile user interface.\newline
+
+To achieve primary goals there are several other interesting secondary goals, which facilitate, how our primary goals should be achieved. Starting with the research phase, which includes question and answers to user how they want to use such system in order to achieve better usability. Next focus on existing search work how the other system implements food recommendation scenarios, finding out what are their weakness and strengths. Food ontologies understanding how they are interrelate with other. What factor in which recipes are dependent on in order to develop strong system. Understanding user context which time he prefers which recipe. Furthermore, it is important to research on what researches and related work are out there under Persuasive and Active learning and Critiquing system to grab the understanding, how we can get inspiration from their valuable approaches and work. Finally focus on user experience of such application is one of challenging task, how and where to show the important aspects of recipe in our interface, so that it is easy to learn and has improved usability in comparison with current market applications.\newline
+
+Once the research phase has done next step to collect the functional and non-functional requirement of the system, which is collected by interviewing friends and family volontaire. Once the system is build it has been tested with gathered functional and non-functional requirement and find out the limitation or boundary conditions of system. More over iOS client needs to be test with given requirement additionally user satisfaction should be required for usability test.\newline
+
+Finally, evaluation of developed prototype by user study. In order to clarified the methodologies and processes followed by our selected approaches. After finishing the evaluation reflected results leads to potential improvements and opens up the new direction of research.\newline
+
 \section{Outline}
+
+Division of this thesis is split up into six chapters. \textit{Chapter1} contains introduced the ideas, motivations and goals.\newline
+
+\textit{Chapter2} starts with background in which some definitions and classification of recommendation systems, Followed by different types of profiling and contexts that impact on recommendations. Furthermore, in related work section, pervious work of Persuasiveness, Critiquing and Personalized food recommendation techniques have been discussed.\newline
+
+\textit{Chapter3} explains the Profiling and Context in details along with factors of recommendations. Moreover it covers algorithms that are used to develop the system.\newline
+
+\textit{Chapter4} discuss the System design and architecture phase, which hold the all ERD, components view, servers on which system depend. In the end of the chapter API calls are mentioned which are provided by server.\newline
+
+\textit{Chapter5} elaborates how the user study has been conducted by mentioning the goals, methods, and testing framework along with the dataset. In the end of this chapter measured results and discussion is mention.\newline
+  
+\textit{Chapter6} the last chapter will summarizes the achievements and gives clues about further development and research potention.\newline
