@@ -7,30 +7,46 @@ This chapter will establish the foundation of Persuasive recommendation system a
 
 \subsection{Recommender System}
 
-Recommender Systems (RS) are search tools, which supports user decision-making by providing the suggestion that, are according to their interests. Such systems are widely uses from social networking through e-commerce sites in order to achieve different purposed. In e-commerce site, they help not only to serve the customer by suggesting items according to their preferences but also support business to improve in its sale. On the other hand in social network site, to suggest friends or pages like according to user preferences. According to Ricci [Ricci, 2010] "Recommender Systems are information search tools that have been recently proposed to cope with the "information overload" problem, i.e., the typical state of a web user, of having too much information to make a decision". Proposed solution [Resnick and Varian, 1997] is an intelligent system that suggests the product or service that fulfill the user’s preference in given context or situation. Suggestions provided by such systems are depended on the model how they are keeping information. Majority of recommender systems are typically community based. In this kind of modeling suggestions are depend about item popularity among the user. Where popularity is calculated by ratings. Important question that arise in such systems are to find item accuracy according user preferences. On the other hand Personalized models are used that depends on the various factors which includes user’s preferences, history of bought/liked items, or the items the user has ranked in the past. Various techniques are use in the developing of recommender system. Classification of recommendation [Burke, 2007] will be discussed in next section.
+Recommender Systems (RS) are search tools, which supports user decision-making by providing the suggestion that, are according to their interests. Such systems are widely uses from social networking through e-commerce sites in order to achieve different purposed. In e-commerce site, they help not only to serve the customer by suggesting items according to their preferences but also support business to improve in its sale. On the other hand in social network site, to suggest friends or pages like according to user preferences. According to Ricci [Ricci, 2010] "RS are information search tools that have been recently proposed to cope with the "information overload" problem, i.e., the typical state of a web user, of having too much information to make a decision". Proposed solution [Resnick and Varian, 1997] is an intelligent system that suggests the product or service that fulfill the user’s preference in given context or situation. Suggestions provided by such systems are depended on the model how they are keeping information. Majority of RS are typically community based. In this kind of modeling suggestions are depend about item popularity among the user. Where popularity is calculated by ratings. Important question that arise in such systems are to find item accuracy according user preferences. On the other hand Personalized models are used that depends on the various factors which includes user’s preferences, history of bought/liked items, or the items the user has ranked in the past. Various techniques are use in the developing of recommender system. Classification of recommendation systems [Ricci, 2001] will be discussed as follows.
 
 \subsubsection{Content-based filtering}
 
-\subsubsection{Collaborative-based Recommendations}
+In this technique recommendations are based on user preference. System recommend items that similar to one is liked by user. Item similarity is calculated by features associated with the compared items [Ricci , 2001]. For example, if a user has rated positively recipe A under the category of sweet then next suggestion that is provided by the system is one which is similar to one user has like before.
 
-\subsubsection{Knowledge-based Recommendations}
+\subsubsection{Collaborative-based}
+
+Collaborative filtering is technique in which system find the correlation between item and user based opinions of other users which having a similar taste in past [Shapira , 2001]. Initially system calculates all similar taste users for the current user and calculate the recommended item that contains either rated or liked by other users having similar taste. Importantly in this approach item speciation will not be considered. For instance, if user like recipe A then next recommendation would be recipe that there are other users who liked recipe A also liked recipe B.
+
+\subsubsection{Demographic}
+
+Recommendations are generated according to user demographic profile. Recommendations can be produced for different demographic niches by combining the ratings of users in demographic clusters [Mahmood, 2007]. For example, suggestion provided by the systems are shown according to user’s age. 
+
+\subsubsection{Knowledge-based}
+
+In knowledge-based systems item recommendation is based on domain specific knowledge, which justifies how certain item features meet according to user’s preferences [Ricci , 2001]. Importantly, it uses predication techniques namely Case-based reasoning which reuses the cases past cases that are similar to current case in order to identify item set of recommendation.
+
+\subsubsection{Community-based}
+
+Type of recommendations provided by this kind of system based on preference of user friends. According to Ricci research [Ricci, 2001], People tend to rely more on recommendations provided by friends rather than on recommendations from anonymous individual having similar taste. Such type of RS model relies on user’s social relations including preference of user’s friends. Suggestions depend on rating that is provided by user’s friends.
 
 \subsubsection{Hybrid Recommender Systems}
 
+Hybrid system is a fusion of any two or more techniques motioned above. Ricci [Ricci , 2001] explains the motivation behind such system to avoid the limitation of one technique. For instance, Collaborative filtering have cold startup problem i.e. they are unable to suggest those items, which have no ratings. On the other hand Content-based doesn’t have such limitation by combination of both approach new hybrid system can be formed. Similarly, Burke [Burke, 2007] proposed the combination techniques to create a new hybrid system.
 
-\subsection{Mobile Recommendations}
+\subsubsection{Traditional Recommender Systems Limitations}
 
-\subsection{Persuasive Recommedations}
+Traditional recommendation approaches focus on the recommending the most relevant item according to user preferences without considering any context information for example place and time. Problem occurs when user interest with the system with a particular context and preference may be change for another context[Adomavicius 
+, 2012]. For instance, User wants to cook dinner for his guests expects different recommendations as compared to searching for himself/herself.
+
+\subsection{Contexts}
 
 \subsection{User Profiling}
 
 \subsection{Food Profiling}
 
-\subsection{Contexts}
-
 \subsection{Conversation Critiquing and Active Learning}
 
-
+\subsection{Persuasive Recommedations}
 
 \section{Related Work}
 
