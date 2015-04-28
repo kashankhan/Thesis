@@ -53,9 +53,32 @@ Furthermore, Adomavicius \cite[Adomavicius, 2011]{adomavicius2011context} find o
 	\label{fig:ch2_contextDimensions}
 \end{figure}
 
+\subsubsection{Representing and Modeling Context}
 
+Classical the recommendation system has the prediction problem in which user’s rating for item reflects the degree of user preferences. Therefore, a recommender sys- tem tries to estimate a rating function.\newline
 
-\subsubsection{Hybrid Recommender Systems}
+\begin{equation} 
+R : Users x Items \rightarrow Ratings
+\end{equation}
+
+It’s a 2D matrix of user-item to an ordered set of rating values. Where R a general-purpose\textit{utility} (or preference).Since the value of R is partial function therefore rating of all user-item are not known which arise the predication problem.
+
+\begin{equation} 
+R : Users x Items x Contexts \rightarrow Ratings
+\end{equation}
+
+In contrast, context aware recommend have additional evidence to estimate user preference on unseen item. Contextual evidence can be applies to input function and viewed as “multidimensional”. Where, any information related to data and user can be refer as Contextual information
+
+\subsubsection{Paradigms for Using Contextual Information}
+
+According on algorithm approaches of context aware recommendation, represents in form of \textit{U x I x C x R}, Where U is for User, R denotes rating, C is contextual dimension, and produce contextual recommendations list i1, i2, i3 ... for each user u. Figure \ref{fig:ch2_contextRecommenderSysmterParadigms} illustrates the Paradigms used in processing Contextual Information. These are categories as follows:\newline
+
+\textit{Contextual prefiltering} In this filtering Context is applied an input. With the help of any classical 2D recommendation data selection approach, applies current context which is used for selection of relevant ratings and dataset.\newline
+
+\textit{Contextual postfiltering} Prediction of rating is applied with the help of traditional 2D recommender system technique. On the resultant set of recommendation applies the context for each user. \newline
+
+\textit{Contextual modeling} directly integrates the contextual information in the modeling technique as part of the rating estimation. .\newline
+
 
 \begin{figure}[h]
 	\centering
