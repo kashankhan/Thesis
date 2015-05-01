@@ -55,7 +55,7 @@ Furthermore, Adomavicius \cite[Adomavicius, 2011]{adomavicius2011context} find o
 
 \subsubsection{Representing and Modeling Context}
 
-Classical the recommendation system has the prediction problem in which user’s rating for item reflects the degree of user preferences. Therefore, a recommender sys- tem tries to estimate a rating function.\newline
+Classical the recommendation system has the prediction problem in which user’s rating for item reflects the degree of user preferences. Therefore, a recommender sys- tem tries to estimate a rating function.
 
 \begin{equation} 
 R : Users x Items \rightarrow Ratings
@@ -103,14 +103,32 @@ Explicit profiling often known as explicit user feedback is the simplest way of 
 
 Implicit profiling is also known, as implicit user feedback is another approach for building user profile. It is popular and widely used methodology to develop user profile based on user ‘s acquired information. Mostly profiles are derived form monitoring or observing user activities.  Information acquires by the system helps them to ensure the given recommendation is according to user interest. For example popular website for watching video YouTube. It recommendation is made on similar to those video is watch by user in past.  Single-sign-on (SSO) \cite{ hursti1997single } one the most common methodology for user registration. Since the information is implicit they may contains user demographic information. Similarly user preference like, dislike, location can be fetch by integrated related third party services. Information obtain form this mechanism plays an important role in personalized recommendation system. \ textit{Search logs, Browser cache and User monitoring agents} are some techniques used to generate implicit profile. Main advantage of this technique user doesn’t have to enter form and provide their information. Kelly \cite[Kelly, 2003]{schiaffino2009intelligent} provides an overview of standard techniques that are help to build user profile and information types about the user that can be in inferred from user’s behavior.\newline
 
-\subsection{Conversation-based Critiquing Recommenders and Active Learning}
+\subsection{Conversation-based Critiquing Recommenders}
 
-Recommender systems may also vary in the function to the extent that user can get engage in the dialogues. In traditional techniques data was collect once and terminate after recommendation are made. Assumption of these approaches is user know all his preferences at the beginning which was not the case. Whereas, user taste may change over time and he want to interact with different option. Smyth \cite[Smyth, 2003]{ mcginty2003role} handles this problem and called “Conversational recommendation system” (CRS). He states that CRS have their origins in conversational case-based reasoning (CCBR) which apply similar techniques to elicit query information in problem solving domains and diagnostic tasks.” It is an interactive approach in which user preferences are establish through conversation session. At first initial set of recommendations are given to the user. System adapts the user feedback to further enhance the recommendations. Smyth \cite[Smyth, 2003]{ mcginty2003role} distributed feedback into three categories. \textit{ Rating-based} in this approach user provides rating for an specific item.\textit{ Critique-based} where user add constrain over item features. \textit{ Preference-based } in which user indicates its preference for one particular item over the others. 
+Recommender systems may also vary in the function to the extent that user can get engage in the dialogues. In traditional techniques data was collect once and terminate after recommendation are made. Assumption of these approaches is user know all his preferences at the beginning which was not the case. Whereas, user taste may change over time and he want to interact with different option. Smyth \cite[Smyth, 2003]{ mcginty2003role} handles this problem and called “Conversational recommendation system” (CRS). He states that CRS have their origins in conversational case-based reasoning (CCBR) which apply similar techniques to elicit query information in problem solving domains and diagnostic tasks.” It is an interactive approach in which user preferences are establish through conversation session. At first initial set of recommendations are given to the user. System adapts the user feedback to further enhance the recommendations. Smyth \cite[Smyth, 2003]{ mcginty2003role} distributed feedback into three categories.\textit{ Rating-based} in this approach user provides rating for an specific item.\textit{ Critique-based} where user add constrain over item features.\textit{ Preference-based } in which user indicates its preference for one particular item over the others.\newline
+
+\subsection{Active Learning}
+
+Active learning (AL) is a methodology to learn about user’s preference by asking him/her to rate a number of item knows as training point \cite[Rubens, 2011]{ rubens2011active}. Data is formed by model that approximates user’s preference. It is useful where user’s preferences are change with respect to context.  Rashid \cite[Rashid, 2008]{rashid2008learning} explains that objective of AL may varies according to objectives of recommendation systems.  For example, what is important in the recommender system being built? The difficulty of signing-up (user effort)? If the user is happy with the service (user satisfaction)? How well the system can predict a user’s preferences (accuracy)? Furthermore, this approach can solve cold startup problem in an effective manner. Rubens \cite[Rubens, 2011]{ rubens2011active} categorized AL method according to their primary goal.  
 
 \subsubsection{Instance-based Methods}
+
+In kind of approach points selection is relies on their properties in an attempt to predict user’s rating by the closet match to other user, without have explicit knowledge about underlying model \cite[Adomavicius, 2005]{adomavicius2005toward}. Whereas, it assumes that under consider model any data and rating predictions are accessible.
+
 \subsubsection{Model-based Methods}
+
+In this methodology point selection is based on best construct model that explains data supplied by the user to predict user ratings \cite[Adomavicius, 2005]{adomavicius2005toward}. Similarly, select point are used to maximize the reduction of expected error of the model. Whereas, it assumes that in addition to any data available to instance-based methods, the model and its parameters are also available. 
+
+
 \subsubsection{Modes of Active Learning: Batch and Sequential}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/ch2_activeLearning.png}
+	\caption{Active vs Passive Learning}
+	\cite[Rubens, 2011]{ rubens2011active}
+	\label{fig:ch2_activeLearning}
+\end{figure}
 
 \subsection{Persuasive Recommedations}
 
