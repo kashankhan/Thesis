@@ -47,10 +47,10 @@ Furthermore, Adomavicius \cite[Adomavicius, 2011]{adomavicius2011context} find o
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=.98\linewidth]{figures/ch2_contextDimensions.png}
+	\includegraphics[width=.98\linewidth]{figures/ch2_context_dimensions.png}
 	\caption{Contextual Information Dimensions.} 
 	\cite[Adomavicius, 2011]{adomavicius2011context}
-	\label{fig:ch2_contextDimensions}
+	\label{fig:ch2_context_dimensions}
 \end{figure}
 
 \subsubsection{Representing and Modeling Context}
@@ -71,7 +71,7 @@ In contrast, context aware recommend have additional evidence to estimate user p
 
 \subsubsection{Paradigms for Using Contextual Information}
 
-According on algorithm approaches of context aware recommendation, represents in form of \textit{U x I x C x R}, Where U is for User, R denotes rating, C is contextual dimension, and produce contextual recommendations list i1, i2, i3 ... for each user u. Figure \ref{fig:ch2_contextRecommenderSysmterParadigms} illustrates the Paradigms used in processing Contextual Information. These are categories as follows:\newline
+According on algorithm approaches of context aware recommendation, represents in form of \textit{U x I x C x R}, Where U is for User, R denotes rating, C is contextual dimension, and produce contextual recommendations list i1, i2, i3 ... for each user u. Figure \ref{fig:ch2_context_recommender_system_paradigms} illustrates the Paradigms used in processing Contextual Information. These are categories as follows:\newline
 
 \textit{Contextual prefiltering} In this filtering Context is applied an input. With the help of any classical 2D recommendation data selection approach, applies current context which is used for selection of relevant ratings and dataset.\newline
 
@@ -82,10 +82,10 @@ According on algorithm approaches of context aware recommendation, represents in
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/ch2_contextRecommenderSysmterParadigms.png}
+	\includegraphics[width=1\linewidth]{figures/ch2_context_recommender_system_paradigms.png}
 	\caption{Paradigms for Incorporating Context in Recommender Systems.}
 	\cite[Adomavicius, 2011]{adomavicius2011context}
-	\label{fig:ch2_contextRecommenderSysmterParadigms}
+	\label{fig:ch2_context_recommender_system_paradigms}
 \end{figure}
 
 
@@ -109,7 +109,15 @@ Recommender systems may also vary in the function to the extent that user can ge
 
 \subsection{Active Learning}
 
-Active learning (AL) is a methodology to learn about user’s preference by asking him/her to rate a number of item knows as training point \cite[Rubens, 2011]{ rubens2011active}. Data is formed by model that approximates user’s preference. It is useful where user’s preferences are change with respect to context.  Rashid \cite[Rashid, 2008]{rashid2008learning} explains that objective of AL may varies according to objectives of recommendation systems.  For example, what is important in the recommender system being built? The difficulty of signing-up (user effort)? If the user is happy with the service (user satisfaction)? How well the system can predict a user’s preferences (accuracy)? Furthermore, this approach can solve cold startup problem in an effective manner. Rubens \cite[Rubens, 2011]{ rubens2011active} categorized AL method according to their primary goal.  
+Active learning (AL) is a methodology to learn about user’s preference by asking him/her to rate a number of item knows as training point \cite[Rubens, 2011]{ rubens2011active}. Data is formed by model that approximates user’s preference. It is useful where user’s preferences are change with respect to context.  Rashid \cite[Rashid, 2008]{rashid2008learning} explains that objective of AL may varies according to objectives of recommendation systems.  For example, what is important in the recommender system being built? The difficulty of signing-up (user effort)? If the user is happy with the service (user satisfaction)? How well the system can predict a user’s preferences (accuracy)? Furthermore, this approach can solve cold startup problem in an effective manner. Figure \ref{fig:ch2_active_learning} explains how interactive process works in order to obtain training data, unlike passive learning, where data is simply given to system in a linear fashion. Rubens \cite[Rubens, 2011]{ rubens2011active} categorized AL method according to their primary goal.  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/ch2_active_learning.png}
+	\caption{Active vs Passive Learning}
+	\cite[Rubens, 2011]{ rubens2011active}
+	\label{fig:ch2_active_learning}
+\end{figure}
 
 \subsubsection{Instance-based Methods}
 
@@ -119,16 +127,9 @@ In kind of approach points selection is relies on their properties in an attempt
 
 In this methodology point selection is based on best construct model that explains data supplied by the user to predict user ratings \cite[Adomavicius, 2005]{adomavicius2005toward}. Similarly, select point are used to maximize the reduction of expected error of the model. Whereas, it assumes that in addition to any data available to instance-based methods, the model and its parameters are also available. 
 
-
 \subsubsection{Modes of Active Learning: Batch and Sequential}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/ch2_activeLearning.png}
-	\caption{Active vs Passive Learning}
-	\cite[Rubens, 2011]{ rubens2011active}
-	\label{fig:ch2_activeLearning}
-\end{figure}
+Since the expectation of user is to high for the system while they are performing interaction. They expect immediate output from the system. One common approach is to recalculate the rating of item once user rated single item, known as sequential mode. However another possibility is that to allow user to rate several features of items or rate several item before model readjustment known as batch mode. As immediate reflection of data in sequential mode is an advantage but cost of interaction will always effect. Therefore, trade-off exists between Batch and Sequential AL: the usefulness of the data vs. the number of interactions with the user 
 
 \subsection{Persuasive Recommedations}
 
