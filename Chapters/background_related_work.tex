@@ -207,20 +207,30 @@ This section gives an overview of previous work and related papers on the respec
 
 \subsection{User's Food Preference Extraction for Personalised Cooking Recipe Recommendation}
 
-Mayumi, Mari and Shinsuke \cite{ueda2011user} design system to enlighten importance of personalized recipe recommendation system which is based on user’s food preferences. In this research user’s preferences are gathered by his browsing and cooking history. Recommendations provided by this system is not depends on what user ate in past. Moreover, system does not require particular action of user to collect his preferences.  Figure \ref{fig:ch_ueda2011user} illustrate the idea estimating user’s favorite ingredients. Their approach breakdowns the recipes into like and dislike ingredients set. It calculate ingredient the score by incorporating the frequency of that ingredient in the dishes that has eaten by user and consider them in like ingredient. Whereas, ingredient is consider as dislike by user if he never browsed the recipe details or never cooked. Since system is working on implicit profiling therefore unable to consider addition context and preference of user while generating recommendations.
+Mayumi, Mari and Shinsuke \cite{ueda2011user} design system to enlighten importance of personalized recipe recommendation system which is based on user’s food preferences. In this research user’s preferences are gathered by his browsing and cooking history. Recommendations provided by this system is not depends on what user ate in past. Moreover, system does not require particular action of user to collect his preferences.  Figure \ref{fig:ch2_ueda2011user} illustrate the idea estimating user’s favorite ingredients. Their approach breakdowns the recipes into like and dislike ingredients set. It calculate ingredient the score by incorporating the frequency of that ingredient in the dishes that has eaten by user and consider them in like ingredient. Whereas, ingredient is consider as dislike by user if he never browsed the recipe details or never cooked. Since system is working on implicit profiling therefore unable to consider addition context and preference of user while generating recommendations.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/ch_ueda2011user.png}
+	\includegraphics[width=1\linewidth]{figures/ch2_ueda2011user.png}
 	\caption{Extracting the favorite ingredients using cooking history}
 	\cite{ueda2011user}
-	\label{fig:ch_ueda2011user}
+	\label{fig:ch2_ueda2011user}
 \end{figure}
 
- 
+\subsection{Recipe recommendation using ingredient networks}
+
+This research permits collaborative recipe generation and modification \cite{teng2012recipe}. Recipes data are gathered according to regional preferences and modification is done by individual ingredient preferences. By this approach two kinds of networks are created one is ingredient complement and other is ingredients substitution. The network suggests which substitution of ingredient increases the taste of the recipe and gives those recipes, which is high rated by user. System uses collaborative filter approach along with data mining techniques. System does not have diet specific recipes according to user preference nor consider any user context. 
 
 \subsection{Knowledge Base Framework for Development of Personalised Food Recommendation System}
+This research focuses on personalized food recommendation system aims to provide dietary recommendation based on individual diet and preferences by using knowledge base recommendation technique. Where as, knowledge based depends on ontology and rule-based knowledge development \cite{suksom2010knowledge}. Figure \ref{fig:ch2_suksom2010knowledge} gives an overview of system. All user preferences are set initially and recommendations are based on his heath preference infers system not supports critiquing approach.  
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/ch2_suksom2010knowledge.png}
+	\caption{Knowledge-based framework for the food recommender system}
+	\cite{suksom2010knowledge}
+	\label{fig:ch2_suksom2010knowledge}
+\end{figure}
 \subsection{Interactive Explanations in Mobile Shopping Recommender Systems}
 
 \subsection{Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}
