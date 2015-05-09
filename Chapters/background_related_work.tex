@@ -7,31 +7,31 @@ This chapter will establish the foundation of Persuasive recommendation system a
 
 \subsection{Recommender System}
 
-Recommender Systems (RS) are search tools, which supports user decision-making by providing the suggestion that, are according to their interests. Such systems are widely uses from social networking through e-commerce sites in order to achieve different purposed. In e-commerce site, they help not only to serve the customer by suggesting items according to their preferences but also support business to improve in its sale. On the other hand in social network site, to suggest friends or pages like according to user preferences. According to Ricci [Ricci, 2010] "RS are information search tools that have been recently proposed to cope with the "information overload" problem, i.e., the typical state of a web user, of having too much information to make a decision". Proposed solution [Resnick and Varian, 1997] is an intelligent system that suggests the product or service that fulfill the user’s preference in given context or situation. Suggestions provided by such systems are depended on the model how they are keeping information. Majority of RS are typically community based. In this kind of modeling suggestions are depend about item popularity among the user. Where popularity is calculated by ratings. Important question that arise in such systems are to find item accuracy according user preferences. On the other hand Personalized models are used that depends on the various factors which includes user’s preferences, history of bought/liked items, or the items the user has ranked in the past. Various techniques are use in the developing of recommender system. Classification of recommendation systems [Ricci, 2001] will be discussed as follows.
+Recommender Systems (RS) are search tools, which supports user decision-making by providing the suggestion that, are according to their interests. Such systems are widely uses from social networking through e-commerce sites in order to achieve different purposed. In e-commerce site, they help not only to serve the customer by suggesting items according to their preferences but also support business to improve in its sale. On the other hand in social network site, to suggest friends or pages like according to user preferences. According to Ricci \cite{ricci2010mobile} "RS are information search tools that have been recently proposed to cope with the "information overload" problem, i.e., the typical state of a web user, of having too much information to make a decision". Proposed solution \cite{resnick1997recommender} is an intelligent system that suggests the product or service that fulfill the user’s preference in given context or situation. Suggestions provided by such systems are depended on the model how they are keeping information. Majority of RS are typically community based. In this kind of modeling suggestions are depend about item popularity among the user. Where popularity is calculated by ratings. Important question that arise in such systems are to find item accuracy according user preferences. On the other hand Personalized models are used that depends on the various factors which includes user’s preferences, history of bought/liked items, or the items the user has ranked in the past. Various techniques are use in the developing of recommender system. Classification of recommendation systems \cite{ricci2011introduction} will be discussed as follows.
 
 \subsubsection{Content-based filtering}
 
-In this technique recommendations are based on user preference. System recommend items that similar to one is liked by user. Item similarity is calculated by features associated with the compared items [Ricci , 2001]. For example, if a user has rated positively recipe A under the category of sweet then next suggestion that is provided by the system is one which is similar to one user has like before.
+In this technique recommendations are based on user preference. System recommend items that similar to one is liked by user. Item similarity is calculated by features associated with the compared items \cite{ricci2011introduction}. For example, if a user has rated positively recipe A under the category of sweet then next suggestion that is provided by the system is one which is similar to one user has like before.
 
 \subsubsection{Collaborative-based}
 
-Collaborative filtering is technique in which system find the correlation between item and user based opinions of other users which having a similar taste in past [Shapira , 2001]. Initially system calculates all similar taste users for the current user and calculate the recommended item that contains either rated or liked by other users having similar taste. Importantly in this approach item speciation will not be considered. For instance, if user like recipe A then next recommendation would be recipe that there are other users who liked recipe A also liked recipe B.
+Collaborative filtering is technique in which system find the correlation between item and user based opinions of other users which having a similar taste in past \cite{ricci2011introduction}. Initially system calculates all similar taste users for the current user and calculate the recommended item that contains either rated or liked by other users having similar taste. Importantly in this approach item speciation will not be considered. For instance, if user like recipe A then next recommendation would be recipe that there are other users who liked recipe A also liked recipe B.
 
 \subsubsection{Demographic}
 
-Recommendations are generated according to user demographic profile. Recommendations can be produced for different demographic niches by combining the ratings of users in demographic clusters [Mahmood, 2007]. For example, suggestion provided by the systems are shown according to user’s age. 
+Recommendations are generated according to user demographic profile. Recommendations can be produced for different demographic niches by combining the ratings of users in demographic clusters \cite{mahmood2007towards}. For example, suggestion provided by the systems are shown according to user’s age. 
 
 \subsubsection{Knowledge-based}
 
-In knowledge-based systems item recommendation is based on domain specific knowledge, which justifies how certain item features meet according to user’s preferences [Ricci , 2001]. Importantly, it uses predication techniques namely Case-based reasoning which reuses the cases past cases that are similar to current case in order to identify item set of recommendation.
+In knowledge-based systems item recommendation is based on domain specific knowledge, which justifies how certain item features meet according to user’s preferences \cite{ricci2011introduction}. Importantly, it uses predication techniques namely Case-based reasoning which reuses the cases past cases that are similar to current case in order to identify item set of recommendation.
 
 \subsubsection{Community-based}
 
-Type of recommendations provided by this kind of system based on preference of user friends. According to Ricci research [Ricci, 2001], People tend to rely more on recommendations provided by friends rather than on recommendations from anonymous individual having similar taste. Such type of RS model relies on user’s social relations including preference of user’s friends. Suggestions depend on rating that is provided by user’s friends.
+Type of recommendations provided by this kind of system based on preference of user friends. According to Ricci research \cite{ricci2011introduction}, People tend to rely more on recommendations provided by friends rather than on recommendations from anonymous individual having similar taste. Such type of RS model relies on user’s social relations including preference of user’s friends. Suggestions depend on rating that is provided by user’s friends.
 
 \subsubsection{Hybrid Recommender Systems}
 
-Hybrid system is a fusion of any two or more techniques motioned above. Ricci [Ricci , 2001] explains the motivation behind such system to avoid the limitation of one technique. For instance, Collaborative filtering have cold startup problem i.e. they are unable to suggest those items, which have no ratings. On the other hand Content-based doesn’t have such limitation by combination of both approach new hybrid system can be formed. Similarly, Burke [Burke, 2007] proposed the combination techniques to create a new hybrid system.
+Hybrid system is a fusion of any two or more techniques motioned above. Ricci \cite{ricci2011introduction} explains the motivation behind such system to avoid the limitation of one technique. For instance, Collaborative filtering have cold startup problem i.e. they are unable to suggest those items, which have no ratings. On the other hand Content-based doesn’t have such limitation by combination of both approach new hybrid system can be formed. Similarly, Burke [Burke, 2007] proposed the combination techniques to create a new hybrid system.
 
 \subsection{Contexts}
 Recommendation techniques used by traditional system relies on vector of item rating and user preferences. According to Suchman \cite{suchman1986plans} these approaches ignores the notion of “situated actions”,which infers that user have particular context and item preference within one context may be different for another context\cite{adomavicius2011context}.
@@ -218,7 +218,7 @@ Mayumi, Mari and Shinsuke \cite{ueda2011user} design system to enlighten importa
 \end{figure}
 
 \subsection{Knowledge Base Framework for Development of Personalised Food Recommendation System}
-This research focuses on personalized food recommendation system aims to provide dietary recommendation based on individual diet and preferences by using knowledge base recommendation technique. Where as, knowledge based depends on ontology and rule-based knowledge development \cite{suksom2010knowledge}. Figure \ref{fig:ch2_suksom2010knowledge} gives an overview of system. All user preferences are set initially and recommendations are based on his heath preference infers system not supports critiquing approach.  
+Suksom, Napat and Buranarach \cite{suksom2010knowledge} focus on personalized food recommendation system aims to provide dietary recommendation based on individual diet and preferences by using knowledge base recommendation technique. Where as, knowledge based depends on ontology and rule-based knowledge development. Figure \ref{fig:ch2_suksom2010knowledge} gives an overview of system. All user preferences are set initially and recommendations are based on his heath preference infers system not supports critiquing approach.  
 
 \begin{figure}[h]
 	\centering
@@ -230,25 +230,28 @@ This research focuses on personalized food recommendation system aims to provide
 
 \subsection{Recommending Food: Reasoning on Recipes and Ingredients}
 
-Focus of this research is to investigate recipe recommendation system techniques by applying different recommendation techniques \cite{freyne2010recommending}. Initially with collaborative filter approach with simple break down to relate recipe and ingredients result were not so good but by applying content based approach there were significant improvements in result. For optimal solution they used hybrid approach of content-based and collaborative filter. Summary of their work is stated as after breaking down the recipes into ingredients, give and compute score ingredient score, applying collaborative filter to narrow down the ingredient score and finally applying content based approach in which prediction of recipe rating is examine by the score of individual ingredients. This approach conveys the basic idea recipe recommendation system. With the addition of user preference and their feedback it could achieve more.
+Focus of the research is to investigate recipe recommendation system techniques by applying different recommendation techniques \cite{freyne2010recommending}. Initially with collaborative filter approach with simple break down to relate recipe and ingredients result were not so good but by applying content based approach there were significant improvements in result. For optimal solution they used hybrid approach of content-based and collaborative filter. Summary of their work is stated as after breaking down the recipes into ingredients, give and compute score ingredient score, applying collaborative filter to narrow down the ingredient score and finally applying content based approach in which prediction of recipe rating is examine by the score of individual ingredients. This approach conveys the basic idea recipe recommendation system. With the addition of user preference and their feedback it could achieve more.
 
 \subsection{Recipe recommendation using ingredient networks}
 
-This research permits collaborative recipe generation and modification \cite{teng2012recipe}. Recipes data are gathered according to regional preferences and modification is done by individual ingredient preferences. By this approach two kinds of networks are created one is ingredient complement and other is ingredients substitution. The network suggests which substitution of ingredient increases the taste of the recipe and gives those recipes, which is high rated by user. System uses collaborative filter approach along with data mining techniques. System does not have diet specific recipes according to user preference nor consider any user context. 
+Teng, Chun-Yuen and Lin, Yu-Ru and Adamic, Lada \cite{teng2012recipe} research permits collaborative recipe generation and modification. Recipes data are gathered according to regional preferences and modification is done by individual ingredient preferences. By this approach two kinds of networks are created one is ingredient complement and other is ingredients substitution. The network suggests which substitution of ingredient increases the taste of the recipe and gives those recipes, which is high rated by user. System uses collaborative filter approach along with data mining techniques. System does not have diet specific recipes according to user preference nor consider any user context. 
 
 \subsection{Critique-Based Mobile Recommender Systems}
-\cite{ricci2005critique}
 
+Ricci \cite{ricci2005critique} illustrates the critique based  mobile base recommendation in the domain of travel. Motivation behind this research to collect collects user preferences via critique with low amount of user effort. According to this research it is an advantage to collect user preference via critiquing and it is relatively fast. Figure \ref{fig:ch2_ ch2_ricci2005critique} shows how the critiquing is perform. On the other hand it does not support reactiveness if  use preferences has changed. It gives the basic idea how to gather information regarding user preferences in our system. 
+ 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/ch2_ricci2005critique.png}
+	\includegraphics[width=.90\linewidth]{figures/ch2_ricci2005critique.png}
 	\caption{Critique-Based recommendation model}
 	\cite{ricci2005critique}
 	\label{fig:ch2_ricci2005critique}
 \end{figure}
 
+
 \subsection{Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}
-\cite{lamche2014active}
+
+Motivation behind this approach to developed a explorative shopping mobile recommendation system by using conversation-based active learning approach \cite{lamche2014active}. It uses the utility-based context and critiquing for feedback. Recommendations improvements are done by two-step critiquing process which illustrating in at Figure \ref{fig:ch2_lamche2014active_1}. Critiquing process is relies on either positive or negative feedback. Figure \ref{fig:ch2_lamche2014active_2} show the refine model of recommendation in a system. On the other hand it does not deals with the context and tell user why this recommendation is given to him. 
 
 \begin{figure}[h]
 	\begin{subfigure}{.49\textwidth}
@@ -267,6 +270,28 @@ This research permits collaborative recipe generation and modification \cite{ten
 	\label{fig:lamche2014active}
 \end{figure}
 
+\subsection{The Persuasive role of Explanations in Recommender Systems}
 
-\subsection{The persuasive role of Explanations in Recommender Systems}
-\cite{gkika2014persuasive}
+Ricci, Francesco and Nguyen\cite{gkika2014persuasive} design and analyze a movie recommendation system in which they tried to recommend those movies that are according user’s interest. It helps them to understand the persuasion effect that users are willing to accept recommendation or not. System is design to suggest persuasion recommendation based on Kaptein’s \cite{kaptein2012adaptive} methodology and follows the approach of six(6) best-matching explanation \ref{table:best-matching-explanation} to provide Persuasion Principle. This approach is does not support active learning and critiquing approach not handling of current context.
+
+\begin{table}[h]
+	\centering % used for centering table
+	\begin{tabular}{c c} % centered columns (4 columns)
+		\hline\hline %inserts double horizontal lines
+		Influence Strategy & Explanations \\ % inserts table
+		%heading
+		\hline % inserts single horizontal line
+		Reciprocity & A Facebook friend, who saw the movie that you suggested him/her in past, recommends you this movie \\ % inserting body of the table
+		Scarcity & The recommended movie will be available to view from 15/1/2014 to 31/1/2014 on cinemas \\
+		Authority & The recommended movie won 3 Oscars\\
+		Social Proof & 76"\%" users rated this movie with 4 to 5 stars\\
+		Liking & Your Facebook friends like this movie \\
+		Commitment & Watch this movie and you may change your mind about this kind of movies\\ [1ex] % [1ex] adds vertical space
+		\hline %inserts single line
+	\end{tabular}
+	\caption{Best-matching Explanations on each Influence Strategy}
+	\label{table:best-matching-explanations}
+\end{table}
+--------------------
+
+
