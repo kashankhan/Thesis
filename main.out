@@ -1,0 +1,47 @@
+\BOOKMARK [0][-]{Doc-Start}{Acknowledgments}{}% 1
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Goals}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Outline}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background and Related Work}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Definitions}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Recommender System}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Contexts}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.3}{User Profiling}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.4}{Conversation-based Critiquing Recommenders}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.5}{Active Learning}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.6}{Persuasive Recommedations}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.7}{Mobile Recommender Systems}{section.2.1}% 15
+\BOOKMARK [1][-]{section.2.2}{Related Work}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{User's Food Preference Extraction for Personalised Cooking Recipe Recommendation}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.2}{Knowledge Base Framework for Development of Personalised Food Recommendation System}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.3}{Recommending Food: Reasoning on Recipes and Ingredients}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.4}{Recipe recommendation using ingredient networks}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.5}{Critique-Based Mobile Recommender Systems}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.6}{Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.7}{The Persuasive role of Explanations in Recommender Systems}{section.2.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Profiling and Contexts}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Profiling}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.1.1}{User Profile}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.2}{Food Profile}{section.3.1}% 27
+\BOOKMARK [1][-]{section.3.2}{Contexts}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{Consumption Context}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.2}{Accessibility Context}{section.3.2}% 30
+\BOOKMARK [0][-]{chapter.4}{Critiquing and Persuasion}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Critiquing}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{Persuasion}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{System Design and Implementation}{}% 34
+\BOOKMARK [1][-]{section.5.1}{System Architecture}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.1.1}{Overview}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.2}{Working}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.3}{Class Drigram}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.4}{ERD}{section.5.1}% 39
+\BOOKMARK [1][-]{section.5.2}{System Services}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.2.1}{Service 1}{section.5.2}% 41
+\BOOKMARK [0][-]{chapter.6}{Evaluation And Conclusion}{}% 42
+\BOOKMARK [0][-]{chapter.7}{Summary and Future Work}{}% 43
+\BOOKMARK [1][-]{section.7.1}{Summary}{chapter.7}% 44
+\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 45
+\BOOKMARK [0][-]{appendix*.28}{List of Figures}{}% 46
+\BOOKMARK [0][-]{appendix*.29}{List of Tables}{}% 47
