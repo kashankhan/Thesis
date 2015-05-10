@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  10 MAY 2015 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  10 MAY 2015 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1491,19 +1491,12 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 ty
 Package: glossary-tree 2014/03/06 v4.04 (NLCT)
 \glstreeindent=\skip77
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+))) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count350
 \c@subtable=\count351
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-Package: tocbibind 2010/10/13 v1.5k extra ToC listings
-Package tocbibind Info: The document has chapter divisions on input line 50.
-
-
-Package tocbibind Note: Using chapter style headings, unless overridden.
-
-) (./settings/settings.tex
+)
+(./settings/settings.tex
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `main.glo'.
@@ -1565,11 +1558,11 @@ Package biblatex Warning: Data encoding is 'utf8'.
 \openout3 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 15.
 Package biblatex Info: Reference segment=0 on input line 15.
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count352
 \scratchdimen=\dimen218
@@ -1653,7 +1646,7 @@ Dictionary: glossaries-dictionary, Language: English
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
 line 15.
  (./pages/cover.tex
-<logos/tum.png, id=195, 53.2389pt x 28.4262pt>
+<logos/tum.png, id=199, 53.2389pt x 28.4262pt>
 File: logos/tum.png Graphic file (type png)
  <use logos/tum.png>
 Package pdftex.def Info: logos/tum.png used on input line 13.
@@ -1661,7 +1654,7 @@ Package pdftex.def Info: logos/tum.png used on input line 13.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 25.
 
-<logos/faculty.png, id=197, 34.2078pt x 37.0986pt>
+<logos/faculty.png, id=201, 34.2078pt x 37.0986pt>
 File: logos/faculty.png Graphic file (type png)
  <use logos/faculty.png>
 Package pdftex.def Info: logos/faculty.png used on input line 31.
@@ -1787,10 +1780,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
  []
 
 
-LaTeX Warning: Citation 'world2008information' on page 2 undefined on input lin
-e 22.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
@@ -1869,83 +1858,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--1
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 8.
-
-LaTeX Warning: Citation 'ricci2010mobile' on page 6 undefined on input line 10.
-
-
-
-LaTeX Warning: Citation 'resnick1997recommender' on page 6 undefined on input l
-ine 10.
-
-
-LaTeX Warning: Citation 'ricci2011introduction' on page 6 undefined on input li
-ne 10.
-
-
-LaTeX Warning: Citation 'ricci2011introduction' on page 6 undefined on input li
-ne 14.
-
 [6
 
 
-]
-
-LaTeX Warning: Citation 'ricci2011introduction' on page 7 undefined on input li
-ne 18.
-
-
-Overfull \hbox (25.83841pt too wide) in paragraph at lines 18--19
-\T1/pplx/m/n/10.95 (-20) and user, based on other user's feed-back hav-ing a si
-m-i-lar taste in past [[]].
- []
-
-
-LaTeX Warning: Citation 'mahmood2007towards' on page 7 undefined on input line 
-22.
-
-
-LaTeX Warning: Citation 'ricci2011introduction' on page 7 undefined on input li
-ne 26.
-
-
-LaTeX Warning: Citation 'ricci2011introduction' on page 7 undefined on input li
-ne 30.
-
-
-LaTeX Warning: Citation 'ricci2011introduction' on page 7 undefined on input li
-ne 34.
-
-
-LaTeX Warning: Citation 'burke2007hybrid' on page 7 undefined on input line 34.
-
-
-[7]
-
-LaTeX Warning: Citation 'suchman1986plans' on page 8 undefined on input line 37
-.
-
-
-LaTeX Warning: Citation 'adomavicius2011context' on page 8 undefined on input l
-ine 37.
-
-
+] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
-
-
-LaTeX Warning: Citation 'schilit1994disseminating' on page 8 undefined on input
- line 40.
-
-
-LaTeX Warning: Citation 'adomavicius2011context' on page 8 undefined on input l
-ine 40.
-
-
-LaTeX Warning: Citation 'dourish2004we' on page 8 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'dourish2004we' on page 8 undefined on input line 40.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
@@ -1953,14 +1872,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 [8]
-
-LaTeX Warning: Citation 'adomavicius2011context' on page 9 undefined on input l
-ine 42.
-
-
-LaTeX Warning: Citation 'dourish2004we' on page 9 undefined on input line 42.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1970,26 +1881,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-
-LaTeX Warning: Citation 'adomavicius2011context' on page 9 undefined on input l
-ine 46.
-
-<figures/ch2_context_dimensions.png, id=324, 397.485pt x 129.1224pt>
+<figures/ch2_context_dimensions.png, id=359, 397.485pt x 129.1224pt>
 File: figures/ch2_context_dimensions.png Graphic file (type png)
 
 <use figures/ch2_context_dimensions.png>
 Package pdftex.def Info: figures/ch2_context_dimensions.png used on input line 
 50.
 (pdftex.def)             Requested size: 409.88864pt x 133.15517pt.
-
-
-LaTeX Warning: Citation 'adomavicius2011context' on page 9 undefined on input l
-ine 52.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
+ [9 <./figures/ch2_context_dimensions.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -2009,8 +1908,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[10 <./figures/ch2_context_dimensions.png>]
-<figures/ch2_context_recommender_system_paradigms.png, id=342, 397.485pt x 250.
+
+<figures/ch2_context_recommender_system_paradigms.png, id=368, 397.485pt x 250.
 0542pt>
 File: figures/ch2_context_recommender_system_paradigms.png Graphic file (type p
 ng)
@@ -2020,33 +1919,19 @@ sed on input line 85.
 (pdftex.def)             Requested size: 418.25555pt x 263.12933pt.
 
 
-LaTeX Warning: Citation 'adomavicius2011context' on page 11 undefined on input 
-line 87.
-
-
-LaTeX Warning: Citation 'tang2010combination' on page 11 undefined on input lin
-e 94.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-
-LaTeX Warning: Citation 'schiaffino2009intelligent' on page 11 undefined on inp
-ut line 96.
-
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 [11 <./figures/ch2_context_recommender_system_paradigms.png>]
-
-LaTeX Warning: Citation 'schiaffino2009intelligent' on page 12 undefined on inp
-ut line 100.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -2056,122 +1941,24 @@ LaTeX Warning: Citation 'hursti1997single' on page 12 undefined on input line 1
 04.
 
 
-LaTeX Warning: Citation 'schiaffino2009intelligent' on page 12 undefined on inp
-ut line 104.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 [12]
-
-LaTeX Warning: Citation 'mcginty2003role' on page 13 undefined on input line 10
-8.
-
-
-LaTeX Warning: Citation 'mcginty2003role' on page 13 undefined on input line 10
-8.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-
-LaTeX Warning: Citation 'rubens2011active' on page 13 undefined on input line 1
-12.
-
-
-LaTeX Warning: Citation 'rashid2008learning' on page 13 undefined on input line
- 112.
-
-
-LaTeX Warning: Citation 'rubens2011active' on page 13 undefined on input line 1
-12.
-
-[13] <figures/ch2_active_learning.png, id=360, 444.66125pt x 142.5325pt>
+[13] <figures/ch2_active_learning.png, id=411, 444.66125pt x 142.5325pt>
 File: figures/ch2_active_learning.png Graphic file (type png)
 
 <use figures/ch2_active_learning.png>
 Package pdftex.def Info: figures/ch2_active_learning.png used on input line 116
 .
 (pdftex.def)             Requested size: 418.25555pt x 134.06754pt.
-
-
-LaTeX Warning: Citation 'rubens2011active' on page 14 undefined on input line 1
-18.
-
-
-LaTeX Warning: Citation 'adomavicius2005toward' on page 14 undefined on input l
-ine 124.
-
-
-LaTeX Warning: Citation 'adomavicius2005toward' on page 14 undefined on input l
-ine 128.
-
-[14 <./figures/ch2_active_learning.png>]
-
-LaTeX Warning: Citation 'xiao2007commerce' on page 15 undefined on input line 1
-36.
-
-
-LaTeX Warning: Citation 'nanou2010effects' on page 15 undefined on input line 1
-36.
-
-
-LaTeX Warning: Citation 'nanou2010effects' on page 15 undefined on input line 1
-36.
-
-
-LaTeX Warning: Citation 'sinha2002role' on page 15 undefined on input line 136.
-
-
-
-LaTeX Warning: Citation 'pu2012evaluating' on page 15 undefined on input line 1
-36.
-
-
-LaTeX Warning: Citation 'cremonesi2012investigating' on page 15 undefined on in
-put line 136.
-
-
-LaTeX Warning: Citation 'fogg1998persuasive' on page 15 undefined on input line
- 136.
-
-
-LaTeX Warning: Citation 'mcsherry2005explanation' on page 15 undefined on input
- line 136.
-
-
-LaTeX Warning: Citation 'herlocker2000explaining' on page 15 undefined on input
- line 136.
-
-
-Overfull \hbox (55.1965pt too wide) in paragraph at lines 136--137
-\T1/pplx/m/n/10.95 (-20) rithms de-vel-op-ment and eval-u-a-tion that pro-vide 
-pre-cise recommendations[[]].The
- []
-
-
-Overfull \hbox (23.836pt too wide) in paragraph at lines 136--137
-\T1/pplx/m/n/10.95 (-20) persuasion[[]] and rec-om-men-da-tion's novelty[[]].
- []
-
-
-LaTeX Warning: Citation 'gkika2014persuasive' on page 15 undefined on input lin
-e 140.
-
-
-LaTeX Warning: Citation 'cialdini2009influence' on page 15 undefined on input l
-ine 140.
-
-
-LaTeX Warning: Citation 'yoo2012persuasive' on page 15 undefined on input line 
-140.
-
-[15]
-<figures/ch2_communication_persuasion_paradigm.png, id=376, 510.90875pt x 184.6
+ [14 <./figures/ch2_active_learning.png>]
+<figures/ch2_communication_persuasion_paradigm.png, id=438, 510.90875pt x 184.6
 9pt>
 File: figures/ch2_communication_persuasion_paradigm.png Graphic file (type png)
 
@@ -2181,127 +1968,22 @@ Package pdftex.def Info: figures/ch2_communication_persuasion_paradigm.png used
 (pdftex.def)             Requested size: 418.25555pt x 151.19594pt.
 
 
-LaTeX Warning: Citation 'yoo2012persuasive' on page 16 undefined on input line 
-146.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./figures/ch2_communication_persuasion_paradigm.png>]
+[15]
 
-LaTeX Warning: Citation 'tintarev2011designing' on page 17 undefined on input l
-ine 153.
-
-
-LaTeX Warning: Citation 'tintarev2012evaluating' on page 17 undefined on input 
-line 153.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 153.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 156.
-
-
-LaTeX Warning: Citation 'nielsen1990heuristic' on page 17 undefined on input li
-ne 158.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 160.
-
-
-LaTeX Warning: Citation 'mcnee2003interfaces' on page 17 undefined on input lin
-e 160.
-
-
-LaTeX Warning: Citation 'elfernig2006empirical' on page 17 undefined on input l
+LaTeX Warning: Citation 'elfernig2006empirical' on page 16 undefined on input l
 ine 160.
 
-
-LaTeX Warning: Citation 'felfernig2006empirical' on page 17 undefined on input 
-line 160.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 162.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 164.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 166.
-
-
-LaTeX Warning: Citation 'nielsen1990heuristic' on page 17 undefined on input li
-ne 166.
-
-
-LaTeX Warning: Citation 'tintarev2007survey' on page 17 undefined on input line
- 168.
-
-
-LaTeX Warning: Citation 'tanaka2000multi' on page 17 undefined on input line 16
-8.
-
-
-LaTeX Warning: Citation 'herlocker2000explaining' on page 17 undefined on input
- line 168.
-
-
-Overfull \hbox (59.75107pt too wide) in paragraph at lines 168--169
-\T1/pplx/m/n/10.95 (-20) crease a user's in-ter-est [[]] or ac-cep-tance of a s
-ystem[[]]. 
- []
-
-[17]
-
-LaTeX Warning: Citation 'nielsen1990heuristic' on page 18 undefined on input li
-ne 174.
-
-
-LaTeX Warning: Citation 'schiller2003mobile' on page 18 undefined on input line
- 174.
-
-
-LaTeX Warning: Citation 'ricci2010mobile' on page 18 undefined on input line 19
-3.
-
-
-LaTeX Warning: Citation 'ricci2010mobile' on page 18 undefined on input line 19
-6.
-
-
-LaTeX Warning: Citation 'ricci2010mobile' on page 18 undefined on input line 19
-9.
-
-[18]
-
-LaTeX Warning: Citation 'ricci2010mobile' on page 19 undefined on input line 20
-2.
-
-
-LaTeX Warning: Citation 'ueda2011user' on page 19 undefined on input line 210.
-
-<figures/ch2_ueda2011user.png, id=407, 462.72874pt x 322.20375pt>
+[16 <./figures/ch2_communication_persuasion_paradigm.png>] [17] [18]
+<figures/ch2_ueda2011user.png, id=521, 462.72874pt x 322.20375pt>
 File: figures/ch2_ueda2011user.png Graphic file (type png)
 
 <use figures/ch2_ueda2011user.png>
 Package pdftex.def Info: figures/ch2_ueda2011user.png used on input line 214.
 (pdftex.def)             Requested size: 418.25555pt x 291.23929pt.
 
-
-LaTeX Warning: Citation 'ueda2011user' on page 19 undefined on input line 216.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation 'suksom2010knowledge' on page 19 undefined on input lin
-e 221.
-
-[19] <figures/ch2_suksom2010knowledge.png, id=416, 677.53125pt x 498.86375pt>
+<figures/ch2_suksom2010knowledge.png, id=525, 677.53125pt x 498.86375pt>
 File: figures/ch2_suksom2010knowledge.png Graphic file (type png)
 
 <use figures/ch2_suksom2010knowledge.png>
@@ -2310,53 +1992,27 @@ Package pdftex.def Info: figures/ch2_suksom2010knowledge.png used on input line
 (pdftex.def)             Requested size: 292.7776pt x 215.5729pt.
 
 
-LaTeX Warning: Citation 'suksom2010knowledge' on page 20 undefined on input lin
-e 227.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'freyne2010recommending' on page 20 undefined on input 
+LaTeX Warning: Citation 'freyne2010recommending' on page 19 undefined on input 
 line 233.
 
-[20 <./figures/ch2_ueda2011user.png>]
-
-LaTeX Warning: Citation 'teng2012recipe' on page 21 undefined on input line 237
-.
-
-
-LaTeX Warning: Citation 'ricci2005critique' on page 21 undefined on input line 
-241.
-
+[19 <./figures/ch2_ueda2011user.png>] [20 <./figures/ch2_suksom2010knowledge.pn
+g>]
 
 LaTeX Warning: Reference `fig:ch2_ ch2_ricci2005critique' on page 21 undefined 
 on input line 241.
 
-[21 <./figures/ch2_suksom2010knowledge.png>]
-<figures/ch2_ricci2005critique.png, id=428, 453.695pt x 254.9525pt>
+<figures/ch2_ricci2005critique.png, id=542, 453.695pt x 254.9525pt>
 File: figures/ch2_ricci2005critique.png Graphic file (type png)
 
 <use figures/ch2_ricci2005critique.png>
 Package pdftex.def Info: figures/ch2_ricci2005critique.png used on input line 2
 45.
 (pdftex.def)             Requested size: 292.7776pt x 164.52673pt.
-
-
-LaTeX Warning: Citation 'ricci2005critique' on page 22 undefined on input line 
-247.
-
-
-LaTeX Warning: Citation 'lamche2014active' on page 22 undefined on input line 2
-54.
-
-
-Overfull \hbox (21.6813pt too wide) in paragraph at lines 254--255
-\T1/pplx/m/n/10.95 (-20) men-da-tion sys-tem by us-ing conversation-based ac-ti
-ve learn-ing ap-proach [[]].
- []
-
-<figures/ch2_lamche2014active_1.png, id=431, 503.8825pt x 218.8175pt>
+ [21 <./figures/ch2_ricci2005critique.png>] <figures/ch2_lamche2014active_1.png
+, id=556, 503.8825pt x 218.8175pt>
 File: figures/ch2_lamche2014active_1.png Graphic file (type png)
 
 <use figures/ch2_lamche2014active_1.png>
@@ -2364,11 +2020,7 @@ Package pdftex.def Info: figures/ch2_lamche2014active_1.png used on input line
 258.
 (pdftex.def)             Requested size: 184.4515pt x 80.09976pt.
 
-
-LaTeX Warning: Citation 'lamche2014active' on page 22 undefined on input line 2
-60.
-
-<figures/ch2_lamche2014active_2.png, id=432, 430.60875pt x 177.66376pt>
+<figures/ch2_lamche2014active_2.png, id=558, 430.60875pt x 177.66376pt>
 File: figures/ch2_lamche2014active_2.png Graphic file (type png)
 
 <use figures/ch2_lamche2014active_2.png>
@@ -2377,25 +2029,10 @@ Package pdftex.def Info: figures/ch2_lamche2014active_2.png used on input line
 (pdftex.def)             Requested size: 184.4515pt x 76.10385pt.
 
 
-LaTeX Warning: Citation 'lamche2014active' on page 22 undefined on input line 2
-66.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation 'gkika2014persuasive' on page 22 undefined on input lin
-e 275.
-
-
-LaTeX Warning: Citation 'kaptein2012adaptive' on page 22 undefined on input lin
-e 275.
-
-
 LaTeX Warning: Reference `table:best-matching-explanation' on page 22 undefined
  on input line 275.
 
-[22 <./figures/ch2_ricci2005critique.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []|\T1/pplx/m/n/10.95 (+20) Influence
  []
@@ -2410,25 +2047,25 @@ Overfull \hbox (4.08301pt too wide) in paragraph at lines 279--292
  [][] 
  []
 
-) (./chapters/profiling_context.tex [23 <./figures/ch2_lamche2014active_1.png> 
+) (./chapters/profiling_context.tex [22 <./figures/ch2_lamche2014active_1.png> 
 <./figures/ch2_lamche2014active_2.png>]
 Chapter 3.
-) (./chapters/critiquing_persuation.tex [24
+) (./chapters/critiquing_persuation.tex [23
 
 
 ]
 Chapter 4.
-) (./chapters/system_design.tex [25
+) (./chapters/system_design.tex [24
 
 
 ]
 Chapter 5.
-) (./chapters/conclusion.tex [26
+) (./chapters/conclusion.tex [25
 
 
 ]
 Chapter 6.
-) (./chapters/summary.tex [27
+) (./chapters/summary.tex [26
 
 
 ]
@@ -2436,7 +2073,7 @@ Chapter 7.
 )
 No file main.gls.
 No file main.acr.
-[28
+[27
 
 
 ]
@@ -2446,7 +2083,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 46
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [29
+ [28
 
 
 ]
@@ -2456,22 +2093,22 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 47
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
+ [29
 
 
-LaTeX Warning: Empty bibliography on input line 49.
+] [30
 
+
+] [31] [32]
 No complaints by nag.
-[30
-
-
-]
+[33]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9F77B7E52C85B7A472B7093095D567A6;3348.
+(rerunfilecheck)             Checksum: ADC7049888E0CFE555B4C175AB1F6222;3399.
 
 
 LaTeX Warning: There were undefined references.
@@ -2486,22 +2123,22 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41210 strings out of 493117
- 870236 string characters out of 6135433
- 1408832 words of memory out of 5000000
- 43483 multiletter control sequences out of 15000+600000
- 52114 words of font info for 251 fonts, out of 8000000 for 9000
+ 41250 strings out of 493117
+ 871704 string characters out of 6135433
+ 1407084 words of memory out of 5000000
+ 43452 multiletter control sequences out of 15000+600000
+ 53584 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,83p,2007b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,11n,83p,2007b,2360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (37 pages, 745298 bytes).
+Output written on main.pdf (40 pages, 761968 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
- 125 named destinations out of 1000 (max. 500000)
- 33212 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 683 PDF objects out of 1000 (max. 8388607)
+ 608 compressed objects within 7 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 33220 words of extra memory for PDF output out of 35830 (max. 10000000)
 

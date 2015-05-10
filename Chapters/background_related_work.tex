@@ -43,7 +43,7 @@ Adomavicius \cite{adomavicius2011context} ascertain \cite{dourish2004we} claims 
 
 \textit{Fully observable}; refers to explicit knowledge of structure and values of contextual factors of application at the time when recommendations are made. These factors refer as Purchasing Purpose, Shopping Companion and time. For example, User wants to buy shirt, besides having information of selling point and item. Theses may include information about the time, for whom. \textit{Partially observable}; application has some of information about the context explicitly. For instances, Purchasing Purpose, Shopping Companion and time, all information given but the structure is missing. \textit{Unobservable}; no information regarding contextual information is provided explicitly. Utilizing only the latent knowledge of context in an implicit manner makes recommendations. For example, the recommender system may build a latent predictive model, such as hierarchical, linear or hidden Markov models, to estimate unknown ratings, where unobservable context is modeled using latent variables.\newline
 
-Furthermore, Adomavicius \cite{adomavicius2011context} find out the dependency of contextual factors over time and classify them into categories. \textit{Static} The relevant contextual factors and their structure remains the same (stable) over time. \textit{Dynamic} contextual factors change in some way.
+Furthermore, Adomavicius \cite{adomavicius2011context} find out the dependency of contextual factors over time and classify them into categories. \textit{Static}; The relevant contextual factors and their structure remains the same (stable) over time. \textit{Dynamic}; contextual factors change in some way.
 
 \begin{figure}[h]
 	\centering
@@ -55,13 +55,13 @@ Furthermore, Adomavicius \cite{adomavicius2011context} find out the dependency o
 
 \subsubsection{Representing and Modeling Context}
 
-Classical the recommendation system has the prediction problem in which user’s rating for item reflects the degree of user preferences. Therefore, a recommender sys- tem tries to estimate a rating function.
+Classical recommendation system has the prediction problem in which user’s rating for item reflects the degree of user preferences. Therefore, a recommender system tries to estimate a rating function.
 
 \begin{equation} 
 R : Users x Items \rightarrow Ratings
 \end{equation}
 
-It’s a 2D matrix of user-item to an ordered set of rating values. Where R a general-purpose\textit{utility} (or preference).Since the value of R is partial function therefore rating of all user-item are not known which arise the predication problem.
+It’s a 2D matrix of user-item to an ordered set of rating values. Where "R" a general-purpose\textit{utility} (or preference). Since the value of "R" is partial function therefore rating of all user-item are not known which arise the predication problem.
 
 \begin{equation} 
 R : Users x Items x Contexts \rightarrow Ratings
