@@ -1,11 +1,25 @@
 
 \chapter{System Components}
 
-This chapter will provide the explanation about the system’s components and how they are interconnected with other in order to achieve the goals of this thesis. Chapter begins with explanation of profiling approaches, followed by impacts of context, critiquing and persuasion.
-
-\section{Profiling}
+This chapter will provide the explanation about the system’s components and their attributes. Also how they are inter-related to one an other in order to achieve the goals of this thesis. Chapter begins with explanation of profiling approaches, followed by impacts of context, critiquing and persuasion.
 
 \subsection{User Profile}
+
+One the core component of system to leads the recommendation according to his profile. User profile is developed by hybrid approach. Demographic information about the user gathers from his Facebook account by using Single-Sign-On approach a very common technique now days. Reasoning behind following implicit profiling approach to get user’s information without bothering him. Additionally system always has up to date information regarding user. Whereas, it has been noticed that some people are less reluctant to those systems, which ask permission to their social network account. While considering this concern our system only ask user to for their basic information Following are the acquired attributes form Facebook profile.
+
+\begin{enumerate}
+	\item Birthday
+	\item Email	
+	\item FirstName
+	\item LastName
+	\item Gender
+	\item Name
+	\item ProfileLink
+	\item UserId
+\end{enumerate}
+
+Moreover, explicit profiling techniques are used to gather contextual information and his preference about the food but there exists some problems in this technique. It demands user’s time and willing to provide the data and by filling the long forms which is quite boring in the eyes of users. Since our system Knowledge based Personalized recommender system we have to deals this problem in a very efficient manner because system recommendations will totally depends on user feedback. Therefore we minimized the form-based approach to just simple by providing simple toggling, rating and selection mechanism. We totally avoid the form-based approaches and split up the information according to concerns screen of the application in order to get better results.
+
 \subsection{Food Profile}
 
 \section{Contexts}
