@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  17 MAY 2015 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  17 MAY 2015 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2081,15 +2081,45 @@ File: figures/ch2_food_profile.png Graphic file (type png)
 <use figures/ch2_food_profile.png>
 Package pdftex.def Info: figures/ch2_food_profile.png used on input line 39.
 (pdftex.def)             Requested size: 292.7776pt x 378.88835pt.
- [25 <./figures/ch2_food_profile.png>])
-(./chapters/system_design.tex [26]
+ [25 <./figures/ch2_food_profile.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+
+ []
+
+
+Overfull \hbox (14.26865pt too wide) in paragraph at lines 77--83
+\T1/pplx/m/it/10.95 (-20) GET http://api.bigoven.com/recipes?title_kw=" key-wor
+d"&pg="page"&rpp="resultPerPage" 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+
+ []
+
+) (./chapters/system_design.tex [26] [27]
 Chapter 4.
-) (./chapters/conclusion.tex [27
+) (./chapters/conclusion.tex [28
 
 
 ]
 Chapter 5.
-) (./chapters/summary.tex [28
+) (./chapters/summary.tex [29
 
 
 ]
@@ -2097,7 +2127,7 @@ Chapter 6.
 )
 No file main.gls.
 No file main.acr.
-[29
+[30
 
 
 ]
@@ -2107,7 +2137,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 45
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [30
+ [31
 
 
 ]
@@ -2117,22 +2147,22 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 46
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
- [31
+ [32
 
 
-] [32
+] [33
 
 
-] [33] [34]
+] [34] [35]
 No complaints by nag.
-[35]
+[36]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E11CED8A2477E4632F881D61EE3F4EEF;3337.
+(rerunfilecheck)             Checksum: 9EC9A89A2C0C32EBE0972AF9C94AEA8E;3337.
 
 
 LaTeX Warning: There were undefined references.
@@ -2147,10 +2177,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41275 strings out of 493117
- 871915 string characters out of 6135433
- 1407083 words of memory out of 5000000
- 43454 multiletter control sequences out of 15000+600000
+ 41278 strings out of 493117
+ 871975 string characters out of 6135433
+ 1408083 words of memory out of 5000000
+ 43455 multiletter control sequences out of 15000+600000
  54004 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,83p,2007b,2360s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2159,10 +2189,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (42 pages, 793020 bytes).
+Output written on main.pdf (43 pages, 794838 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 635 compressed objects within 7 object streams
- 187 named destinations out of 1000 (max. 500000)
+ 720 PDF objects out of 1000 (max. 8388607)
+ 641 compressed objects within 7 object streams
+ 189 named destinations out of 1000 (max. 500000)
  33217 words of extra memory for PDF output out of 35830 (max. 10000000)
 

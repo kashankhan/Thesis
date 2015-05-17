@@ -26,10 +26,10 @@ Food recommendation is the basic research area of this thesis. Based on this app
 
 \begin{enumerate}
 	\item Yummly API.
-	\item Big-Oven API.	
+	\item BigOven API.	
 \end{enumerate}
 
-Both services are crowd-source driven, highly recommended in food domain and are offering almost the same data set. Next step to find the best suited API for our research therefore we preformed some experiments targeted to comparison between both selected API. Result of this experiment showed that Yummly API is not providing cooking description. On the other hand Big-Oven API doesn’t support recipe’s nutritional information and have limited number of calls per hour for student account. Regarding selection of API our focus was, it should provide all the relevant information about the recipes required by our research, in order to avoid any dependency. Considering mentioned fact we decided to choose Big-Oven API.\newline
+Both services are crowd-source driven, highly recommended in food domain and are offering almost the same data set. Next step to find the best suited API for our research therefore we preformed some experiments targeted to comparison between both selected API. Result of this experiment showed that Yummly API is not providing cooking description. On the other hand BigOven API doesn’t support recipe’s nutritional information and have limited number of calls per hour for student account. Regarding selection of API our focus was, it should provide all the relevant information about the recipes required by our research, in order to avoid any dependency. Considering mentioned fact we decided to choose BigOven API.\newline
 
 Concerning about the attributes of food profile we followed the common approach that recipe have some important key attributes like cooking methods, ingredient preparation time, nutritional breakdown \cite{freyne2010recommending}.  However we are unable to get nutritional information due to API’s constrain, as discussed early, but in our data model we are considering it for future research purpose.  Figure \ref{fig:ch2_food_profile} illustrates the key attributes of food profile which is a common fashion for representing a recipe. We followed an hybrid approach \cite{suksom2010knowledge}
 \cite{teng2012recipe} \cite{freyne2010recommending} for our personalize knowledge bases food recommendation system. Recipe’s ingredients are the primary factor on which recommendations are relied. 
@@ -45,16 +45,18 @@ Concerning about the attributes of food profile we followed the common approach 
 
 In order to simplify evaluation of recipe recommendation, System assumed that liking and disliking of ingredients by user is based on his dietary needs and health preferences. Suppose user does not like a particular ingredient let’s say “X”, therefore system learns from user’s critique and eventually avoids such recipes, which have "X" as an ingredient in it.
 
-\subsubsection{Big-oven API}
+\subsubsection{BigOven API}
 
-Big-oven API provides all the information about the recipe in a well-structured and well documented manner. Along with the high number of recipes, they offer functionalities including  \textit{Search, Display Recipes, Recipe review, Grocery List and Rest-based API support} . For this thesis we focus only few of them to develop a database of your system.  Following are some API calls that are implemented in our system.
+BigOven API provides all the information about the recipe in a well-structured and well documented manner. Along with the high number of recipes, they offer functionalities including  \textit{Search, Display Recipes, Recipe review, Grocery List and Rest-based API support}. For this thesis we focus only few of them to develop a database of your system.  Following are some API calls that are implemented in our system.
 
 
 \begin{enumerate}
-	\item Reading a Recipe.\\
+	\item \textbf{Reading a Recipe.}\newline \newline
+	The Recipe object refers to a recipe within the BigOven collection.\newline \newline
 %%%%%%% Request
-	URL request:\\
-	\textit{GET http://api.bigoven.com/recipe/{id}}
+	\textbf{URL request:}\newline 
+	\textit{GET http://api.bigoven.com/recipe/{id}?api\_key="bigOvenApiKey"}
+	\newline 
 %%%%%%% Table	
 	\begin{table}[ht]
 		\centering % used for centering table
@@ -64,6 +66,7 @@ Big-oven API provides all the information about the recipe in a well-structured 
 			%heading
 			\hline % inserts single horizontal line
 			id & Primary key(ID) of recipe & Yes \\ 
+			api\_key & Your api key issued to you by BigOven & Yes \\ 
 			\hline %inserts single line
 		\end{tabular}
 		\caption{Bigoven- Reading a Recipe.}
@@ -71,7 +74,32 @@ Big-oven API provides all the information about the recipe in a well-structured 
 	\end{table}
 %%%%%%% End Table		
 	
-	\item Big-Oven API.	
+	\item \textbf{Recipe Search Results.}\newline \newline
+	The Recipe Search Result object is a collection of results for a given recipe search query.\newline \newline
+	%%%%%%% Request
+	\textbf{URL request:}\newline
+	\textit{GET http://api.bigoven.com/recipes?title\_kw=" keyword"\&pg="page"\&rpp="resultPerPage"\\
+	\&api\_key="bigOvenApiKey"	} \newline 
+	
+	%%%%%%% Table	
+	\begin{table}[ht]
+		\centering % used for centering table
+		\begin{tabular}{p{3cm} p{6cm} p{3cm}}  % centered columns (3 columns)
+			\hline\hline %inserts double horizontal lines
+			Parameter & Description & Required \\ % inserts table
+			%heading
+			\hline % inserts single horizontal line
+			title\_kw & Title keyword being searched for & No \\ 
+			pg & Cureent Page to be fetched & No \\ 
+			rpp & Number of results in page & No \\ 
+			api\_key & Your api key issued to you by BigOven & Yes \\ 
+			\hline %inserts single line
+		\end{tabular}
+		\caption{Bigoven-  Recipe Search Results}
+		\label{table:bigoven-recipe-search-results}
+	\end{table}
+	%%%%%%% End Table	
+
 \end{enumerate}
 
 \section{Contexts}
