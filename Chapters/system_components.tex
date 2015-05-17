@@ -5,7 +5,7 @@ This chapter will provide the explanation about the components of the system it 
 
 \subsection{User Profile}
 
-One the goal of a system is to recommend user food that suits to his preferences which can be gatherd by profiling a user. In our system we followed a hybrid approach to build a user profile. Demographic information of a user is implicitly fetch from his Facebook account. The reason behind following implicit profiling approaches is to get user information without bothering them. This allows system to  have up to date information about them.  However, it has been noticed that people are reluctent to those systems that request permission to access their social network activity information. Knowing these concerns, we only ask users to permit access to their basic information. Following are the acquired attributes from Facebook profile.
+One the core component of a system is to recommend user food that suits to his preferences, which can be gathered by profiling a user. In our system we followed a hybrid approach to build a user profile. Demographic information of a user is implicitly fetched from his Facebook account. The reason behind following implicit profiling approaches is to get user information without bothering them. This allows system to have up to date information about them.  However, it has been noticed that people are reluctant to those systems that request permission to access their social network activity information. Knowing these concerns, we only ask users to permit access to their basic information. Following are the acquired attributes from Facebook profile.
 
 \begin{enumerate}
 	\item Birthday
@@ -18,9 +18,61 @@ One the goal of a system is to recommend user food that suits to his preferences
 	\item UserId
 \end{enumerate}
 
-Moreover, explicit profiling techniques are used to gather contextual information and his preference about the food but there exists some problems in this technique. It demands user’s time and willing to provide the data and by filling the long forms which is quite boring in the eyes of users. Since our system Knowledge based Personalized recommender system we have to deals this problem in a very efficient manner because system recommendations will totally depends on user feedback. Therefore we minimized the form-based approach to just simple by providing simple toggling, rating and selection mechanism. We totally avoid the form-based approaches and split up the information according to concerns screen of the application in order to get better results.
+Moreover, explicit profiling techniques are used to gather users' contextual information and their preferences. While explicit profiling reveals accurate information, there however exist shortcomings in this technique. It demands user’s time and willingness to provide the data by filling the long forms, which seems to be tedious to the users. As the system is Knowledge based Personalized recommender, this problem has to be dealt efficiently because the recommendations produced by the system are highly influenced by user feedback. Therefore instead of making a user to provide all the information, we collect this data by using interactive forms based, which includes simple toggling, rating and selection mechanism that also increase the usability of the system.
 
 \subsection{Food Profile}
+
+Food recommendation is the basic research area of this thesis. Based on this approach our research is to provide recommendation according to both individual‘s dietary needs and preferences. Understanding food domain is very complex and challenging task when its come to recommender domain. User’s selection of a recipe is highly depends on it’s ingredients. Also there are some other factors which includes cooking methods, ingredient costs and availability, complexity of cooking, preparation time, nutritional breakdown, ingredient combination effects, as well as cultural and social factors \cite{freyne2010recommending}. Our research starts with in finding out how popular websites are dealing in this domain and structuring the recipes. So that we can get inspiration about the important features that user are looking for while he interacts with such system. Next chore of our research is to build a recipe database therefore we need a provider-API that ensures a large number of recipes. Among these APIs two notables with impressive meta-data about recipes are:
+
+\begin{enumerate}
+	\item Yummly API.
+	\item Big-Oven API.	
+\end{enumerate}
+
+Both services are crowd-source driven, highly recommended in food domain and are offering almost the same data set. Next step to find the best suited API for our research therefore we preformed some experiments targeted to comparison between both selected API. Result of this experiment showed that Yummly API is not providing cooking description. On the other hand Big-Oven API doesn’t support recipe’s nutritional information and have limited number of calls per hour for student account. Regarding selection of API our focus was, it should provide all the relevant information about the recipes required by our research, in order to avoid any dependency. Considering mentioned fact we decided to choose Big-Oven API.\newline
+
+Concerning about the attributes of food profile we followed the common approach that recipe have some important key attributes like cooking methods, ingredient preparation time, nutritional breakdown \cite{freyne2010recommending}.  However we are unable to get nutritional information due to API’s constrain, as discussed early, but in our data model we are considering it for future research purpose.  Figure \ref{fig:ch2_food_profile} illustrates the key attributes of food profile which is a common fashion for representing a recipe. We followed an hybrid approach \cite{suksom2010knowledge}
+\cite{teng2012recipe} \cite{freyne2010recommending} for our personalize knowledge bases food recommendation system. Recipe’s ingredients are the primary factor on which recommendations are relied. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.7\linewidth]{figures/ch2_food_profile.png}
+	\caption{Attributes in Food Profile} 
+	\label{fig:ch2_food_profile}
+\end{figure}
+
+\subsubsection{Assumption}
+
+In order to simplify evaluation of recipe recommendation, System assumed that liking and disliking of ingredients by user is based on his dietary needs and health preferences. Suppose user does not like a particular ingredient let’s say “X”, therefore system learns from user’s critique and eventually avoids such recipes, which have "X" as an ingredient in it.
+
+\subsubsection{Big-oven API}
+
+Big-oven API provides all the information about the recipe in a well-structured and well documented manner. Along with the high number of recipes, they offer functionalities including  \textit{Search, Display Recipes, Recipe review, Grocery List and Rest-based API support} . For this thesis we focus only few of them to develop a database of your system.  Following are some API calls that are implemented in our system.
+
+
+\begin{enumerate}
+	\item Reading a Recipe.\\
+%%%%%%% Request
+	URL request:\\
+	\textit{GET http://api.bigoven.com/recipe/{id}}
+%%%%%%% Table	
+	\begin{table}[ht]
+		\centering % used for centering table
+		\begin{tabular}{p{3cm} p{6cm} p{3cm}}  % centered columns (3 columns)
+			\hline\hline %inserts double horizontal lines
+			Parameter & Description & Required \\ % inserts table
+			%heading
+			\hline % inserts single horizontal line
+			id & Primary key(ID) of recipe & Yes \\ 
+			\hline %inserts single line
+		\end{tabular}
+		\caption{Bigoven- Reading a Recipe.}
+		\label{table:bigoven-reading-recipe}
+	\end{table}
+%%%%%%% End Table		
+	
+	\item Big-Oven API.	
+\end{enumerate}
 
 \section{Contexts}
 
@@ -28,6 +80,8 @@ Moreover, explicit profiling techniques are used to gather contextual informatio
 
 \subsection{Accessibility Context}
 
-\chapter{Critiquing}
+\section{Critiquing}
 
 \section{Persuasion}
+
+\section{Approaches}
