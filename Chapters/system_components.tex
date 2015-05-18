@@ -3,7 +3,7 @@
 
 This chapter will provide the explanation about the components of the system it and their attributes. It will also highlight how they intereact with each other in order to achieve the goals of this thesis. The chapter begins with explanation of profiling approaches, followed by impacts of context, critiquing and persuasion.
 
-\subsection{User Profile}
+\section{User Profile}
 
 One the core component of a system is to recommend user food that suits to his preferences, which can be gathered by profiling a user. In our system we followed a hybrid approach to build a user profile. Demographic information of a user is implicitly fetched from his Facebook account. The reason behind following implicit profiling approaches is to get user information without bothering them. This allows system to have up to date information about them.  However, it has been noticed that people are reluctant to those systems that request permission to access their social network activity information. Knowing these concerns, we only ask users to permit access to their basic information. Following are the acquired attributes from Facebook profile.
 
@@ -20,7 +20,7 @@ One the core component of a system is to recommend user food that suits to his p
 
 Moreover, explicit profiling techniques are used to gather users' contextual information and their preferences. While explicit profiling reveals accurate information, there however exist shortcomings in this technique. It demands user’s time and willingness to provide the data by filling the long forms, which seems to be tedious to the users. As the system is Knowledge based Personalized recommender, this problem has to be dealt efficiently because the recommendations produced by the system are highly influenced by user feedback. Therefore instead of making a user to provide all the information, we collect this data by using interactive forms based, which includes simple toggling, rating and selection mechanism that also increase the usability of the system.
 
-\subsection{Food Profile}
+\section{Food Profile}
 
 Food recommendation is the basic research area of this thesis. Based on this approach our research is to provide recommendation according to both individual‘s dietary needs and preferences. Understanding food domain is very complex and challenging task when its come to recommender domain. User’s selection of a recipe is highly depends on it’s ingredients. Also there are some other factors which includes cooking methods, ingredient costs and availability, complexity of cooking, preparation time, nutritional breakdown, ingredient combination effects, as well as cultural and social factors \cite{freyne2010recommending}. Our research starts with in finding out how popular websites are dealing in this domain and structuring the recipes. So that we can get inspiration about the important features that user are looking for while he interacts with such system. Next chore of our research is to build a recipe database therefore we need a provider-API that ensures a large number of recipes. Among these APIs two notables with impressive meta-data about recipes are:
 
@@ -104,18 +104,31 @@ BigOven API provides all the information about the recipe in a well-structured a
 
 \section{Contexts}
 
-Any information that can be used to characterized the situation of entity known as Context. For instance person, place\cite{ abowd1999towards}.  Incorporation of context in recommendation system leads to improve the quality of recommendation. System that uses context to provide relevant information is called context-awear system.  Lee, H. et al., \cite{ lee2005context} presented a model in his research while 
+Any information that can be used to characterized the situation of entity known as Context. For instance person, place\cite{ abowd1999towards}.  Incorporation of context in recommendation system leads to improve the quality of recommendation. System that uses context to provide relevant information is called context-awear system.  Lee, H. et al., \cite{lee2005context} classified context based on existing classification and definition in mobile domain. He categorized contextual information into five categories and further divided in to sub categories Figure\ref{fig:ch2_lee2005context} is a illustration of his classification.\newline 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/ch2_lee2005context.png}
+	\includegraphics[width=.55\linewidth]{figures/ch2_lee2005context.png}
 	\caption{Context hierarchy of the Mobile Web.} 
 	\cite{lee2005context}
 	\label{fig:ch2_lee2005context}
 \end{figure}
-\subsection{Consumption Context}
+
+\textit{Location} not only refers to user’s current location but also what objects are nearby to user such as destination, restaurants and local services. Also it tells about the state of the user like he is moving to staying with respect to specific place, such as home or office. \textit{Identity} is the representation of person’s interests e.g. emotional state, preferred keyword , usage history and social network. \textit{Activity} describe current usage of a mobile device,  for instance which services are using by user. \textit {Time} refers to  the current time as per system clock e.g. time of device, also time elaborates in terms of day, week, month of the year. \textit{Device} is a combination of hardware, software and network features that are provided by mobile for example Operating system version, Camera and Color.  Network explains as cellular technology and wireless interface such as 3G, LTE and Bluetooth.\newline
+	
+Considering Lee, H. et al.,’s classification\cite{lee2005context} as a foundation, different attributes of  context used in our system are discussed in the following forthcoming section.
+
+\subsection{User Context}
+
+As discuss in earlier section, user context have a high impact while recommendations are made.  Briefly user context refers to the current activities of user for example, what user is looking for under what circumstances. According to Lee, H. et al.,’s classification \cite{lee2005context} it is “Identity”.  In our system \textit{Recipe’s Cousin} is considering as a user’s interest. Since all the recipes are categories by cousin example, drinks, breakfasts and appetizer. User has to choose cousin in order to define his interest. 
 
 \subsection{Accessibility Context}
+
+Accessibility context is a combination of “Activity” and “Time” according to above mentioned classification \cite{lee2005context}.  Following are attributes which are related to our system: \textit{Cooking Time} indicates that how much time user have for cooking so that system can recommend him only those recipes which are related to user’s preferred cooking time. \textit{Recipe’s Next Cooking Time} suppose user like the recipe and cook it. System will not recommend that particular cooked recipe for a week. Assumption behind one-week cooking gap for a cooked recipe was to provide verity of recipes to user to maintain his interest. 
+
+
+\subsection{Device Context}
+
 
 \section{Critiquing}
 
