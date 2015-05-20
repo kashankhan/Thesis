@@ -102,8 +102,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Persuasion}{30}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Approaches}{30}{section.3.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}System Design and Implementation}{31}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}System Architecture}{31}{section.4.1}
