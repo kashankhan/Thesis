@@ -21,7 +21,7 @@
 \BOOKMARK [2][-]{subsection.2.2.5}{Critique-Based Mobile Recommender Systems}{section.2.2}% 21
 \BOOKMARK [2][-]{subsection.2.2.6}{Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}{section.2.2}% 22
 \BOOKMARK [2][-]{subsection.2.2.7}{The Persuasive role of Explanations in Recommender Systems}{section.2.2}% 23
-\BOOKMARK [0][-]{chapter.3}{System Components}{}% 24
+\BOOKMARK [0][-]{chapter.3}{Design Decisions}{}% 24
 \BOOKMARK [1][-]{section.3.1}{User Profile}{chapter.3}% 25
 \BOOKMARK [1][-]{section.3.2}{Food Profile}{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.3}{Contexts}{chapter.3}% 27
@@ -44,6 +44,6 @@
 \BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 44
 \BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 45
 \BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 46
-\BOOKMARK [0][-]{appendix*.34}{List of Figures}{}% 47
-\BOOKMARK [0][-]{appendix*.35}{List of Tables}{}% 48
-\BOOKMARK [0][-]{appendix*.36}{Bibliography}{}% 49
+\BOOKMARK [0][-]{appendix*.35}{List of Figures}{}% 47
+\BOOKMARK [0][-]{appendix*.36}{List of Tables}{}% 48
+\BOOKMARK [0][-]{appendix*.37}{Bibliography}{}% 49

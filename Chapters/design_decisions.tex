@@ -1,7 +1,7 @@
 
-\chapter{System Components}
+\chapter{Design Decisions}
 
-This chapter will provide the explanation about the components of the system it and their attributes. It will also highlight how they intereact with each other in order to achieve the goals of this thesis. The chapter begins with explanation of profiling approaches, followed by impacts of context, critiquing and persuasion.
+This chapter will provide the explanation about the design decisions that we have made to develped our system. It will also highlight how they intereact with each other in order to achieve the goals of this thesis. The chapter begins with explanation of profiling approaches, followed by impacts of context, critiquing and persuasion.
 
 \section{User Profile}
 
@@ -122,13 +122,20 @@ Considering Lee, H. et al.,’s classification\cite{lee2005context} as a foundat
 
 As discussed in earlier section, user context create huge impact while recommendations are made.  Briefly, user context refers to the current activities of user. for example, what is the user during a specific circumstances. \textit{Cuisine’s Recipe and User Health and taste} are considered as  user interest in our system. User need to define \textit{ Cuisine’s Recipe} while he wants to interact with the system in order to narrow down the recommendation  according to selected food type. Since all the recipes are categorize as, drinks, breakfasts and appetizer.  Also \textit{User Health and taste}  context is gathered by user feedback. Considering user health and taste preferences system will not add those recipes, which do not matches to his profile. 
 	
+\subsubsection{User's Health Context}
+
+Elaborating more about user’s health. Definition of health is totally depending on in which perspective it is evaluating. Initially we want to calculate health by the help of nutrition information provided by the recipe but due to API constrains we are unable to define in this manner. However we come with another approach, which sound more intuitive and simple to measure health i.e. BMI (Body Mass Index). BMI depends on Person’s age, height and weight. It is use to measure body fatness and health of individual. By the BMI we can record how much calories he eat and how much he required maintaining his BMI. We mocked the information of calories and exercise information in our explanation to measure the effect of persuasion. 
+
+
 \subsection{Accessibility Context}
 	
 Accessibility context is a combination of “Activity” and “Time” according to above mentioned classification \cite{lee2005context}.  Following are the attributes which are related to our system: \textit{Cooking Time} indicates that how much time user have for cooking, so that system can recommend him only those recipes which are related to user’s preferred cooking time. \textit{Recipe’s Next Cooking Time} assume the recipe that user most likely to cook. System will not recommend the particular recipe which is already cooked by the user during a week. Assumption behind one-week cooking gap for a cooked recipe was to provide verity of recipes to user to maintain his interest. 
 	
+
 \subsection{Device Context}
 	
 Focus of this research is requires a mobile platform. Android, iOS and Windows phones are the three considered option. We selected iOS platform and chose iPhone as a selected device for developing our prototype. The reason behind the selection of iOS, was to develop a high fidelity UI which is intuitive and useable, by considering all the User interface guide lines provided by Apple Inc. iOS version that is required by our app is minimum 8.3. However, client side code written in swift programming language, highly recommended by Apple Inc.
+
 
 \section{Critiquing}
 
@@ -156,8 +163,8 @@ While investigating persuasion impact on recommendation our focus in terms of mo
 
 \subsection{Explaination}
 
-Although presentation and visualization will have an impact on persuasion but the key element in order to persuade something is the explanation about that recommended item. Any type of information additional information along with system’s output to achieve certain objective.  In our system our task is to persuade recipes, which suits according to user taste and heath preference. However, there is no clear indication in extant literature about what type of explanations can actually lead to persuasion and at what extend. Aim of providing the explanation to measure intensity of trust, credibility, novelty, accuracy and transparency of system. We started our research by finding the key element on which our explanation will depends by following Aristotle’s elements that helps in persuasion \cite{gkika2014persuasive}. Following are the explanation of each element with respect to our system. \textit{Ethos/Character of the speaker} refers to motivate user to cooking that recipe by getting the recipe for credible sources and convey message to user that our system cares him a lot by suggest him recipes according to his preferences. \textit{Message’s receiver pathos/emotions} Plays a vital role in persuading item. Health, taste and cooking preference are the primary consideration of user emotion. Our assumption was our system user are the diet conscious and want to live a better life. \textit{Logos/Argument} is reasoning why this particular recipe is given to him what are assumptions of system while considering this recipe. After finding out the key elements on which explanation is based on. Next step to apply the Cialdin’s Influence Principle\cite{cialdini2009influence} broadly used and verified for persuasion. Following are the description how we are applying each of the factor in our experiment.
-
+Although presentation and visualization will have an impact on persuasion but the key element in order to persuade something is the explanation about that recommended item. Any type of information additional information along with system’s output to achieve certain objective.  In our system our task is to persuade recipes, which suits according to user taste and heath preference. However, there is no clear indication in extant literature about what type of explanations can actually lead to persuasion and at what extend. Aim of providing the explanation to measure intensity of trust, credibility, satisfaction, accuracy and transparency of system. We started our research by finding the key element on which our explanation will depends by following Aristotle’s elements that helps in persuasion \cite{gkika2014persuasive}. Following are the explanation of each element with respect to our system. \textit{Ethos/Character of the speaker} refers to motivate user to cooking that recipe by getting the recipe for credible sources and convey message to user that our system cares him a lot by suggest him recipes according to his preferences. \textit{Message’s receiver pathos/emotions} Plays a vital role in persuading item. Health, taste and cooking preference are the primary consideration of user emotion. Our assumption was our system user are the diet conscious and want to live a better life. \textit{Logos/Argument} is reasoning why this particular recipe is given to him what are assumptions of system while considering this recipe. After finding out the key elements on which explanation is based on. Next step to apply the Cialdin’s Influence Principle\cite{cialdini2009influence} broadly used and verified for persuasion. Following are the description how we are applying each of the factor in our experiment.
+  
 \begin{enumerate}
 	\item \textit{Reciprocity} describes as humans have the tendency to return favors. In our system we are achieving the mechanism of rating of recipe. We assumed that by rating the recipe user is not only providing his feedback but also helps community in selection of that particular. However, we also though about integrating user’s friends that will recommend him recipe based on his taste. Furthermore, we want to add dietitian that user can follow that will suggest him heath plan and based on that plan our system will recommend him recipe but this though is out of scope for this thesis.
 
@@ -169,3 +176,6 @@ Although presentation and visualization will have an impact on persuasion but th
 
 	\item \textit{Commitment} is implemented by the considering the user preference. All recipes are that recommended to user have at least one of his favorite ingredient and his timing. Furthermore, we also mock exercise time to consume that recipe to keep focus on user’s health.
 \end{enumerate}
+
+
+Explanation of recommended item depends on: (1) How much calories are contained by recommended recipe (2) How much user needs to do exercise to burn such amount of calories. . (3) Factors why this particular recipe in user’s recommended item set. Let’s discuss each item hypothesis behind each of discuss item. Calories are important factor that person has to major if he wants to live healthier. To deal with health factor we have to provide calories information so that he can keep track of his consumption of calories. After given information about calories it is also important to highlight how much he have to workout to burn calories. Idea behind this to integrate app with another health or medical app and based on his health condition recommend him recipes. Moreover, it is also important to keep aware of user why system is recommending him such item. For this reason we consider user preferences about recipe and ingredients. More specifically every recipe which is recommended to user contains atleast one of his favorite ingredient. Additionally organized by cooking time which is provided by user according to his preference.
