@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  20 MAY 2015 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  23 MAY 2015 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1646,7 +1646,7 @@ Dictionary: glossaries-dictionary, Language: English
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
 line 15.
  (./pages/cover.tex
-<logos/tum.png, id=195, 53.2389pt x 28.4262pt>
+<logos/tum.png, id=203, 53.2389pt x 28.4262pt>
 File: logos/tum.png Graphic file (type png)
  <use logos/tum.png>
 Package pdftex.def Info: logos/tum.png used on input line 13.
@@ -1654,7 +1654,7 @@ Package pdftex.def Info: logos/tum.png used on input line 13.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 25.
 
-<logos/faculty.png, id=197, 34.2078pt x 37.0986pt>
+<logos/faculty.png, id=205, 34.2078pt x 37.0986pt>
 File: logos/faculty.png Graphic file (type png)
  <use logos/faculty.png>
 Package pdftex.def Info: logos/faculty.png used on input line 31.
@@ -1881,7 +1881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<figures/ch2_context_dimensions.png, id=354, 397.485pt x 129.1224pt>
+<figures/ch2_context_dimensions.png, id=364, 397.485pt x 129.1224pt>
 File: figures/ch2_context_dimensions.png Graphic file (type png)
 
 <use figures/ch2_context_dimensions.png>
@@ -1909,7 +1909,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []
 
 
-<figures/ch2_context_recommender_system_paradigms.png, id=363, 397.485pt x 250.
+<figures/ch2_context_recommender_system_paradigms.png, id=373, 397.485pt x 250.
 0542pt>
 File: figures/ch2_context_recommender_system_paradigms.png Graphic file (type p
 ng)
@@ -1950,7 +1950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[13] <figures/ch2_active_learning.png, id=406, 444.66125pt x 142.5325pt>
+[13] <figures/ch2_active_learning.png, id=416, 444.66125pt x 142.5325pt>
 File: figures/ch2_active_learning.png Graphic file (type png)
 
 <use figures/ch2_active_learning.png>
@@ -1958,7 +1958,7 @@ Package pdftex.def Info: figures/ch2_active_learning.png used on input line 116
 .
 (pdftex.def)             Requested size: 418.25555pt x 134.06754pt.
  [14 <./figures/ch2_active_learning.png>]
-<figures/ch2_communication_persuasion_paradigm.png, id=433, 510.90875pt x 184.6
+<figures/ch2_communication_persuasion_paradigm.png, id=443, 510.90875pt x 184.6
 9pt>
 File: figures/ch2_communication_persuasion_paradigm.png Graphic file (type png)
 
@@ -1971,14 +1971,14 @@ Package pdftex.def Info: figures/ch2_communication_persuasion_paradigm.png used
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15] [16 <./figures/ch2_communication_persuasion_paradigm.png>] [17] [18]
-<figures/ch2_ueda2011user.png, id=517, 462.72874pt x 322.20375pt>
+<figures/ch2_ueda2011user.png, id=527, 462.72874pt x 322.20375pt>
 File: figures/ch2_ueda2011user.png Graphic file (type png)
 
 <use figures/ch2_ueda2011user.png>
 Package pdftex.def Info: figures/ch2_ueda2011user.png used on input line 214.
 (pdftex.def)             Requested size: 418.25555pt x 291.23929pt.
 
-<figures/ch2_suksom2010knowledge.png, id=521, 677.53125pt x 498.86375pt>
+<figures/ch2_suksom2010knowledge.png, id=531, 677.53125pt x 498.86375pt>
 File: figures/ch2_suksom2010knowledge.png Graphic file (type png)
 
 <use figures/ch2_suksom2010knowledge.png>
@@ -1999,7 +1999,7 @@ g>]
 LaTeX Warning: Reference `fig:ch2_ ch2_ricci2005critique' on page 21 undefined 
 on input line 241.
 
-<figures/ch2_ricci2005critique.png, id=538, 453.695pt x 254.9525pt>
+<figures/ch2_ricci2005critique.png, id=548, 453.695pt x 254.9525pt>
 File: figures/ch2_ricci2005critique.png Graphic file (type png)
 
 <use figures/ch2_ricci2005critique.png>
@@ -2007,7 +2007,7 @@ Package pdftex.def Info: figures/ch2_ricci2005critique.png used on input line 2
 45.
 (pdftex.def)             Requested size: 292.7776pt x 164.52673pt.
  [21 <./figures/ch2_ricci2005critique.png>] <figures/ch2_lamche2014active_1.png
-, id=552, 503.8825pt x 218.8175pt>
+, id=562, 503.8825pt x 218.8175pt>
 File: figures/ch2_lamche2014active_1.png Graphic file (type png)
 
 <use figures/ch2_lamche2014active_1.png>
@@ -2015,7 +2015,7 @@ Package pdftex.def Info: figures/ch2_lamche2014active_1.png used on input line
 258.
 (pdftex.def)             Requested size: 184.4515pt x 80.09976pt.
 
-<figures/ch2_lamche2014active_2.png, id=554, 430.60875pt x 177.66376pt>
+<figures/ch2_lamche2014active_2.png, id=564, 430.60875pt x 177.66376pt>
 File: figures/ch2_lamche2014active_2.png Graphic file (type png)
 
 <use figures/ch2_lamche2014active_2.png>
@@ -2071,7 +2071,7 @@ line 34.
 LaTeX Warning: Citation 'freyne2010recommending' on page 24 undefined on input 
 line 35.
 
-[24] <figures/ch2_food_profile.png, id=589, 614.295pt x 794.97pt>
+[24] <figures/ch2_food_profile.png, id=599, 614.295pt x 794.97pt>
 File: figures/ch2_food_profile.png Graphic file (type png)
 
 <use figures/ch2_food_profile.png>
@@ -2121,7 +2121,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[26] <figures/ch2_lee2005context.png, id=605, 263.98625pt x 250.9375pt>
+[26] <figures/ch2_lee2005context.png, id=615, 263.98625pt x 250.9375pt>
 File: figures/ch2_lee2005context.png Graphic file (type png)
 
 <use figures/ch2_lee2005context.png>
@@ -2148,23 +2148,31 @@ LaTeX Warning: Citation 'lee2005context' on page 28 undefined on input line 127
 .
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[29]) (./chapters/system_design.tex [30]
+[29]
+
+LaTeX Warning: Citation 'pu2006trust' on page 30 undefined on input line 145.
+
+
+LaTeX Warning: Citation 'swearingen2002interaction' on page 30 undefined on inp
+ut line 149.
+
+[30]) (./chapters/system_design.tex [31]
 Chapter 4.
-) (./chapters/conclusion.tex [31
+) (./chapters/conclusion.tex [32
 
 
 ]
 Chapter 5.
-) (./chapters/summary.tex [32
+) (./chapters/summary.tex [33
 
 
 ]
@@ -2172,7 +2180,7 @@ Chapter 6.
 )
 No file main.gls.
 No file main.acr.
-[33
+[34
 
 
 ]
@@ -2182,7 +2190,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 45
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [34
+ [35
 
 
 ]
@@ -2192,22 +2200,22 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 46
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
- [35
+ [36
 
 
-] [36
+] [37
 
 
-] [37] [38]
+] [38] [39]
 No complaints by nag.
-[39]
+[40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 90CB599F74E86E69D43C5912E2E01FEE;3324.
+(rerunfilecheck)             Checksum: AFCEEDD59980461113870202112B7354;3473.
 
 
 LaTeX Warning: There were undefined references.
@@ -2222,11 +2230,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41304 strings out of 493117
- 872340 string characters out of 6135433
- 1408083 words of memory out of 5000000
- 43460 multiletter control sequences out of 15000+600000
- 54844 words of font info for 290 fonts, out of 8000000 for 9000
+ 41318 strings out of 493117
+ 872485 string characters out of 6135433
+ 1409083 words of memory out of 5000000
+ 43462 multiletter control sequences out of 15000+600000
+ 55054 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,83p,2007b,2360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2234,10 +2242,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (46 pages, 822518 bytes).
+Output written on main.pdf (47 pages, 824761 bytes).
 PDF statistics:
- 744 PDF objects out of 1000 (max. 8388607)
- 660 compressed objects within 7 object streams
- 193 named destinations out of 1000 (max. 500000)
- 33222 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 681 compressed objects within 7 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 33238 words of extra memory for PDF output out of 35830 (max. 10000000)
 

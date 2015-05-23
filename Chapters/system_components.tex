@@ -131,6 +131,7 @@ Accessibility context is a combination of “Activity” and “Time” accordin
 Focus of this research is requires a mobile platform. Android, iOS and Windows phones are the three considered option. We selected iOS platform and chose iPhone as a selected device for developing our prototype. The reason behind the selection of iOS, was to develop a high fidelity UI which is intuitive and useable, by considering all the User interface guide lines provided by Apple Inc. iOS version that is required by our app is minimum 8.3. However, client side code written in swift programming language, highly recommended by Apple Inc.
 
 \section{Critiquing}
+
 Elicitation of user preference is the key step of recommendation system. There are many simple approaches for accusation of user preferences and transform it into user model. Traditionally, these were acquired explicitly where user need to fill a form and mentioned his wants and need. However, it has been noticed users avoid in filling information about themselves. Using these approaches result less knowledge about user preference and poor recommendations. To solve these problems two methodologies have been suggested. In first approach accusation of user’s preferences takes place by analyzing of user’s navigation behavior. This assumption that user always visit his interested item. Advantage is requiring lower user effort. While shortcomings are: (1) It depends understating of domain specific knowledge because user actions are translated into user preferences model. (2) Noise existence because preference and context of a person may differs from another person.\newline
 
 Second is conversational approach a new paradigm for the collection of user preference and redefines human-computer interaction. Such systems are based on interaction cycles in order to gather preferences about the users. At interaction cycle, the system can either ask the user a preference or propose a product to the user. The user can reply either by answering to the question posed or by criticizing the system proposal.\cite{ricci2005critique}\newline
@@ -141,5 +142,27 @@ Following our goal to develop the user profile over time using active learning m
 	
 \section{Persuasion}
 
-Developing persuasive recommendation system (RS) is mainstream of this research. Traditionally, RS has been more focused towards algorithmic approaches and relied on them for providing accurate recommendations. As there was an assumption that the accuracy of algorithm is the key factor that affects the quality of recommendation. Recent studies shows there are other factors that plays a significant role in the acceptance of recommendation. Main factors are User-centric design for presenting recommendation, transparency of system (explain user how system works) via message and source. An other important factor that way influenced on acceptance is explanation of recommendation\cite{gkika2014persuasive}. Our research is followed hybrid approach i.e. “Presentation”\cite{nanou2010effects} and “Explanation” for Persuasion effect. Where, explanation of recommendation are following Cialdini’s classification approach\cite{cialdini2009influence}.
+Developing persuasive recommendation system (RS) is mainstream of this research. Traditionally, RS has been more focused towards algorithmic approaches and relied on them for providing accurate recommendations. As there was an assumption that the accuracy of algorithm is the key factor that affects the quality of recommendation. Recent studies shows there are other factors that plays a significant role in the acceptance of recommendation. Main factors are User-centric design for presenting recommendation, transparency of system (explain user how system works) via message and source. An other important factor that way influenced on acceptance is explanation of recommendation\cite{gkika2014persuasive}. In order to achieve Persuasion in our system we focus on   “Visualization or Presentation \cite{nanou2010effects} \cite{pu2006trust} and “Explanation of recommendation\cite{cialdini2009influence}\cite{fogg1998persuasive}”.
   
+\subsection{Visualization or Presentation}
+
+While investigating persuasion impact on recommendation our focus in terms of modality and organization of recommended items in order to achieve user satisfaction.  Hence, various recipe and food systems are compared in order to follow the social-orientation methodology, as it is part of user-centric approach and studies parameter that affects user preference and satisfaction \cite{ swearingen2002interaction}. After getting an idea about what are key factors in displaying recipes and what user expect form such system.  We structure our recommendations to increase the efficiency in selecting a recommended item and build trust and user satisfaction based on qualitative characteristics. Following are the approaches that we follow in organization of recommendations.
+
+\begin{enumerate}
+	\item Primary factors that consider while structuring recommendation item is user context to increase and maintain user interests in to the system to make system \textit{transparency and efficiency}. 
+	
+	\item Recommended item have recipe review count, rating and category and subcategory of recipe, recipe avatar, ordered by recipe title to achieve \textit{ effectiveness and satisfaction}
+\end{enumerate}
+
+\subsection{Explaination}
+
+Although presentation and visualization will have an impact on persuasion but the key element in order to persuade something is the explanation about that recommended item. Any type of information additional information along with system’s output to achieve certain objective.  In our system our task is to persuade recipes, which suits according to user taste and heath preference. However, there is no clear indication in extant literature about what type of explanations can actually lead to persuasion and at what extend.  . Aim of providing the explanation to measure intensity of trust, credibility, novelty, accuracy and transparency of system. We started our research by finding the key element on which our explanation will depends by following Aristotle’s elements that helps in persuasion \cite{gkika2014persuasive}. Following are the explanation of each element with respect to our system.
+
+\begin{enumerate}
+	\item \textit{Ethos/Character of the speaker} refers to motivate user to cooking that recipe by getting the recipe for credible sources and convey message to user that our system cares him a lot by suggest him recipes according to his preferences.	
+	
+	\item \textit{Message’s receiver pathos/emotions} Plays a vital role in persuading item. Health, taste and cooking preference are the primary consideration of user emotion. Our assumption was our system user are the diet conscious and want to live a better life.
+	
+	\item \textit{Logos/Argument} is reasoning why this particular recipe is given to him what are assumptions of system while considering this recipe. 
+\end{enumerate}
+
