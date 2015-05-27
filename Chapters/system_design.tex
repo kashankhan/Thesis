@@ -71,9 +71,7 @@ Figure \ref{fig:ch4_use_case_foodforme} illustrates foodforme uses cases.  These
  	\label{table:import_user-demographic-information}
  \end{table}
  
-\newline
  The second use case, application allow user to logout from application by providing standard mechanism provided by Facebook. After login he is not able to see his personal information in app. Table \ref{table:user_logout} determines the event flow.
- 
   
   \begin{table}[ht]
   	\centering % used for centering table
@@ -98,7 +96,78 @@ Figure \ref{fig:ch4_use_case_foodforme} illustrates foodforme uses cases.  These
   	\label{table:user_logout}
   \end{table}
  
+ Table\ref{table:recipe_browsing} describe use case regarding recipe browsing. According to this user can browse the recipes list that is recommended to him by scrolling up and down. Where recipe list have star rating, recipe name, recipe’s category, review count of recipe.
  
+   \begin{table}[ht]
+   	\centering % used for centering table
+   	\begin{tabular}{p{4cm} p{10cm}}  % centered columns (4 columns)
+   		\hline\hline %inserts double horizontal lines
+   		Use case name & Determine stereotype \\ % inserts table
+   		%heading
+   		\hline % inserts single horizontal line
+   		
+   		Participating actor & Initiated by User \\ % inserting body of the table
+   		Flow of events & 1. User can tap on popular/ recommend recipes view.\newline 
+   		2. User can see the list of recipes.\newline
+   		3. User can perform scrolling to view more recipes.\\
+   		Entry condition & User starts app\\
+   		Exit condition & User can found his favorite recipe to cook.\\
+   		Quality requirements & 1. Scrolling of recipes should be sleek.
+   		2. Each item should have name, star rating, avatar or recipe, review count and primary catagory.\\ [1ex] % [1ex] adds vertical space
+   		\hline %inserts single line
+   	\end{tabular}
+   	\caption{Use case 3: Recipe browsing}
+   	\label{table:recipe_browsing}
+   \end{table}
+   
+Use case 4 is regarding the showing the detail of selected recipe. This use case is depended use case 3.  On detail screen user can view large image of recipe including all the parameters that is use case 3. Moreover it should display the ingredients along with their quantity. Finally it displays preparation method means how to cook that recipe. Senerios is describe in Table\ref{table:recipe_detail}
+   \begin{table}[ht]
+   	\centering % used for centering table
+   	\begin{tabular}{p{4cm} p{10cm}}  % centered columns (4 columns)
+   		\hline\hline %inserts double horizontal lines
+   		Use case name & Determine stereotype \\ % inserts table
+   		%heading
+   		\hline % inserts single horizontal line
+   		
+   		Participating actor & Initiated by User \\ % inserting body of the table
+   		Flow of events & 1. User selects recipe from list (Use case 3)\newline 
+   		2. User can see ingredients of selected recipe along with quantity.\newline
+   		3. User can cooking method\\
+   		Entry condition & User select a recipe from recommended item\\
+   		Exit condition & User can found his favorite recipe to cook.\\
+   		Quality requirements & 1. Scrolling of recipe should be sleek. 2. Each item should have cooking method and set of ingredients along with quantity\\ [1ex] % [1ex] adds vertical space
+   		\hline %inserts single line
+   	\end{tabular}
+   	\caption{Use case 4: Recipe Detail}
+   	\label{table:recipe_detail}
+   \end{table}
+   
+   Use case 5 of our system is critiquing a recipe. System allows user to critique on user’s recommend recipe so that system will aware about user taste and his health need. In our system critiquing of recipe and its ingredient is down by separately so that we can evaluate user taste more specifically. It might be possible that user doesn’t like the recipe but his likes the ingredient and those ingredients are the essential one for his dietary need. Therefore, recipe critiquing is done via star rating where ingredient can be critique by like/dislike. Table \ref{table:recipe_ingredient_critique} discuss the event flow of this use case.
+   
+   
+    \begin{table}[ht]
+    	\centering % used for centering table
+    	\begin{tabular}{p{4cm} p{10cm}}  % centered columns (4 columns)
+    		\hline\hline %inserts double horizontal lines
+    		Use case name & Determine stereotype \\ % inserts table
+    		%heading
+    		\hline % inserts single horizontal line
+    		
+    		Participating actor & Initiated by User \\ % inserting body of the table
+    		Flow of events & 1. User is viewing recipe detail 
+			He wants to give his feed back about recommend recipe. 
+			2. He taps on Critique button at top right corner of recipe detail screen. 
+			3. On critique screen he may like/dislike ingredients. 
+			4. He may rate recipe by selecting stars.\\
+    		Entry condition & use case 1, 3, 4\\
+    		Exit condition & User can found his favorite recipe to cook.\\
+    		Quality requirements & 1. Like/dislike have differnt color 2. Rating of recipe is done via stars selection\\ [1ex] % [1ex] adds vertical space
+    		\hline %inserts single line
+    	\end{tabular}
+    	\caption{Use case 5: Recipe Critique}
+    	\label{table:recipe_ingredient_critique}
+    \end{table}
+    
 \section{System Architecture}
 
 \subsection{Working}
