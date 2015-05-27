@@ -37,7 +37,7 @@ From usability to performance aspect of a system Non-functional requirement can 
 
 \subsection{Use-Cases}
 
-Figure \ref{fig:ch4_use_case_foodforme} illustrates foodforme uses cases.  These include login via Facebook, user can change his preference according to his convenience, browsing of recipes, critiquing on recipe based on ingredients and rating and selection of recipe to cook. To discuss the use cases we follow the scenario approach \cite{bruegge2004object}.
+Figure \ref{fig:ch4_use_case_foodforme} illustrates foodforme uses cases.  These include importing of user demographic information via Facebook, logout user form applicaiton, user can change his preference according to his convenience, browsing of recipes, critiquing on recipe based on ingredients and rating and selection of recipe to cook. To discuss the use cases we follow the scenario based approach. \cite{bruegge2004object}.
 
 \begin{figure}[h]
 	\centering
@@ -46,7 +46,59 @@ Figure \ref{fig:ch4_use_case_foodforme} illustrates foodforme uses cases.  These
 	\label{fig:ch4_use_case_foodforme}
 \end{figure}
 
-
+\newpage
+ 
+ The first use case, determine user login via Facebook to get his Facebook profile to avoid filling his demographic information by his own. Login flow should provide good user experience and follows the standard practices. Use case start any point of time after app launch and user click on main menu and ends once user can see his name and profile picture at menu screen.  Table \ref{table:import_user-demographic-information} provides the scenario description. \newline
+ 
+ \begin{table}[ht]
+ 	\centering % used for centering table
+ 	\begin{tabular}{p{4cm} p{10cm}}  % centered columns (4 columns)
+ 		\hline\hline %inserts double horizontal lines
+ 		Use case name & Determine stereotype \\ % inserts table
+ 		%heading
+ 		\hline % inserts single horizontal line
+ 		
+		Participating actor & Initiated by User \\ % inserting body of the table
+ 		Flow of events & (1). User starts app.
+ 		(2). Click on menu button.
+	 	(3). Tap on login via Facebook button to import his Facebook profile. \\
+ 		Entry condition & User starts app\\
+ 		Exit condition & User can see his Facebook profile image and name on application slide menu.\\
+ 		Quality requirements & (1) Import user profile via Facebook SDK. (2) Profile should be import in one click excluding of Facebook login process. (3) It should take more than 30 seconds.\\ [1ex] % [1ex] adds vertical space
+ 		\hline %inserts single line
+ 	\end{tabular}
+ 	\caption{Use case 1:Import user demographic information}
+ 	\label{table:import_user-demographic-information}
+ \end{table}
+ 
+\newline
+ The second use case, application allow user to logout from application by providing standard mechanism provided by Facebook. After login he is not able to see his personal information in app. Table \ref{table:user_logout} determines the event flow.
+ 
+  
+  \begin{table}[ht]
+  	\centering % used for centering table
+  	\begin{tabular}{p{4cm} p{10cm}}  % centered columns (4 columns)
+  		\hline\hline %inserts double horizontal lines
+  		Use case name & Determine stereotype \\ % inserts table
+  		%heading
+  		\hline % inserts single horizontal line
+  		
+  		Participating actor & Initiated by User \\ % inserting body of the table
+  		Flow of events & 1. User starts app.\newline
+  		2. Click on menu button.\newline
+  		3. Tap on logout via Facebook button to logout his Facebook profile.\newline
+  		4. App shows logout confirmation which includes logout and cancle \\
+  		Entry condition & User starts app\\
+  		Exit condition & User can logout form applicaiton and unable to his profile picture and name on app menu.\\
+  		Quality requirements & 1. User able to logout from system in two clicks.\newline
+  		2. It should take more than 30 seconds.\\ [1ex] % [1ex] adds vertical space
+  		\hline %inserts single line
+  	\end{tabular}
+  	\caption{Use case 2: Logout use}
+  	\label{table:user_logout}
+  \end{table}
+ 
+ 
 \section{System Architecture}
 
 \subsection{Working}
