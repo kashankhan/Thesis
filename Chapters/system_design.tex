@@ -16,16 +16,16 @@ FoodForMe is a mobile food recommender system that user iOS platform. It purpose
 
 After getting login and change his preference. User will able to view recipes according to his preference. Each recipe shows the name, star rating, main categories, sub categories, number of reviews and recipe picture. Once the user tap on any recipe, user is able to view detail of selected recipe. Detail screen consists on 3 to 4 sections depends on screen type. Section 1 contains the generic information about the recipe same as discuss above accept it provide large Image of recipe. In Section 2 is related to recipe ingredients, each ingredient item have its name and quantity. Section 3 is about preparation/direction means its guide user how to cook that recipe. Section 4 is an option selection and it will appear as per screen type. In this section system will provide why system think this recipe is according to user preference. User is able to see two screens that display recipes list. First one will display the popular recipes of the system. Recipe course and popularity are the factors on which this will depends on. Motivation behind this to aware user what’s new and hot in system and allow user to change his taste. On the other hand second list will depends only user preference. On detail screen of each recipe system will provide explanation, which tells user what system will think about him and why these recipe recommend to him. \newline
 
-On the detail screen of selected recipe user can criticized on showed item. User can critique on list of indigents by mentioning them he like that ingredient or not. Also he might be able to critique on recipe by given star according to his choice. Additional system allow user to change his personal preferences these include cooking time and course selection. \new 
+On the detail screen of selected recipe user can criticized on showed item. User can critique on list of indigents by mentioning them he like that ingredient or not. Also he might be able to critique on recipe by given star according to his choice. Additional system allow user to change his personal preferences these include cooking time and course selection. \newline
 
 
 \subsection{Non Requirments}
 
-From usability to performance aspect of a system Non-functional requirement can apply in many ways. However it is our assumption that this app is a prototype and will only use for evaluation purpose but we have to consider User interface, performance and supportable requirements. Following are some few non-functional requirements that should guide to development process:
+From usability to performance aspect of a system Non-functional requirement can apply in many ways. However it is our assumption that this app is a prototype and will only use for evaluation purpose but we have to consider User interface, performance and supportable requirements \cite{burigat2005bringing}. Following are some few non-functional requirements that should guide to development process:
 
 \begin{enumerate}
 
-		\item App must not be crash.
+	\item App must not be crash.
 	\item Any mobile user can use the application and have a clear understanding of app without facing any problem.
 	\item App should provide consistence user interface with respect to colors, fonts and theme.
 	\item App should follow the Application User interface guideline provided by apple.
@@ -34,6 +34,18 @@ From usability to performance aspect of a system Non-functional requirement can 
 	\item Server calls should not take more 30 sec.
 
 \end{enumerate}
+
+\subsection{Use-Cases}
+
+Figure \ref{fig:ch4_use_case_foodforme} illustrates foodforme uses cases.  These include login via Facebook, user can change his preference according to his convenience, browsing of recipes, critiquing on recipe based on ingredients and rating and selection of recipe to cook. To discuss the use cases we follow the scenario approach \cite{bruegge2004object}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.5\linewidth]{figures/ch4_use_case_foodforme.png}
+	\caption{FoodForMe use case diagram}
+	\label{fig:ch4_use_case_foodforme}
+\end{figure}
+
 
 \section{System Architecture}
 

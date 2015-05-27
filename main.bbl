@@ -16,6 +16,52 @@
   {}
 \endgroup
 
+\entry{abowd1999towards}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Abowd}{A.}%
+     {Gregory~D}{G.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dey}{D.}%
+     {Anind~K}{A.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Peter~J}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Davies}{D.}%
+     {Nigel}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steggles}{S.}%
+     {Pete}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{AGDDAKBPJ+1}
+  \strng{fullhash}{AGDDAKBPJDNSMSP1}
+  \field{sortinit}{A}
+  \field{booktitle}{Handheld and ubiquitous computing}
+  \field{pages}{304\bibrangedash 307}
+  \field{title}{Towards a better understanding of context and
+  context-awareness}
+  \field{year}{1999}
+\endentry
+
 \entry{adomavicius2011context}{incollection}{}
   \name{author}{2}{}{%
     {{}%
@@ -66,6 +112,61 @@
   the state-of-the-art and possible extensions}
   \field{volume}{17}
   \field{journaltitle}{Knowledge and Data Engineering, IEEE Transactions on}
+  \field{year}{2005}
+\endentry
+
+\entry{bruegge2004object}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bruegge}{B.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dutoit}{D.}%
+     {Allen~H}{A.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Prentice Hall}%
+  }
+  \strng{namehash}{BBDAH1}
+  \strng{fullhash}{BBDAH1}
+  \field{sortinit}{B}
+  \field{title}{Object-Oriented Software Engineering Using UML, Patterns and
+  Java-(Required)}
+  \field{year}{2004}
+\endentry
+
+\entry{burigat2005bringing}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Burigat}{B.}%
+     {Stefano}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chittaro}{C.}%
+     {Luca}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Marco}{D.~M.}%
+     {Luca}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{BSCLDML1}
+  \strng{fullhash}{BSCLDML1}
+  \field{sortinit}{B}
+  \field{booktitle}{Human-Computer Interaction-INTERACT 2005}
+  \field{pages}{213\bibrangedash 226}
+  \field{title}{Bringing dynamic queries to mobile devices: a visual
+  preference-based search tool for tourist decision support}
   \field{year}{2005}
 \endentry
 
@@ -218,6 +319,31 @@
   \field{year}{1998}
 \endentry
 
+\entry{freyne2010recommending}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Freyne}{F.}%
+     {Jill}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berkovsky}{B.}%
+     {Shlomo}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{FJBS1}
+  \strng{fullhash}{FJBS1}
+  \field{sortinit}{F}
+  \field{booktitle}{User Modeling, Adaptation, and Personalization}
+  \field{pages}{381\bibrangedash 386}
+  \field{title}{Recommending food: Reasoning on recipes and ingredients}
+  \field{year}{2010}
+\endentry
+
 \entry{gkika2014persuasive}{inproceedings}{}
   \name{author}{2}{}{%
     {{}%
@@ -340,6 +466,37 @@
   \field{title}{Active learning strategies for exploratory mobile recommender
   systems}
   \field{year}{2014}
+\endentry
+
+\entry{lee2005context}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Lee}{L.}%
+     {Hong~Joo}{H.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Choi}{C.}%
+     {Joon~Yeon}{J.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Park}{P.}%
+     {Sung~Joo}{S.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{LHJCJYPSJ1}
+  \strng{fullhash}{LHJCJYPSJ1}
+  \field{sortinit}{L}
+  \field{booktitle}{On the Move to Meaningful Internet Systems 2005: OTM 2005
+  Workshops}
+  \field{pages}{142\bibrangedash 151}
+  \field{title}{Context-aware recommendations on the mobile web}
+  \field{year}{2005}
 \endentry
 
 \entry{mahmood2007towards}{inproceedings}{}
@@ -508,6 +665,32 @@
   \field{pages}{249\bibrangedash 256}
   \field{title}{Heuristic evaluation of user interfaces}
   \field{year}{1990}
+\endentry
+
+\entry{pu2006trust}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pu}{P.}%
+     {Pearl}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Li}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{PPCL1}
+  \strng{fullhash}{PPCL1}
+  \field{sortinit}{P}
+  \field{booktitle}{Proceedings of the 11th international conference on
+  Intelligent user interfaces}
+  \field{pages}{93\bibrangedash 100}
+  \field{title}{Trust building with explanation interfaces}
+  \field{year}{2006}
 \endentry
 
 \entry{pu2012evaluating}{article}{}
@@ -865,6 +1048,33 @@
   \field{title}{A Knowledge-based Framework for Development of Personalized
   Food Recommender System}
   \field{year}{2010}
+\endentry
+
+\entry{swearingen2002interaction}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Swearingen}{S.}%
+     {Kirsten}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sinha}{S.}%
+     {Rashmi}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Citeseer}%
+  }
+  \strng{namehash}{SKSR1}
+  \strng{fullhash}{SKSR1}
+  \field{sortinit}{S}
+  \field{booktitle}{Designing Interactive Systems}
+  \field{number}{12}
+  \field{pages}{312\bibrangedash 334}
+  \field{title}{Interaction design for recommender systems}
+  \field{volume}{6}
+  \field{year}{2002}
 \endentry
 
 \entry{tanaka2000multi}{inproceedings}{}
