@@ -38,16 +38,22 @@
 \BOOKMARK [2][-]{subsection.4.2.1}{Functional Requirments}{section.4.2}% 38
 \BOOKMARK [2][-]{subsection.4.2.2}{Non Requirments}{section.4.2}% 39
 \BOOKMARK [2][-]{subsection.4.2.3}{Use-Cases}{section.4.2}% 40
-\BOOKMARK [1][-]{section.4.3}{System Architecture}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.3.1}{Working}{section.4.3}% 42
-\BOOKMARK [2][-]{subsection.4.3.2}{Class Drigram}{section.4.3}% 43
-\BOOKMARK [2][-]{subsection.4.3.3}{ERD}{section.4.3}% 44
-\BOOKMARK [1][-]{section.4.4}{System Services}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.4.1}{Service 1}{section.4.4}% 46
-\BOOKMARK [0][-]{chapter.5}{Evaluation And Conclusion}{}% 47
-\BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 48
-\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 50
-\BOOKMARK [0][-]{appendix*.43}{List of Figures}{}% 51
-\BOOKMARK [0][-]{appendix*.44}{List of Tables}{}% 52
-\BOOKMARK [0][-]{appendix*.45}{Bibliography}{}% 53
+\BOOKMARK [1][-]{section.4.3}{User interface}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.3.1}{Main Menu}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.2}{Popular/Recommended Recipes}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.3}{Recipe Detail}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.4}{Recipe critiquing}{section.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.3.5}{Preferences}{section.4.3}% 46
+\BOOKMARK [1][-]{section.4.4}{System Architecture}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.1}{Working}{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.2}{Class Drigram}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.3}{ERD}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{System Services}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.5.1}{Service 1}{section.4.5}% 52
+\BOOKMARK [0][-]{chapter.5}{Evaluation And Conclusion}{}% 53
+\BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 54
+\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 56
+\BOOKMARK [0][-]{appendix*.52}{List of Figures}{}% 57
+\BOOKMARK [0][-]{appendix*.53}{List of Tables}{}% 58
+\BOOKMARK [0][-]{appendix*.54}{Bibliography}{}% 59
