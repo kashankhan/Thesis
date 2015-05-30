@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  30 MAY 2015 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  30 MAY 2015 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2367,12 +2367,16 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/preferences/peferences_co
 oking_time.png used on input line 284.
 (pdftex.def)             Requested size: 100.38362pt x 142.66818pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
 [46 <./figures/ch4_app_screen_shots/critique/critique_1.png> <./figures/ch4_app
 _screen_shots/critique/critique_2.png> <./figures/ch4_app_screen_shots/critique
 /critique_4.png> <./figures/ch4_app_screen_shots/preferences/peferences.png> <.
 /figures/ch4_app_screen_shots/preferences/peferences_course.png> <./figures/ch4
 _app_screen_shots/preferences/peferences_cooking_time.png>]
-<figures/ch4_ios_data_model.png, id=871, 769.87625pt x 600.2425pt>
+<figures/ch4_ios_data_model.png, id=872, 769.87625pt x 600.2425pt>
 File: figures/ch4_ios_data_model.png Graphic file (type png)
 
 <use figures/ch4_ios_data_model.png>
@@ -2424,7 +2428,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F202EDE98850B86DFDAEA771E327F27A;4218.
+(rerunfilecheck)             Checksum: 9AB4BC095FE37033713AB0B89F490BE5;4219.
 
 
 LaTeX Warning: There were undefined references.
@@ -2451,10 +2455,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (64 pages, 1994854 bytes).
+Output written on main.pdf (64 pages, 1998963 bytes).
 PDF statistics:
- 1021 PDF objects out of 1200 (max. 8388607)
- 881 compressed objects within 9 object streams
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 882 compressed objects within 9 object streams
  262 named destinations out of 1000 (max. 500000)
  33416 words of extra memory for PDF output out of 35830 (max. 10000000)
 
