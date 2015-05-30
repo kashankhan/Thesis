@@ -124,38 +124,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Main Menu}{41}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Popular/Recommended Recipes}{43}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Popular/Recommended Recipes}{42}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Recipe Detail}{43}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline explanation}{43}{section*.46}
+\contentsline {subsubsection}{\nonumberline Recipe's Explanation}{44}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Recipe critiquing}{43}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Recipe critiquing}{44}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Preferences}{43}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Preferences}{46}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}System Architecture}{43}{section.4.4}
+\contentsline {subsection}{\numberline {4.3.6}iOS Data Model}{47}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Working}{43}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.4}System Architecture}{48}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Class Drigram}{43}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.1}Working}{48}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}ERD}{43}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.2}Class Drigram}{48}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}System Services}{43}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.3}ERD}{48}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Service 1}{43}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.5}System Services}{48}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{47}{chapter.5}
+\contentsline {subsection}{\numberline {4.5.1}Service 1}{48}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{48}{chapter.6}
+\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{49}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{48}{section.6.1}
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{50}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{48}{section.6.2}
+\contentsline {section}{\numberline {6.1}Summary}{50}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{49}{appendix*.52}
+\contentsline {section}{\numberline {6.2}Future Work}{50}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{50}{appendix*.53}
+\contentsline {chapter}{\nonumberline List of Figures}{51}{appendix*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{51}{appendix*.54}
+\contentsline {chapter}{\nonumberline List of Tables}{52}{appendix*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{53}{appendix*.53}

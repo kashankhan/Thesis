@@ -171,134 +171,133 @@ Use case 4 is regarding the showing the detail of selected recipe. This use case
     
 \section{User interface}    
 
+Current section focuses on the implementation of user interface of application, FoodForMe, It is our fundamental requirement to build a high fidelity prototype that will run iOS platform and supported device should be iPhone. Current implementation of prototype will run on iOS 8.3 and above. Last year 2014, when apple announced iOS 8 they introduced a new programing language for developing iOS application called “swift”. They also declared that objective-c will not going to be obsolete. Therefore we have a choice to select the preferred language for developing client. We chose swift for our development. Reason behind selecting a Swift over objective-c is swift is 1.3x faster then objective which have an impact on performance factor of our app. Swift also provide many features like closures and etc. which is legged by objective-c.  Application UI was designed with the help of Storyboard technique.  The entire user interface of application is based on Auto Layout Guideline provided by Apple Inc. Auto layout is a system that helps in developing UI by creating a mathematical description of the relationships between the elements. To achieve the persuasion effect it is very important to focus each and every element of UI. Later in this section we discuss each screen implement and behavior of application. Finally section will close by discussing the data model for app.
 
 \subsection{Main Menu}
+
+FoodForMe main menu allows user to perform navigation inside the application from one screen to another screen. These screens include Popular recopies, Recommendations and Preferences. It is also responsible for representing user login status.  Categorically we have two modes and refer as “User Logout Mode” and “User Login Mode”. Each mode has in settings value in terms of presentation and behavior of application. Initially app starts with  “User Logout Mode” in this status. In this mode app will show “Login Via Facebook” at the bottom of the menu along with default avatar on the top of the menu as show in Figure\ref{foodforme_main_menu_screen_logout}. Once user click on “Login Via Facebook” and successfully login then app will enter in second mode i.e. display his Name, Avatar and lower button will change to “Logout” as shown is Figure\ref{foodforme_main_menu_screen_logout}. These modes have impact on application interaction cycle. The idea behind introducing two modes is to allow user to have a glance of app without force him login. Once he is comfortable with the app and he trust the app then he can perform login. After login application will provide personalized information that is based on user interest. Second and importantly Login via facebook is one of the common and the quickest method to gather the user demographic information.
+
 \begin{figure}[h]
 	\begin{subfigure}{.49\textwidth}
 		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/main_menu/main_menu_1.png}
 		\caption{Logout user}
-		%\label{fig:ch2_lamche2014active_1}
+	   \label{foodforme_main_menu_screen_logout}
 	\end{subfigure}
 	\begin{subfigure}{.49\textwidth}
 		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/main_menu/main_menu_2.png}
 		\caption{Login user}
-		%\label{fig:ch2_lamche2014active_2}
+		\label{foodforme_main_menu_screen_login}
 	\end{subfigure}
 	\caption{FoodForMe Main Menu}
-	\label{fig:foodforme_main_menu_sreen}
+	\label{fig:foodforme_main_menu_screen}
 \end{figure}
 	  
 \subsection{Popular/Recommended Recipes}
+
+Popular and Recommended Recipes are the two important interfaces of our app which looks a like to each other but have slightly different functionality between them. Figure\ref{fig:foodforme_recipe_screen} is representation how it look likes. We put more attention in design phase and tried our best to follow the user-centric design approach.  Also finding out the primary factors that will help in structure of recipes to increase and mentation user’s interest to achieve transparency, efficiency, effectiveness and satisfaction. To achieve this we display recipe name, rating, category, subcategory of recipe, recipe’s avatar and sort of recipe by tile. However all recipes that are recommended to user is based on his preferences and course selection. Considering the fact that user can change his course any time therefore we provide course button at the top right corner to change his course.
+
  \begin{figure}[h]
  	\centering
 	\includegraphics[width=.5\linewidth]{figures/ch4_app_screen_shots/recipes/recipes.png}
-    \caption{FoodForMe use case diagram}
+    \caption{FoodForMe Recipes List}
 	\label{fig:foodforme_recipe_screen}
 	\end{figure}
 	  
 \subsection{Recipe Detail} 
+
+Design of recipe detail follows conventional layout practices. These include by providing recipe information at the top with large avatar, ingredients along with quantity and last but not the least preparation description that helps to cook that recipes. Figure\ref{fig:foodforme_recipe_detail_screens} is the visual representation of interface. Keeping in mind that user can critique on recipe and it’s ingredient therefore critique button is added to top of screen. 
 	  \begin{figure}[h]
 	  	\begin{subfigure}{.32\textwidth}
 	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recipe_detail_1.png}
-	  		\caption{Logout user}
-	  		%\label{fig:ch2_lamche2014active_1}
+	  		\caption{Recipe Header}
 	  	\end{subfigure}
 	  	\begin{subfigure}{.32\textwidth}
 	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recipe_detail_2.png}
-	  		\caption{Login user}
-	  		%\label{fig:ch2_lamche2014active_2}
+	  		\caption{Recipe's Ingredients}
 	  	\end{subfigure}
 	  	\begin{subfigure}{.32\textwidth}
 	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recipe_detail_3.png}
-	  		\caption{Login user}
-	  		  		%\label{fig:ch2_lamche2014active_2}
+	  		\caption{Recipe Preparation}
 		  	\end{subfigure}
 	  	\caption{FoodForMe Recipe Detail}
-	  	\label{fig:foodforme_main_menu_sreen}
+	  	\label{fig:foodforme_recipe_detail_screens}
 	  \end{figure}
-%%%%%%%% recipe_detail
-%
-%figures/ch4_app_screen_shots/recipe_detail/recipe_detail_2.png
-%figures/ch4_app_screen_shots/recipe_detail/recipe_detail_3.png
 
-%figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/recommended_recipe_explaination_1.png
-%figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/recommended_recipe_explaination_2.png
-\subsubsection{explanation}
+\newpage
+\subsubsection{Recipe's Explanation}
+
+Earlier in this section we discussed that Recommended and Popular recipes have same interface but the difference comes in recipe detail. Popular recipes do not requires any information, as is task to get the knowledge about user by providing him diverse result. However, Recommend recipes should always provide explanation about why system thinks this recipe is suitable for user along with two additional factors i.e. calories and exercise time needs to burn such calories. Where, determination of suitability is integration of course selection, user preferred cooking and his taste and health preferences. Additionally system provides two types of explanations depending on user login status. If user is offline or logout, in explanation system tries to motivate user to login to get accurate recipe according to him. Figure\ref{fig:foodforme_recipe_explanation} shows the FoodForMe recipe's explanation.  
+
+
 \begin{figure}[h]
 	\begin{subfigure}{.49\textwidth}
-		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/recommended_recipe_explaination_1.png}
-		\caption{Logout user}
-		%\label{fig:ch2_lamche2014active_1}
+		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/recommended_recipe_explaination_2.png}
+		\caption{Recipe's explanation For Logout user}
+		\label{fig:foodforme_recipe_explanation_2}
 	\end{subfigure}
 	\begin{subfigure}{.49\textwidth}
-		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/recommended_recipe_explaination_2.png}
-		\caption{Login user}
-		%\label{fig:ch2_lamche2014active_2}
+		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/recommended_recipe_explaination_1.png}
+		\caption{Recipe's explanation For Login user}
+		\label{fig:foodforme_recipe_explanation_1}
 	\end{subfigure}
-	\caption{FoodForMe Main Menu}
-	\label{fig:foodforme_main_menu_sreen}
+	\caption{FoodForMe Recipe Explanation}
+	\label{fig:foodforme_recipe_explanation}
 \end{figure}
 
-
 \subsection{Recipe critiquing} 
-%%%%% critique
-%
-%figures/ch4_app_screen_shots/critique/critique_2.png
-%figures/ch4_app_screen_shots/critique/critique_3.png
-%figures/ch4_app_screen_shots/critique/critique_4.png
+For Personalize recommender system is a important to know user preferences. More knowledge about the user more accurate the recommendations are. Critiquing recipes allow us to determine the user interests in our system. Focusing on critiquing importance our design should be intuitive, interactive and helps user to perform critiquing fast enough. Our assumption was user may not like some recipes but ingredients in that recipe have an impact on preference. Also it is important to what accent user likes or dislikes the recipe. Therefore we separated recipe and ingredients critiquing. Star rating is preferable for recipe critique. As far as ingredients critique concerns it should be like or dislike. While our implement of this screen have separated into 3 sections. Top one was about the recipe information, Middle deals with ingredients and Last section is about given stars to recipe to selected recipe.  Since the critiquing of ingredients is Boolean in nature so we can use default UISwitch presents on iOS sdk but they are not much intuitive nature and may confuse users. Thus, our design follows the simple toggling button which red and green color for liking and disliking ingredients. Figure\ref{fig:foodforme_recpie_critiquing} show how we implemented this screen.
 
 
 	  \begin{figure}[h]
 	  	\begin{subfigure}{.32\textwidth}
 	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/critique/critique_1.png}
-	  		\caption{Logout user}
-	  		%\label{fig:ch2_lamche2014active_1}
+	  		\caption{Recipe Header}
 	  	\end{subfigure}
 	  	\begin{subfigure}{.32\textwidth}
 	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/critique/critique_2.png}
-	  		\caption{Login user}
-	  		%\label{fig:ch2_lamche2014active_2}
+	  		\caption{Ingredents Critique}
 	  	\end{subfigure}
 	  	\begin{subfigure}{.32\textwidth}
 	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/critique/critique_4.png}
-	  		\caption{Login user}
-	  		  		%\label{fig:ch2_lamche2014active_2}
+	  		\caption{Recipe's Critique}
 	  		\end{subfigure}
 	  	\caption{FoodForMe Recipe Detail}
-	  	\label{fig:foodforme_main_menu_sreen}
+	  	\label{fig:foodforme_recpie_critiquing}
 	  \end{figure}
-
-%%%%%%%% preferences
-%figures/ch4_app_screen_shots/preferences/peferences.png
-%figures/ch4_app_screen_shots/preferences/peferences_course.png
-%figures/ch4_app_screen_shots/preferences/peferences_cooking_time.png
+\newpage
 \subsection{Preferences} 
+
+User context is important aspect to refine recommendations. Cooking time and Course are the two important explicit contexts that our system required from the iOS app.  In our application Preferences screen allow user to select these context according to his choice. After taping on any item a detail screen will appear that allow user to select the value from required list. Figure\ref{fig:foodforme_preferences} shows the implementation of Preferences. 
+
 	  \begin{figure}[h]
 	  	\begin{subfigure}{.32\textwidth}
-	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/preferences/peferences.png}
-	  		\caption{Logout user}
+	  		\includegraphics[width=.75\linewidth]{figures/ch4_app_screen_shots/preferences/peferences.png}
+	  		\caption{General Peferences}
 	  		%\label{fig:ch2_lamche2014active_1}
 	  	\end{subfigure}
 	  	\begin{subfigure}{.32\textwidth}
-	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/preferences/peferences_course.png}
-	  		\caption{Login user}
+	  		\includegraphics[width=.75\linewidth]{figures/ch4_app_screen_shots/preferences/peferences_course.png}
+	  		\caption{Recipe's Course Selection}
 	  		%\label{fig:ch2_lamche2014active_2}
 	  	\end{subfigure}
 	  	\begin{subfigure}{.32\textwidth}
-	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/preferences/peferences_cooking_time.png}
-	  		\caption{Login user}
+	  		\includegraphics[width=.75\linewidth]{figures/ch4_app_screen_shots/preferences/peferences_cooking_time.png}
+	  		\caption{Cooking Time Selection}
 	  		%\label{fig:ch2_lamche2014active_2}
 	  	\end{subfigure}
 	  	\caption{FoodForMe Recipe Detail}
-	  	\label{fig:foodforme_main_menu_sreen}
+	  	\label{fig:foodforme_preferences}
 	  \end{figure}
 	  
-\section*{FoodForMe iOS Data Model}	  
+\newpage
+\subsection{iOS Data Model}	  
+
+
 	   \begin{figure}[h]
 	   	\centering
 	   	\includegraphics[width=1\linewidth]{figures/ch4_ios_data_model}
-	   	\caption{FoodForMe use case diagram}
-	   	\label{fig:foodforme_recipe_screen}
+	   	\caption{FoodForMe iOS Data Model}
+	   	\label{fig:foodforme_ios_data_model}
 	   \end{figure}
 	   
 	  
