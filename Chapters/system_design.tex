@@ -300,16 +300,35 @@ Figure\ref{fig:foodforme_ios_data_model} is the representation of iOS Core Data 
 	   	\label{fig:foodforme_ios_data_model}
 	   \end{figure}
 	   
-	  
-	  
+
 \section{System Architecture}
 
-\subsection{Working}
+Figure \ref{fig:ch4_architechture_diagram.png} represents the overview about the  on system including client commination.  Before start discussing about each component of system in detail, Let’s discuss briefly about the working of system. User needs to perform login to create their account on to our system. If user account exists system will return his profile. However, if the account does not exist system will immediately create his profile and return that created profile. After the login, system will immediately gather contextual information about the user and provide to the server. On receiving contextual information of user, server sends some recommendation via recommendation module. User can critique on any recipe by using recipe service. On receiving the critique, server matures user profile and regenerates the recommendation based current information.
+\newline  
 
+	\begin{figure}[h]
+	   	\centering
+	   	\includegraphics[width=.55\linewidth]{figures/ch4_architechture_diagram.png}
+	   	\caption{FoodForMe: Overview of Server application Architecture}
+	   	\label{fig:ch4_architechture_diagram.png}
+	   \end{figure}
+	   
 \subsection{Class Drigram}
 
 \subsection{ERD}
 
 \section{System Services}
 
-\subsection{Service 1}
+Profiling, Recipe and Recommendation are main services offer by FoodForMe Server. Our forthcoming discussion is related to the elaboration of the mentioned serveries. 
+
+\subsection{Profiling Service}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{figures/ch4_facebook_connect.png}
+		\caption{Facebook Platform Services}
+		\label{fig:ch4_facebook_connect}
+		\cite{ko2010social}
+	\end{figure}
+
+\subsection{Recipe Service}
+\subsection{Recommendation Service}

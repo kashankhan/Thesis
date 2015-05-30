@@ -46,15 +46,16 @@
 \BOOKMARK [2][-]{subsection.4.3.5}{Preferences}{section.4.3}% 46
 \BOOKMARK [2][-]{subsection.4.3.6}{Core Data Model}{section.4.3}% 47
 \BOOKMARK [1][-]{section.4.4}{System Architecture}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.4.1}{Working}{section.4.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.2}{Class Drigram}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.3}{ERD}{section.4.4}% 51
-\BOOKMARK [1][-]{section.4.5}{System Services}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.5.1}{Service 1}{section.4.5}% 53
-\BOOKMARK [0][-]{chapter.5}{Evaluation And Conclusion}{}% 54
-\BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 55
-\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 57
-\BOOKMARK [0][-]{appendix*.51}{List of Figures}{}% 58
-\BOOKMARK [0][-]{appendix*.52}{List of Tables}{}% 59
-\BOOKMARK [0][-]{appendix*.53}{Bibliography}{}% 60
+\BOOKMARK [2][-]{subsection.4.4.1}{Class Drigram}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{ERD}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{System Services}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.5.1}{Profiling Service}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.2}{Recipe Service}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.3}{Recommendation Service}{section.4.5}% 54
+\BOOKMARK [0][-]{chapter.5}{Evaluation And Conclusion}{}% 55
+\BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 56
+\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 58
+\BOOKMARK [0][-]{appendix*.53}{List of Figures}{}% 59
+\BOOKMARK [0][-]{appendix*.54}{List of Tables}{}% 60
+\BOOKMARK [0][-]{appendix*.55}{Bibliography}{}% 61
