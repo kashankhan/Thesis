@@ -317,18 +317,48 @@ Figure \ref{fig:ch4_architechture_diagram.png} represents the overview about the
 
 \subsection{ERD}
 
+\section{Authentication and User Data Authorization}
+
+FoodForMe uses Facebook as a third party service for iOS client. Such services requires Consumer Key which they allocate to each app to grant authorize access of user’s data. User need to grant permission to our Facebook application so that our app can access hi data.  Following is the briefly discuss authentication and authorization procedure of Facebook.
+
+\subsection{Facebook}
+
+The authentication method of Facebook is based on Open Authentication protocol (OAuth). Application developers are required to create their app on Facebook by using URL  https://developers.facebook.com/apps/. First they need to choose the app platform like in our case iOS. After creating an App they need to specify the application type.  App ID and App Secret are the unique identification of each app issued by Facebook. After creating the developer need to install Facebook sdk based on a choice platform and integrate into the app. Figure \ref{fig:ch4_facebook_connect} is a graphical representation of Facebook connect.\newline
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=.68\linewidth]{figures/ch4_facebook_connect.png}
+		\caption{Facebook Connect}
+		\label{fig:ch4_facebook_connect}
+		\cite{ko2010social}
+	\end{figure}
+	
+\newpage
+ During a login process Facebook ask user that this app requires such permission if the user is satisfied, permissions are given by him. If consumer application wants to change the permission then the login process will start again. Each system call requires App token and App Secret. 
+
+
+		
 \section{System Services}
 
 Profiling, Recipe and Recommendation are main services offer by FoodForMe Server. Our forthcoming discussion is related to the elaboration of the mentioned serveries. 
 
 \subsection{Profiling Service}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\linewidth]{figures/ch4_facebook_connect.png}
-		\caption{Facebook Platform Services}
-		\label{fig:ch4_facebook_connect}
-		\cite{ko2010social}
-	\end{figure}
+
+Profiling service is combination of different classes. Each is responsible for its own functionality. This service builds user profile depending his preferences as discuss in Chapter3. “RestUserProfile” class handles the user login process and profile updation. Where preference are stored separately in UserRecipePreference and UserRecipeTimePreference accorindly. However critiquing about the ingredients are stored in UserIngredientPreference class. 
 
 \subsection{Recipe Service}
+
+Recipe Service is backbone of our system and combination of different services. Each service has its own task and module. Recipe Service acts like a factory in our system.  It has It is responsible to fetching the recipes from any recipe data bank to create food profile, perform critiquing and gives the result back accordingly if user asks for popular recipes and recipe of specific course. Let discuss each of them independently.
+
+\subsubsection{Databank Service}
+
+Recipe provided by our system is relying on different databank. From which it will get the recipes and perform recipe sync. One data bank is implemented by BigOven Api. Considering response data format of each API is different for each other. Each data bank has provided its own Data transform Object layer that will convert response to our required format. 
+
+\subsubsection{Critiquing Service}
+
+Critiquing service provides an interface, which allow users to critique. By the mean of critiquing system build user profile gradually.  Critiquing service accepts the list of likes and dislikes ingredients set separately, recipe and star rating , provided by user. Once the system receives information it will re-compute star rating of recipe. Build the user profile by trigger profile service on behalf of received parameters.
+
 \subsection{Recommendation Service}
+
+This service is responsible for generation of recommendation based on user preferences and context.  Recommendation service accepts the user Id, page size, cooking time and course in order to generate the recommendation. Once all the information is received. If system doesn’t have user preference, in the result set system will give popular recipe according to receive context. If system does have user preference it will filter out the recipes according you user preference and generate set of parameters why system give that recipe to user. If page size of generated recommendations are not equal to request page size system will repeat the algoritm. 
+	

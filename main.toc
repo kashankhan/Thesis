@@ -142,24 +142,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}ERD}{49}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}System Services}{49}{section.4.5}
+\contentsline {section}{\numberline {4.5}Authentication and User Data Authorization}{49}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Profiling Service}{49}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Facebook}{49}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Recipe Service}{49}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}System Services}{50}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Recommendation Service}{49}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.6.1}Profiling Service}{50}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{50}{chapter.5}
+\contentsline {subsection}{\numberline {4.6.2}Recipe Service}{50}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{51}{chapter.6}
+\contentsline {subsubsection}{\nonumberline Databank Service}{50}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{51}{section.6.1}
+\contentsline {subsubsection}{\nonumberline Critiquing Service}{50}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{51}{section.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Recommendation Service}{51}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{52}{appendix*.53}
+\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{52}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{53}{appendix*.54}
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{53}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{54}{appendix*.55}
+\contentsline {section}{\numberline {6.1}Summary}{53}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Future Work}{53}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{54}{appendix*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{55}{appendix*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{56}{appendix*.57}

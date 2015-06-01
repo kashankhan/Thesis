@@ -48,14 +48,16 @@
 \BOOKMARK [1][-]{section.4.4}{System Architecture}{chapter.4}% 48
 \BOOKMARK [2][-]{subsection.4.4.1}{Class Drigram}{section.4.4}% 49
 \BOOKMARK [2][-]{subsection.4.4.2}{ERD}{section.4.4}% 50
-\BOOKMARK [1][-]{section.4.5}{System Services}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.5.1}{Profiling Service}{section.4.5}% 52
-\BOOKMARK [2][-]{subsection.4.5.2}{Recipe Service}{section.4.5}% 53
-\BOOKMARK [2][-]{subsection.4.5.3}{Recommendation Service}{section.4.5}% 54
-\BOOKMARK [0][-]{chapter.5}{Evaluation And Conclusion}{}% 55
-\BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 56
-\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 58
-\BOOKMARK [0][-]{appendix*.53}{List of Figures}{}% 59
-\BOOKMARK [0][-]{appendix*.54}{List of Tables}{}% 60
-\BOOKMARK [0][-]{appendix*.55}{Bibliography}{}% 61
+\BOOKMARK [1][-]{section.4.5}{Authentication and User Data Authorization}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.5.1}{Facebook}{section.4.5}% 52
+\BOOKMARK [1][-]{section.4.6}{System Services}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.6.1}{Profiling Service}{section.4.6}% 54
+\BOOKMARK [2][-]{subsection.4.6.2}{Recipe Service}{section.4.6}% 55
+\BOOKMARK [2][-]{subsection.4.6.3}{Recommendation Service}{section.4.6}% 56
+\BOOKMARK [0][-]{chapter.5}{Evaluation And Conclusion}{}% 57
+\BOOKMARK [0][-]{chapter.6}{Summary and Future Work}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 60
+\BOOKMARK [0][-]{appendix*.55}{List of Figures}{}% 61
+\BOOKMARK [0][-]{appendix*.56}{List of Tables}{}% 62
+\BOOKMARK [0][-]{appendix*.57}{Bibliography}{}% 63
