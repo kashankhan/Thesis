@@ -160,6 +160,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{52}{chapter.5}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Motivation and Goals}{52}{section.5.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Summary and Future Work}{53}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Summary}{53}{section.6.1}

@@ -436,6 +436,45 @@
   \field{year}{2012}
 \endentry
 
+\entry{ko2010social}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ko}{K.}%
+     {Moo~Nam}{M.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheek}{C.}%
+     {Gorrell~P}{G.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shehab}{S.}%
+     {Mohamed}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sandhu}{S.}%
+     {Ravi}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Institute of Electrical}%
+    {Electronics Engineers, Inc., 3 Park Avenue, 17 th Fl New York NY
+  10016-5997 USA}%
+  }
+  \strng{namehash}{KMNCGPSMSR1}
+  \strng{fullhash}{KMNCGPSMSR1}
+  \field{sortinit}{K}
+  \field{number}{8}
+  \field{pages}{37\bibrangedash 43}
+  \field{title}{Social-networks connect services}
+  \field{volume}{43}
+  \field{journaltitle}{Computer}
+  \field{year}{2010}
+\endentry
+
 \entry{lamche2014active}{inproceedings}{}
   \name{author}{3}{}{%
     {{}%
@@ -963,6 +1002,31 @@
   \field{sortinit}{S}
   \field{title}{Mobile communications}
   \field{year}{2003}
+\endentry
+
+\entry{shani2011evaluating}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Shani}{S.}%
+     {Guy}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gunawardana}{G.}%
+     {Asela}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SGGA1}
+  \strng{fullhash}{SGGA1}
+  \field{sortinit}{S}
+  \field{booktitle}{Recommender systems handbook}
+  \field{pages}{257\bibrangedash 297}
+  \field{title}{Evaluating recommendation systems}
+  \field{year}{2011}
 \endentry
 
 \entry{sinha2002role}{inproceedings}{}

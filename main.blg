@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11950 items from 5000.
+Reallocated field_info (elt_size=4) to 12228 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography/literature.bib
 Repeated entry---line 343 of file bibliography/literature.bib
@@ -40,45 +40,47 @@ Warning--I didn't find a database entry for "hursti1997single"
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 49 entries,
+Too many commas in name 2 of "Institute of Electrical and Electronics Engineers, Inc., 3 Park Avenue, 17 th Fl New York NY 10016-5997 USA" for entry ko2010social
+while executing---line 2659 of file biblatex.bst
+You've used 51 entries,
             6047 wiz_defined-function locations,
-            1385 strings with 16371 characters,
-and the built_in function-call counts, 169602 in all, are:
-= -- 6789
-> -- 6349
-< -- 1941
-+ -- 2162
-- -- 2406
-* -- 13327
-:= -- 10131
+            1396 strings with 16700 characters,
+and the built_in function-call counts, 180110 in all, are:
+= -- 7423
+> -- 6738
+< -- 2114
++ -- 2355
+- -- 2531
+* -- 13989
+:= -- 10673
 add.period$ -- 0
-call.type$ -- 49
-change.case$ -- 988
+call.type$ -- 51
+change.case$ -- 1116
 chr.to.int$ -- 34
-cite$ -- 96
-duplicate$ -- 18517
-empty$ -- 16782
-format.name$ -- 3733
-if$ -- 38924
+cite$ -- 100
+duplicate$ -- 19590
+empty$ -- 17675
+format.name$ -- 3915
+if$ -- 41428
 int.to.chr$ -- 0
-int.to.str$ -- 145
+int.to.str$ -- 151
 missing$ -- 0
-newline$ -- 1325
-num.names$ -- 2611
-pop$ -- 15446
+newline$ -- 1388
+num.names$ -- 2806
+pop$ -- 16094
 preamble$ -- 1
-purify$ -- 1165
+purify$ -- 1303
 quote$ -- 0
-skip$ -- 10517
+skip$ -- 11236
 stack$ -- 0
-substring$ -- 4227
-swap$ -- 6293
-text.length$ -- 1527
-text.prefix$ -- 48
+substring$ -- 4840
+swap$ -- 6668
+text.length$ -- 1597
+text.prefix$ -- 50
 top$ -- 1
-type$ -- 1850
+type$ -- 1926
 warning$ -- 0
-while$ -- 943
+while$ -- 981
 width$ -- 0
-write$ -- 1275
-(There were 5 error messages)
+write$ -- 1336
+(There were 6 error messages)
