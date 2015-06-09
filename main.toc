@@ -140,36 +140,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Class Drigram}{49}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}ERD}{49}{subsection.4.4.2}
+\contentsline {subsubsection}{\nonumberline Server Data model}{49}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Authentication and User Data Authorization}{49}{section.4.5}
+\contentsline {subsubsection}{\nonumberline User Profiling Module}{50}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Facebook}{49}{subsection.4.5.1}
+\contentsline {subsubsection}{\nonumberline Recipe Module}{50}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}System Services}{50}{section.4.6}
+\contentsline {subsubsection}{\nonumberline Recipe Recommendation Module}{51}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Profiling Service}{50}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.4.2}ERD}{52}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.2}Recipe Service}{50}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.5}Authentication and User Data Authorization}{53}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Databank Service}{50}{section*.53}
+\contentsline {subsection}{\numberline {4.5.1}Facebook}{53}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Critiquing Service}{50}{section*.54}
+\contentsline {section}{\numberline {4.6}System Services}{54}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.3}Recommendation Service}{51}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.1}Profiling Service}{54}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{52}{chapter.5}
+\contentsline {subsection}{\numberline {4.6.2}Recipe Service}{54}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Motivation and Goals}{52}{section.5.1}
+\contentsline {subsubsection}{\nonumberline Databank Service}{54}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{53}{chapter.6}
+\contentsline {subsubsection}{\nonumberline Critiquing Service}{54}{section*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{53}{section.6.1}
+\contentsline {subsection}{\numberline {4.6.3}Recommendation Service}{55}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{53}{section.6.2}
+\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{56}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{54}{appendix*.55}
+\contentsline {section}{\numberline {5.1}Motivation and Goals}{56}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{55}{appendix*.56}
+\contentsline {section}{\numberline {5.2}Data set}{57}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{56}{appendix*.57}
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{58}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Summary}{58}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Future Work}{58}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{59}{appendix*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{60}{appendix*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{61}{appendix*.66}
