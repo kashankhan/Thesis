@@ -170,16 +170,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Motivation and Goals}{56}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Data set}{57}{section.5.2}
+\contentsline {section}{\numberline {5.2}Data set Generation}{57}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{58}{chapter.6}
+\contentsline {section}{\numberline {5.3}Setup}{57}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{58}{section.6.1}
+\contentsline {subsection}{\numberline {5.3.1}Test Hardware}{58}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{58}{section.6.2}
+\contentsline {subsection}{\numberline {5.3.2}Variants}{58}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{59}{appendix*.64}
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{59}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{60}{appendix*.65}
+\contentsline {section}{\numberline {6.1}Summary}{59}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{61}{appendix*.66}
+\contentsline {section}{\numberline {6.2}Future Work}{59}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{60}{appendix*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{61}{appendix*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{62}{appendix*.66}

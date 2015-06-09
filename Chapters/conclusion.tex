@@ -12,4 +12,28 @@ The study is designed in a way that each user has to test both variants of the a
 
 The focus of evaluation was to measure the effect of persuasion by providing the recommendation in form of recipes. Also how active learning also system to change itself according to user preferences. However it exclude the non-relevant part like ingredients integration to improve the recipes.
 
-\section{Data set}
+\section{Data set Generation}
+
+Data sets are necessary to create a pragmatic setup to represent a real world objects. Therefore, a data crawler needs to be developed as an open-source project that will crawl the recipes form any recipe data bank. Crawler developed by us is written in java.  Crawling recipe form data bank is a two steps process.  First fetches the recipes from databank on behave of food type and course.  In second step it will sync all those recipes whose details are not present in our database. Additionally recipes images are not been stored in our system instead of saving image we stores their URLs. Extracted data provide international recipes of different cousins. However, it provides functionally to add more different data source that provides recipes. To keep the amount of work reasonable items were associated with the following:
+
+\begin{enumerate}
+	\item Unique identifier for recipes
+	\item 11 types of courses (e.g,. Appetizers, Bread)
+	\item 91 Cuisine (e.g. American, Thai, Beverages)
+	\item Images links of different sizes
+	\item Preparation
+	\item List of ingredients
+	\item Popularity of recipe
+\end{enumerate}
+
+Currently our data bank has 1303 of recipes, 10037 ingredients. Furthermore, it can grow more depends on crawling method.
+
+\section{Setup}
+
+This section leads our discussion toward the selection of test hardware, different variants of application and testing framework for the sake of performing evaluation.
+
+\subsection{Test Hardware}
+
+Recommended hardware must have at least 320x 480 resolution and above, running iOS version 8.0 or later. In order words required device to run application is iPhone 4S and above.  
+
+\subsection{Variants}
