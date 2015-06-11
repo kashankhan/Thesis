@@ -37,3 +37,72 @@ This section leads our discussion toward the selection of test hardware, differe
 Recommended hardware must have at least 320x 480 resolution and above, running iOS version 8.0 or later. In order words required device to run application is iPhone 4S and above.  
 
 \subsection{Variants}
+
+Two variants of system are developed to test. Both variants use the same recommendation algorithm. However they are different to each other by have unique interface design, explanation of recommendation and critiquing methodology. 
+
+\begin{enumerate}
+	\item \textbf{Experiment (EXP)} This variant refers to the proposed developed system as discuss in chapter 4. It allows users to change their preferences while interacting to the system by critiquing on ingredients and recipes. System provides explanation to each recommended item. Additionally interface follows the user centric design, which contains more information about the recipe to draw user attention towards recipes.
+	
+	\item \textbf{Basic (BASE)}  Consider as baseline to compared the needs and effectiveness of actual system. In this system mostly provides textual information about the recipe. User can critique only recipes by given stars. System does not provide any explanation along with recipes. 
+\end{enumerate}
+
+\subsection{Testing Framework}
+
+Testing framework that is applied in user study is a subset of the aspect that are relevant for persuasion and critiquing in recommend system. It follows the user-centric design approaches \cite{pu2006trust} and framework that applied for evaluation of recommend recommendation system \cite{shani2011evaluating}. Measure data is divided into following areas:
+
+\subsubsection{Persuasion’s Principle}
+
+Persuasion’s principle that discussed in section \ref{ch4_persuasion_explaination} were related to the how these factors will be implemented in our system.  It is essential aspect of this thesis that the recommendations that are suggested to user should ne persuasive in nature and follows the principle. The forth-coming discussion relates what are the objective and perceived criteria in testing of each factor.
+
+
+
+  \begin{enumerate}
+  	\item \textbf{Reciprocity} Allows user to return his favor by critiquing as recipe and select other good food according to particular food course and cuisine.
+  	
+  	 \begin{description}
+  	 	\item \textit{Objective} 
+  	 	\item \textit{Perceived} 
+	  \end{description}
+  	
+  	\item \textbf{Scarcity} refers to people are inclined to consider more valuable whatever is scarce. In our system we implement this approach by the help of consumption context or categorizing the recipe according to consumption of recipe for instance breakfast’s recipes, juices etc. 
+  	  \begin{description}
+  	  	 \item \textit{Objective} 
+  	  	 \item \textit{Perceived} 
+  	  \end{description}
+  	
+  	\item \textbf{Authority}  is implemented by the popularity of recipe among that course of recipe how much star it have and how user think about that  recipe.
+  	   \begin{description}
+  	  	  \item \textit{Objective} 
+  	  	  \item \textit{Perceived} 
+  	   \end{description}
+  	  	  
+  	\item \textbf{Liking} is implemented in two ways in our system. First by overall recipe rating and second is based on ingredients choices that are according to the taste of user.  	  
+  	 \begin{description}
+  		\item \textit{Objective} 
+  		\item \textit{Perceived} 
+  	\end{description}
+  	
+  	
+  	\item \textbf{Commitment} is implemented by the considering the user preference. All recipes are that recommended to user have at least one of his favorite ingredient and his timing. Furthermore, we also mock exercise time to consume that recipe to keep focus on user’s health.  	  
+  	 \begin{description}
+  		\item \textit{Objective} 
+  		\item \textit{Perceived} 
+  	\end{description}
+  	
+  	
+  	\item \textbf{Social Proof} implemented as critiquing on recipes by given them stars. When user rates the recipe, system will recalculate the overall rating of recipe.  This helps other users in finding out which recipe is popular in a system.  	  
+  	 \begin{description}
+  		\item \textit{Objective} 
+  		\item \textit{Perceived} 
+  	\end{description}
+  	
+  \end{enumerate}
+\subsubsection{Transparency}
+
+\subsubsection{User Critique}
+
+\subsubsection{User Control}
+
+\subsubsection{User Preferences}
+
+\subsubsection{Demographic}

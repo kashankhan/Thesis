@@ -178,14 +178,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.2}Variants}{58}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{59}{chapter.6}
+\contentsline {subsection}{\numberline {5.3.3}Testing Framework}{58}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{59}{section.6.1}
+\contentsline {subsubsection}{\nonumberline Persuasion\IeC {\textquoteright }s Principle}{58}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{59}{section.6.2}
+\contentsline {subsubsection}{\nonumberline Transparency}{60}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{60}{appendix*.64}
+\contentsline {subsubsection}{\nonumberline User Critique}{60}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{61}{appendix*.65}
+\contentsline {subsubsection}{\nonumberline User Control}{60}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{62}{appendix*.66}
+\contentsline {subsubsection}{\nonumberline User Preferences}{60}{section*.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Demographic}{60}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{61}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Summary}{61}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Future Work}{61}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{62}{appendix*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{63}{appendix*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{64}{appendix*.72}
