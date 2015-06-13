@@ -52,57 +52,60 @@ Testing framework that is applied in user study is a subset of the aspect that a
 
 \subsubsection{Persuasion’s Principle}
 
-Persuasion’s principle that discussed in section \ref{ch4_persuasion_explaination} were related to the how these factors will be implemented in our system.  It is essential aspect of this thesis that the recommendations that are suggested to user should ne persuasive in nature and follows the principle. The forth-coming discussion relates what are the objective and perceived criteria in testing of each factor.
-
-
+Persuasion’s principle that discussed in section \ref{ch4_persuasion_explaination} were related to the how these factors will be implemented in our system.  It is essential aspect for this thesis that the recommendations that are suggested to user should ne persuasive in nature and follows the principle. The forth-coming discussion relates whether user might be able to perceive those or not.
 
   \begin{enumerate}
-  	\item \textbf{Reciprocity} Allows user to return his favor by critiquing as recipe and select other good food according to particular food course and cuisine.
+  	\item \textit{Perceived Reciprocity} is allows user to return his favor by critiquing as recipe and select other good food according to particular food course and cuisine. The participants were asked they think that system helps them to select them a recipe although this recipe his according to his preferences, but the system consider other user feedback on that recipes before making up recommendations.
   	
-  	 \begin{description}
-  	 	\item \textit{Objective} 
-  	 	\item \textit{Perceived} 
-	  \end{description}
+  	\item \textit{Perceived Scarcity} measurement indicates by categorizing recommendation with respect to context and consumption time of recipe. Participants were asked whether they find that system helps them to filter out the recipe according to their meal time.      
+
+  	\item \textit{Perceived Authority} refers to the popularity of a particular recipe in a given context of user. To measure the level of perceived authority, Participants were asked to what ascent they felt authority. 
   	
-  	\item \textbf{Scarcity} refers to people are inclined to consider more valuable whatever is scarce. In our system we implement this approach by the help of consumption context or categorizing the recipe according to consumption of recipe for instance breakfast’s recipes, juices etc. 
-  	  \begin{description}
-  	  	 \item \textit{Objective} 
-  	  	 \item \textit{Perceived} 
-  	  \end{description}
+  	\item \textit{Perceived Liking} refers to factors that include liking a recipe. In our system measure matric was based on ingredients and recipe staring. Participants were asked which mechanism like/dislike help more in finding out the recipe. 	  
   	
-  	\item \textbf{Authority}  is implemented by the popularity of recipe among that course of recipe how much star it have and how user think about that  recipe.
-  	   \begin{description}
-  	  	  \item \textit{Objective} 
-  	  	  \item \textit{Perceived} 
-  	   \end{description}
-  	  	  
-  	\item \textbf{Liking} is implemented in two ways in our system. First by overall recipe rating and second is based on ingredients choices that are according to the taste of user.  	  
-  	 \begin{description}
-  		\item \textit{Objective} 
-  		\item \textit{Perceived} 
-  	\end{description}
-  	
-  	
-  	\item \textbf{Commitment} is implemented by the considering the user preference. All recipes are that recommended to user have at least one of his favorite ingredient and his timing. Furthermore, we also mock exercise time to consume that recipe to keep focus on user’s health.  	  
-  	 \begin{description}
-  		\item \textit{Objective} 
-  		\item \textit{Perceived} 
-  	\end{description}
-  	
-  	
-  	\item \textbf{Social Proof} implemented as critiquing on recipes by given them stars. When user rates the recipe, system will recalculate the overall rating of recipe.  This helps other users in finding out which recipe is popular in a system.  	  
-  	 \begin{description}
-  		\item \textit{Objective} 
-  		\item \textit{Perceived} 
-  	\end{description}
-  	
+  	\item \textit{Perceived Commitment} indicated to what degree system is committed to user preference. In order to measure the degree of commitment metric is defined. Participants were asked to mark if they felt that system is committed to preferences or not.	  
+  	  	
+  	\item \textit{Perceived Social Proof} denotes the what society think about that particular item in our case recipe. User may or may not thought that social factor is present, By asking the user to what level they consider social factor is present in our system by providing them a scale.   
   \end{enumerate}
+  
 \subsubsection{Transparency}
 
-\subsubsection{User Critique}
+Ability of a system that allows user to understand its working and explain system choices and behavior. However it is possible that user’s understanding about the system working might be differ form its actual working. For the sake of evaluation user were asked to mark choices that they think about the system when making recommendations. \newline
+
+\textit{Perceived Transparency:} There is a possibility that user might or not perceive that system is transparent. By asking the factors which users thinks system include while making a recommendation. It is possible learn their perceived transparency.
+
 
 \subsubsection{User Control}
+Level of control that provides to users while operation a system refers to User Control. Under this sub section we want to measure the following items:  \newline
 
-\subsubsection{User Preferences}
+\textit{Perceived Overall Control} indicates that does user have overall control over recommendation. The participant were asked about what they feel about while using the application by rating that were they able to tell about the system which recipes are the looking for, telling their preference to system and finally to what assent they feel they have control over system. \newline
 
-\subsubsection{Demographic}
+\textit{Perceived Scrutability} denotes the ability of the system that allows user to revised their preference and excludes those assumptions that system made on there behaves. Participants were asked to rate till what ascent they feel control over system to correct the wrong assumption made by the system.
+
+\subsubsection{Efficiency}
+
+Providing good recommendation is not only the task of recommender systems. Also it is essential for a system how quickly it come to decisions that help in selection of item especially in the domain of mobiles. Measuring efficiency is divided into two perspectives. First, as in conversational recommender numbers of cycles were counter.  Where each cycle defined as number of times user have to perform update his preference in order to complete a task. Each cycle have an impact on user model. Second refers as time that passed from display of first recommendation set to selection and confirmation of required item. Where time measure in seconds.\newline
+
+\textit{Perceived Efficiency} Duration of item until item found is hard to perceive for user. Therefore for the sake of simplicity user were asked if it requires to much effort to find a recipe they are looking for. Additionally run of cycles are also hard to reminder but since conversation system cycle normally cycle are not be exceed to two cycle. Therefore user were asked to mention in which cycle they received their recipe. 
+
+\subsubsection{Satisfaction}
+
+Satisfaction is the ability to make system fun while user is interacting with the system. Also providing poor recommendation decrease the user interest.\newline
+
+\textit{Perceived Satisfaction} measure to determine user’s feeling while in using system. It allows user to express their preferences about the system in a direct way. Participants were asked to which ascent they were satisfied about they system.
+
+\subsubsection{Context}
+
+Context defines as any information that can be used to characterize the situation of entity. It is important for recommendation to consider the context while making a recommendation in order to make the recommendation more concrete. \newline
+
+\textit{Perceived Context} are determine in following ways: calories information about the recipe,  cooking time and course of recipes. Participants were asked to select which contextual information helped them to select to recipe. 
+
+\subsubsection{UserDemographic}
+
+Participants were asked to fill their demographic information for instance age, occupation, how often they cooked. 
+
+\subsection {Testing Procedure}
+
+\section{Results}
+
+\section{Discussion}

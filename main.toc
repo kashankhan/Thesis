@@ -182,24 +182,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Persuasion\IeC {\textquoteright }s Principle}{58}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Transparency}{60}{section*.65}
+\contentsline {subsubsection}{\nonumberline Transparency}{59}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Critique}{60}{section*.66}
+\contentsline {subsubsection}{\nonumberline User Control}{59}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Control}{60}{section*.67}
+\contentsline {subsubsection}{\nonumberline Efficiency}{60}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Preferences}{60}{section*.68}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{60}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Demographic}{60}{section*.69}
+\contentsline {subsubsection}{\nonumberline Context}{61}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{61}{chapter.6}
+\contentsline {subsubsection}{\nonumberline UserDemographic}{61}{section*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{61}{section.6.1}
+\contentsline {subsection}{\numberline {5.3.4}Testing Procedure}{61}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{61}{section.6.2}
+\contentsline {section}{\numberline {5.4}Results}{61}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{62}{appendix*.70}
+\contentsline {section}{\numberline {5.5}Discussion}{61}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{63}{appendix*.71}
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{62}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{64}{appendix*.72}
+\contentsline {section}{\numberline {6.1}Summary}{62}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Future Work}{62}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{63}{appendix*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{64}{appendix*.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{65}{appendix*.73}
