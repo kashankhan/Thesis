@@ -98,7 +98,7 @@ Satisfaction is the ability to make system fun while user is interacting with th
 
 Context defines as any information that can be used to characterize the situation of entity. It is important for recommendation to consider the context while making a recommendation in order to make the recommendation more concrete. \newline
 
-\textit{Perceived Context} are determine in following ways: calories information about the recipe,  cooking time and course of recipes. Participants were asked to select which contextual information helped them to select to recipe. 
+\textit{Perceived Context} are determine in following ways: calories information about the recipe, cooking time and course of recipes. Participants were asked to select which contextual information helped them to select to recipe. 
 
 \subsubsection{UserDemographic}
 
@@ -106,6 +106,166 @@ Participants were asked to fill their demographic information for instance age, 
 
 \subsection {Testing Procedure}
 
+Evaluation's testing procedure was structured in the following order:
+ \begin{enumerate}
+ 	
+ 	\item  Initially participants were asked to provide their background information, which include age, occupation. Additionally they need to provide how often they cooked considered demographic information.
+ 	
+ 	\item Next step was to present the idea of system and the purpose of user study to the participant. So they have a clear understanding about both presented items.  
+ 	
+ 	\item Instead of requesting user to pick up the random recipe according to their interest present a realistic scenario, which helps user in order to mention their interest like as follows:\newline 
+ 	
+ 	\textit{Imagine you just came for gym. You need prepare a meal for yourself. You have prepared a meal according to you taste and diet plan and have an hour for cooking.  You are not sure what to cook. You opened FoodForMe app and start looking what needs to prepare. After you find the recipe you need to provide your feedback.}\newline
+ 	\textit{For first step your task is:}\newline
+ 	\textit{Find a recipe you would lie to cook if given the opportunity that satisfies the following:}
+ 	\begin{enumerate}
+	 	\item \textit{Cooking time 90min.}
+	 	\item \textit{Type of recipe : Appetizer,  bread, breakfast, salads, soups etc.}
+ 	\end{enumerate}
+ 	\textit{After introducing task, hand over the app to users so that familiarize themselves with the interface and app workflow. They were also asked that this task would be executed twice with two different variants of the app, leading to potentially better or worse recommendations. Finally they need to judge which variant is better.}
+ 	
+ 	\item After demonstration of task, users need to understand how to perform critique and setup their preferences. 
+ 	
+ 	\item Participants were encouraged to given their verbal feedback about the system. Although it'ss not mandatory. All the verbal feedbacks were noted. 
+ 	
+ 	\item Once the tester performed his task and selects the recipe, which is satisfied as per his preference. The whole process was repeated for other variant of the system. 
+
+	\item Finally each participant was interviewed about which  variant they liked the most and why by filing a questioner. 
+
+ \end{enumerate}
+ 
 \section{Results}
+
+In this section our discussion leads to the result of data points measures via user study.  
+
+\subsection {Participants}
+
+People who performed evaluation was belong to various age groups and have different occupation. Overall 31 people participated, 24 students, 5 employee, 2 self-employed and 1 is housewife. 78.1\% of them have age between 18 to 35 years.  12.5\% are between 12 to 18 years old. Where people whose ages are above 35 year have a small portion which is 9.4\%. Figure \ref{fig:stat_demographic_info} shows their distribution separately. \newline
+
+	  \begin{figure}[h]
+	  	\centering
+	  	\begin{subfigure}{.45\textwidth}
+	  		\includegraphics[width=.9\linewidth]{figures/ch5_stat_age.png}
+	  		\caption{Participants Age}
+	  	\end{subfigure}
+	  	\begin{subfigure}{.45\textwidth}
+	  		\includegraphics[width=.9\linewidth]{figures/ch5_stat_profession.png}
+	  		\caption{Participants Profession}
+	  	\end{subfigure}
+	  	\begin{subfigure}{.45\textwidth}
+	  		\includegraphics[width=.9\linewidth]{figures/ch5_stat_cook.png}
+	  		\caption{How much Participants cook}
+	  	\end{subfigure}
+	  	\caption{Participants Demographic Info}
+	  	\label{fig:stat_demographic_info}
+	  \end{figure}
+	  
+Where as in terms of cooking, about 31.2\% of the participants are likely to cook daily, however 21\% of them cook twice a week and 18.8\% said that they need to cook 3 to 5 timer per week and rest are those how cook occasionally.
+
+\subsection{Perceived Persuasion}
+
+Significant change in user’s intension to cook a recipe has been observed form the result. To determine which strategies preform better in terms of persuasiveness, paired t-test were used upon the difference between initial rating and the one for each strategy. The results in Table \ref{table:persusasion-result} reflects the effectiveness comparison among the strategies. 
+
+\begin{table}[ht]
+	\centering % used for centering table
+	\begin{tabular}{p{2cm} p{2cm} p{2cm} p{2cm} p{2cm} p{2cm}}
+		\hline\hline %inserts double horizontal lines
+		& Scarcity & Authority & Social Proof & Liking & Commitment\\ % inserts table
+		%heading
+		\hline % inserts single horizontal line
+		Reciprocity   & <0.001  & <0.001 & <0.001 &  0.083 & <0.001 \\ % inserting body of the table
+		Scarcity      &         & <0.001 &  0.169 & <0.001 & <0.001 \\
+		Authority     &         &        &  0.089 & <0.001 &  0.325 \\
+		Social Proof  &         &        &        & <0.001 &  0.083 \\
+		Liking        &         &        &        &        & <0.001 \\
+		Commitment    &         &        &        &        &  \\ [1ex] % [1ex] adds vertical space
+		\hline %inserts single line
+	\end{tabular}
+	\caption{Paired t-test was used to examine significance, where 0.05 is set as the threshold for p-value to evaluate the significance and p-value lower than 0.001 indicates strong significance.}
+	\label{table:persusasion-result}
+\end{table}
+
+
+Next we discuss the impact of each of the persuasiveness factor individually.\newline
+
+\subsubsection{Reciprocity}
+
+When ask the participants which recipe critiquing technique helps them in finding their recipe. Majority of them voted for critiquing on both ingredients and recipe which in 78.1\%. On the hand minor portion of the participant i.e. 21.9\% liked the conventional critiquing technique to provide their feedback.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/ch5_stat_reciprocity}
+	\caption{Perceived Reciprocity}
+	\label{fig:ch5_stat_reciprocity}
+\end{figure}
+
+\subsubsection{Scarcity}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/ch5_stat_scarcity.png}
+	\caption{Perceived Scarcity}
+	\label{fig:ch5_stat_scarcity}
+\end{figure}
+
+\subsubsection{Authority}
+
+By conventional criteria, this difference is considered as statistically significant. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/ch5_stat_authority}
+	\caption{Perceived Authority}
+	\label{fig:ch5_stat_authority}
+\end{figure}
+
+\subsubsection{Liking}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/ch5_stat_liking.png}
+	\caption{Perceived Liking}
+	\label{fig:ch5_stat_liking}
+\end{figure}
+
+\subsubsection{Commitment}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/ch5_stat_commitment}
+	\caption{Perceived Commitment}
+	\label{fig:ch5_commitment}
+\end{figure}
+
+\subsubsection{Social Proof}
+By conventional criteria, this difference is considered to be very statistically significant. 
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{figures/ch5_stat_social_proof.png}
+\caption{Perceived Social Proof}
+\label{fig:ch5_stat_social_proof}
+\end{figure}
+
+\subsection{Perceived Transparency}
+
+\subsection{Perceived User Control}
+\subsubsection{Overall Control}
+\subsubsection{Scrutability}
+
+\subsection{Perceived Efficiency}
+
+\subsection{Perceived Satisfaction}
+
+
+\subsection{Perceived Context}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/ch5_stat_context}
+	\caption{Perceived Context}
+	\label{fig:ch5_stat_context}
+\end{figure}
+
+
+\subsection{Informal Feedback}
 
 \section{Discussion}
