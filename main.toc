@@ -166,7 +166,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.3}Recommendation Service}{55}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation And Conclusion}{56}{chapter.5}
+\contentsline {chapter}{\numberline {5}Evaluation}{56}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Motivation and Goals}{56}{section.5.1}
 \defcounter {refsection}{0}\relax 
@@ -246,14 +246,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Discussion}{71}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{73}{chapter.6}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{74}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{73}{section.6.1}
+\contentsline {section}{\numberline {6.1}Future Work}{74}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{73}{section.6.2}
+\contentsline {chapter}{\nonumberline List of Figures}{76}{appendix*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{74}{appendix*.96}
+\contentsline {chapter}{\nonumberline List of Tables}{78}{appendix*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{76}{appendix*.97}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{77}{appendix*.98}
+\contentsline {chapter}{\nonumberline Bibliography}{79}{appendix*.98}

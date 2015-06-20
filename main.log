@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  20 JUN 2015 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  20 JUN 2015 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1646,7 +1646,7 @@ Dictionary: glossaries-dictionary, Language: English
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
 line 15.
  (./pages/cover.tex
-<logos/tum.png, id=332, 53.2389pt x 28.4262pt>
+<logos/tum.png, id=328, 53.2389pt x 28.4262pt>
 File: logos/tum.png Graphic file (type png)
  <use logos/tum.png>
 Package pdftex.def Info: logos/tum.png used on input line 13.
@@ -1654,7 +1654,7 @@ Package pdftex.def Info: logos/tum.png used on input line 13.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 25.
 
-<logos/faculty.png, id=334, 34.2078pt x 37.0986pt>
+<logos/faculty.png, id=330, 34.2078pt x 37.0986pt>
 File: logos/faculty.png Graphic file (type png)
  <use logos/faculty.png>
 Package pdftex.def Info: logos/faculty.png used on input line 31.
@@ -1882,7 +1882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<figures/ch2_context_dimensions.png, id=529, 397.485pt x 129.1224pt>
+<figures/ch2_context_dimensions.png, id=524, 397.485pt x 129.1224pt>
 File: figures/ch2_context_dimensions.png Graphic file (type png)
 
 <use figures/ch2_context_dimensions.png>
@@ -1910,7 +1910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []
 
 
-<figures/ch2_context_recommender_system_paradigms.png, id=538, 397.485pt x 250.
+<figures/ch2_context_recommender_system_paradigms.png, id=533, 397.485pt x 250.
 0542pt>
 File: figures/ch2_context_recommender_system_paradigms.png Graphic file (type p
 ng)
@@ -1951,7 +1951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[13] <figures/ch2_active_learning.png, id=581, 444.66125pt x 142.5325pt>
+[13] <figures/ch2_active_learning.png, id=576, 444.66125pt x 142.5325pt>
 File: figures/ch2_active_learning.png Graphic file (type png)
 
 <use figures/ch2_active_learning.png>
@@ -1959,7 +1959,7 @@ Package pdftex.def Info: figures/ch2_active_learning.png used on input line 116
 .
 (pdftex.def)             Requested size: 418.25555pt x 134.06754pt.
  [14 <./figures/ch2_active_learning.png>]
-<figures/ch2_communication_persuasion_paradigm.png, id=608, 510.90875pt x 184.6
+<figures/ch2_communication_persuasion_paradigm.png, id=603, 510.90875pt x 184.6
 9pt>
 File: figures/ch2_communication_persuasion_paradigm.png Graphic file (type png)
 
@@ -1972,14 +1972,14 @@ Package pdftex.def Info: figures/ch2_communication_persuasion_paradigm.png used
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15] [16 <./figures/ch2_communication_persuasion_paradigm.png>] [17] [18]
-<figures/ch2_ueda2011user.png, id=692, 462.72874pt x 322.20375pt>
+<figures/ch2_ueda2011user.png, id=687, 462.72874pt x 322.20375pt>
 File: figures/ch2_ueda2011user.png Graphic file (type png)
 
 <use figures/ch2_ueda2011user.png>
 Package pdftex.def Info: figures/ch2_ueda2011user.png used on input line 214.
 (pdftex.def)             Requested size: 418.25555pt x 291.23929pt.
 
-<figures/ch2_suksom2010knowledge.png, id=696, 677.53125pt x 498.86375pt>
+<figures/ch2_suksom2010knowledge.png, id=691, 677.53125pt x 498.86375pt>
 File: figures/ch2_suksom2010knowledge.png Graphic file (type png)
 
 <use figures/ch2_suksom2010knowledge.png>
@@ -1996,7 +1996,7 @@ g>]
 LaTeX Warning: Reference `fig:ch2_ ch2_ricci2005critique' on page 21 undefined 
 on input line 241.
 
-<figures/ch2_ricci2005critique.png, id=715, 453.695pt x 254.9525pt>
+<figures/ch2_ricci2005critique.png, id=710, 453.695pt x 254.9525pt>
 File: figures/ch2_ricci2005critique.png Graphic file (type png)
 
 <use figures/ch2_ricci2005critique.png>
@@ -2004,7 +2004,7 @@ Package pdftex.def Info: figures/ch2_ricci2005critique.png used on input line 2
 45.
 (pdftex.def)             Requested size: 292.7776pt x 164.52673pt.
  [21 <./figures/ch2_ricci2005critique.png>] <figures/ch2_lamche2014active_1.png
-, id=729, 503.8825pt x 218.8175pt>
+, id=724, 503.8825pt x 218.8175pt>
 File: figures/ch2_lamche2014active_1.png Graphic file (type png)
 
 <use figures/ch2_lamche2014active_1.png>
@@ -2012,7 +2012,7 @@ Package pdftex.def Info: figures/ch2_lamche2014active_1.png used on input line
 258.
 (pdftex.def)             Requested size: 184.4515pt x 80.09976pt.
 
-<figures/ch2_lamche2014active_2.png, id=731, 430.60875pt x 177.66376pt>
+<figures/ch2_lamche2014active_2.png, id=726, 430.60875pt x 177.66376pt>
 File: figures/ch2_lamche2014active_2.png Graphic file (type png)
 
 <use figures/ch2_lamche2014active_2.png>
@@ -2055,7 +2055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[24] <figures/ch2_food_profile.png, id=769, 614.295pt x 794.97pt>
+[24] <figures/ch2_food_profile.png, id=764, 614.295pt x 794.97pt>
 File: figures/ch2_food_profile.png Graphic file (type png)
 
 <use figures/ch2_food_profile.png>
@@ -2097,7 +2097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[26] <figures/ch2_lee2005context.png, id=787, 263.98625pt x 250.9375pt>
+[26] <figures/ch2_lee2005context.png, id=782, 263.98625pt x 250.9375pt>
 File: figures/ch2_lee2005context.png Graphic file (type png)
 
 <use figures/ch2_lee2005context.png>
@@ -2124,7 +2124,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-<figures/ch3_critique_algo.png, id=814, 442.65375pt x 583.17876pt>
+<figures/ch3_critique_algo.png, id=809, 442.65375pt x 583.17876pt>
 File: figures/ch3_critique_algo.png Graphic file (type png)
 
 <use figures/ch3_critique_algo.png>
@@ -2135,7 +2135,7 @@ Package pdftex.def Info: figures/ch3_critique_algo.png used on input line 152.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30] [31 <./figures/ch3_critique_algo.png>] [32] [33]
-<figures/ch3_explanation_generator.png, id=852, 412.54124pt x 244.915pt>
+<figures/ch3_explanation_generator.png, id=847, 412.54124pt x 244.915pt>
 File: figures/ch3_explanation_generator.png Graphic file (type png)
 
 <use figures/ch3_explanation_generator.png>
@@ -2163,7 +2163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[36] <figures/ch4_use_case_foodforme.png, id=872, 330.23375pt x 292.09125pt>
+[36] <figures/ch4_use_case_foodforme.png, id=866, 330.23375pt x 292.09125pt>
 File: figures/ch4_use_case_foodforme.png Graphic file (type png)
 
 <use figures/ch4_use_case_foodforme.png>
@@ -2205,7 +2205,7 @@ Overfull \hbox (4.08302pt too wide) in paragraph at lines 150--167
  []
 
 [40]
-<figures/ch4_app_screen_shots/main_menu/main_menu_1.png, id=912, 433.62pt x 616
+<figures/ch4_app_screen_shots/main_menu/main_menu_1.png, id=907, 433.62pt x 616
 .3025pt>
 File: figures/ch4_app_screen_shots/main_menu/main_menu_1.png Graphic file (type
  png)
@@ -2214,7 +2214,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/main_menu/main_menu_1.png
  used on input line 182.
 (pdftex.def)             Requested size: 184.4515pt x 262.1649pt.
 
-<figures/ch4_app_screen_shots/main_menu/main_menu_2.png, id=913, 433.62pt x 616
+<figures/ch4_app_screen_shots/main_menu/main_menu_2.png, id=908, 433.62pt x 616
 .3025pt>
 File: figures/ch4_app_screen_shots/main_menu/main_menu_2.png Graphic file (type
  png)
@@ -2227,7 +2227,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/main_menu/main_menu_2.png
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41]
-<figures/ch4_app_screen_shots/recipes/recipes.png, id=921, 433.62pt x 616.3025p
+<figures/ch4_app_screen_shots/recipes/recipes.png, id=916, 433.62pt x 616.3025p
 t>
 File: figures/ch4_app_screen_shots/recipes/recipes.png Graphic file (type png)
  <use figures/ch4_app_screen_shots/recipes/recipes.png>
@@ -2239,7 +2239,7 @@ on input line 201.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<figures/ch4_app_screen_shots/recipe_detail/recipe_detail_1.png, id=923, 433.62
+<figures/ch4_app_screen_shots/recipe_detail/recipe_detail_1.png, id=918, 433.62
 pt x 616.3025pt>
 File: figures/ch4_app_screen_shots/recipe_detail/recipe_detail_1.png Graphic fi
 le (type png)
@@ -2249,7 +2249,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/recipe_detail/recipe_deta
 il_1.png used on input line 211.
 (pdftex.def)             Requested size: 120.45952pt x 171.20934pt.
 
-<figures/ch4_app_screen_shots/recipe_detail/recipe_detail_2.png, id=924, 433.62
+<figures/ch4_app_screen_shots/recipe_detail/recipe_detail_2.png, id=919, 433.62
 pt x 616.3025pt>
 File: figures/ch4_app_screen_shots/recipe_detail/recipe_detail_2.png Graphic fi
 le (type png)
@@ -2259,7 +2259,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/recipe_detail/recipe_deta
 il_2.png used on input line 215.
 (pdftex.def)             Requested size: 120.45952pt x 171.20934pt.
 
-<figures/ch4_app_screen_shots/recipe_detail/recipe_detail_3.png, id=925, 433.62
+<figures/ch4_app_screen_shots/recipe_detail/recipe_detail_3.png, id=920, 433.62
 pt x 616.3025pt>
 File: figures/ch4_app_screen_shots/recipe_detail/recipe_detail_3.png Graphic fi
 le (type png)
@@ -2275,7 +2275,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [43 <./figures/ch4_app_screen_shots/recipes/recipes.png>]
 <figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/rec
-ommended_recipe_explaination_2.png, id=940, 594.22pt x 857.2025pt>
+ommended_recipe_explaination_2.png, id=935, 594.22pt x 857.2025pt>
 File: figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explainatio
 n/recommended_recipe_explaination_2.png Graphic file (type png)
 
@@ -2287,7 +2287,7 @@ _recipe_explaination/recommended_recipe_explaination_2.png used on input line 2
 (pdftex.def)             Requested size: 184.4515pt x 266.08318pt.
 
 <figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explaination/rec
-ommended_recipe_explaination_1.png, id=941, 594.22pt x 857.2025pt>
+ommended_recipe_explaination_1.png, id=936, 594.22pt x 857.2025pt>
 File: figures/ch4_app_screen_shots/recipe_detail/recommended_recipe_explainatio
 n/recommended_recipe_explaination_1.png Graphic file (type png)
 
@@ -2304,7 +2304,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [44 <./figures/ch4_app_screen_shots/recipe_detail/recipe_detail_1.png> <./figur
 es/ch4_app_screen_shots/recipe_detail/recipe_detail_2.png> <./figures/ch4_app_s
 creen_shots/recipe_detail/recipe_detail_3.png>]
-<figures/ch4_app_screen_shots/critique/critique_1.png, id=952, 433.62pt x 616.3
+<figures/ch4_app_screen_shots/critique/critique_1.png, id=947, 433.62pt x 616.3
 025pt>
 File: figures/ch4_app_screen_shots/critique/critique_1.png Graphic file (type p
 ng)
@@ -2313,7 +2313,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/critique/critique_1.png u
 sed on input line 253.
 (pdftex.def)             Requested size: 120.45952pt x 171.20934pt.
 
-<figures/ch4_app_screen_shots/critique/critique_2.png, id=953, 433.62pt x 616.3
+<figures/ch4_app_screen_shots/critique/critique_2.png, id=948, 433.62pt x 616.3
 025pt>
 File: figures/ch4_app_screen_shots/critique/critique_2.png Graphic file (type p
 ng)
@@ -2322,7 +2322,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/critique/critique_2.png u
 sed on input line 257.
 (pdftex.def)             Requested size: 120.45952pt x 171.20934pt.
 
-<figures/ch4_app_screen_shots/critique/critique_4.png, id=954, 433.62pt x 616.3
+<figures/ch4_app_screen_shots/critique/critique_4.png, id=949, 433.62pt x 616.3
 025pt>
 File: figures/ch4_app_screen_shots/critique/critique_4.png Graphic file (type p
 ng)
@@ -2338,7 +2338,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 on/recommended_recipe_explaination_2.png> <./figures/ch4_app_screen_shots/recip
 e_detail/recommended_recipe_explaination/recommended_recipe_explaination_1.png>
 ]
-<figures/ch4_app_screen_shots/preferences/peferences.png, id=963, 433.62pt x 61
+<figures/ch4_app_screen_shots/preferences/peferences.png, id=958, 433.62pt x 61
 6.3025pt>
 File: figures/ch4_app_screen_shots/preferences/peferences.png Graphic file (typ
 e png)
@@ -2347,7 +2347,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/preferences/peferences.pn
 g used on input line 274.
 (pdftex.def)             Requested size: 100.38362pt x 142.66818pt.
 
-<figures/ch4_app_screen_shots/preferences/peferences_course.png, id=964, 433.62
+<figures/ch4_app_screen_shots/preferences/peferences_course.png, id=959, 433.62
 pt x 616.3025pt>
 File: figures/ch4_app_screen_shots/preferences/peferences_course.png Graphic fi
 le (type png)
@@ -2357,7 +2357,7 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/preferences/peferences_co
 urse.png used on input line 279.
 (pdftex.def)             Requested size: 100.38362pt x 142.66818pt.
 
-<figures/ch4_app_screen_shots/preferences/peferences_cooking_time.png, id=965, 
+<figures/ch4_app_screen_shots/preferences/peferences_cooking_time.png, id=960, 
 433.62pt x 616.3025pt>
 File: figures/ch4_app_screen_shots/preferences/peferences_cooking_time.png Grap
 hic file (type png)
@@ -2376,7 +2376,7 @@ _screen_shots/critique/critique_2.png> <./figures/ch4_app_screen_shots/critique
 /critique_4.png> <./figures/ch4_app_screen_shots/preferences/peferences.png> <.
 /figures/ch4_app_screen_shots/preferences/peferences_course.png> <./figures/ch4
 _app_screen_shots/preferences/peferences_cooking_time.png>]
-<figures/ch4_ios_data_model.png, id=978, 769.87625pt x 600.2425pt>
+<figures/ch4_ios_data_model.png, id=973, 769.87625pt x 600.2425pt>
 File: figures/ch4_ios_data_model.png Graphic file (type png)
 
 <use figures/ch4_ios_data_model.png>
@@ -2389,7 +2389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--308
  []
 
 [47 <./figures/ch4_ios_data_model.png>]
-<figures/ch4_architechture_diagram.png, id=987, 509.905pt x 705.63625pt>
+<figures/ch4_architechture_diagram.png, id=982, 509.905pt x 705.63625pt>
 File: figures/ch4_architechture_diagram.png Graphic file (type png)
 
 <use figures/ch4_architechture_diagram.png>
@@ -2397,7 +2397,7 @@ Package pdftex.def Info: figures/ch4_architechture_diagram.png used on input li
 ne 311.
 (pdftex.def)             Requested size: 230.04182pt x 318.35167pt.
 
-<figures/ch4_erd_and_class_dig/ch4_database_model.png, id=988, 1433.355pt x 117
+<figures/ch4_erd_and_class_dig/ch4_database_model.png, id=983, 1433.355pt x 117
 6.395pt>
 File: figures/ch4_erd_and_class_dig/ch4_database_model.png Graphic file (type p
 ng)
@@ -2407,7 +2407,7 @@ sed on input line 321.
 (pdftex.def)             Requested size: 418.25555pt x 343.26396pt.
  [48 <./figures/ch4_architechture_diagram.png>] [49 <./figures/ch4_erd_and_clas
 s_dig/ch4_database_model.png (PNG copy)>]
-<figures/ch4_erd_and_class_dig/ch4_user.png, id=1001, 1140.26pt x 364.36125pt>
+<figures/ch4_erd_and_class_dig/ch4_user.png, id=996, 1140.26pt x 364.36125pt>
 File: figures/ch4_erd_and_class_dig/ch4_user.png Graphic file (type png)
 
 <use figures/ch4_erd_and_class_dig/ch4_user.png>
@@ -2415,8 +2415,8 @@ Package pdftex.def Info: figures/ch4_erd_and_class_dig/ch4_user.png used on inp
 ut line 329.
 (pdftex.def)             Requested size: 418.25555pt x 133.64957pt.
 
-<figures/ch4_erd_and_class_dig/ch4_recipe.png, id=1002, 1815.78375pt x 795.9737
-5pt>
+<figures/ch4_erd_and_class_dig/ch4_recipe.png, id=997, 1815.78375pt x 795.97375
+pt>
 File: figures/ch4_erd_and_class_dig/ch4_recipe.png Graphic file (type png)
  <use figures/ch4_erd_and_class_dig/ch4_recipe.png>
 Package pdftex.def Info: figures/ch4_erd_and_class_dig/ch4_recipe.png used on i
@@ -2424,7 +2424,7 @@ nput line 337.
 (pdftex.def)             Requested size: 418.25555pt x 183.34946pt.
  [50 <./figures/ch4_erd_and_class_dig/ch4_user.png (PNG copy)> <./figures/ch4_e
 rd_and_class_dig/ch4_recipe.png (PNG copy)>]
-<figures/ch4_erd_and_class_dig/ch4_receipe_recommender.png, id=1012, 1815.78375
+<figures/ch4_erd_and_class_dig/ch4_receipe_recommender.png, id=1006, 1815.78375
 pt x 795.97375pt>
 File: figures/ch4_erd_and_class_dig/ch4_receipe_recommender.png Graphic file (t
 ype png)
@@ -2434,7 +2434,7 @@ Package pdftex.def Info: figures/ch4_erd_and_class_dig/ch4_receipe_recommender.
 png used on input line 346.
 (pdftex.def)             Requested size: 418.25555pt x 183.34946pt.
  [51 <./figures/ch4_erd_and_class_dig/ch4_receipe_recommender.png (PNG copy)>]
-<figures/ch4_erd_and_class_dig/ch4_erd.png, id=1019, 852.18375pt x 1220.56pt>
+<figures/ch4_erd_and_class_dig/ch4_erd.png, id=1014, 852.18375pt x 1220.56pt>
 File: figures/ch4_erd_and_class_dig/ch4_erd.png Graphic file (type png)
 
 <use figures/ch4_erd_and_class_dig/ch4_erd.png>
@@ -2446,14 +2446,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-<figures/ch4_facebook_connect.png, id=1026, 620.3175pt x 415.5525pt>
+<figures/ch4_facebook_connect.png, id=1021, 620.3175pt x 415.5525pt>
 File: figures/ch4_facebook_connect.png Graphic file (type png)
 
 <use figures/ch4_facebook_connect.png>
 Package pdftex.def Info: figures/ch4_facebook_connect.png used on input line 37
 2.
 (pdftex.def)             Requested size: 284.4107pt x 190.52238pt.
- [53 <./figures/ch4_facebook_connect.png>] [54]) (./chapters/conclusion.tex [55
+ [53 <./figures/ch4_facebook_connect.png>] [54]) (./chapters/evaluation.tex [55
 ]
 Chapter 5.
 
@@ -2514,14 +2514,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<figures/ch5_stat_age.png, id=1103, 609.27625pt x 174.6525pt>
+<figures/ch5_stat_age.png, id=1098, 609.27625pt x 174.6525pt>
 File: figures/ch5_stat_age.png Graphic file (type png)
 
 <use figures/ch5_stat_age.png>
 Package pdftex.def Info: figures/ch5_stat_age.png used on input line 148.
 (pdftex.def)             Requested size: 169.39119pt x 48.55591pt.
 
-<figures/ch5_stat_profession.png, id=1104, 595.22375pt x 172.645pt>
+<figures/ch5_stat_profession.png, id=1099, 595.22375pt x 172.645pt>
 File: figures/ch5_stat_profession.png Graphic file (type png)
 
 <use figures/ch5_stat_profession.png>
@@ -2529,7 +2529,7 @@ Package pdftex.def Info: figures/ch5_stat_profession.png used on input line 152
 .
 (pdftex.def)             Requested size: 169.39119pt x 49.13057pt.
 
-<figures/ch5_stat_cook.png, id=1105, 634.37pt x 180.675pt>
+<figures/ch5_stat_cook.png, id=1100, 634.37pt x 180.675pt>
 File: figures/ch5_stat_cook.png Graphic file (type png)
 
 <use figures/ch5_stat_cook.png>
@@ -2551,7 +2551,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-<figures/ch5_stat_reciprocity.png, id=1120, 809.0225pt x 177.66376pt>
+<figures/ch5_stat_reciprocity.png, id=1115, 809.0225pt x 177.66376pt>
 File: figures/ch5_stat_reciprocity.png Graphic file (type png)
 
 <use figures/ch5_stat_reciprocity.png>
@@ -2562,14 +2562,14 @@ Package pdftex.def Info: figures/ch5_stat_reciprocity.png used on input line 19
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63] <figures/ch5_stat_scarcity.png, id=1129, 693.59125pt x 211.79124pt>
+[63] <figures/ch5_stat_scarcity.png, id=1124, 693.59125pt x 211.79124pt>
 File: figures/ch5_stat_scarcity.png Graphic file (type png)
 
 <use figures/ch5_stat_scarcity.png>
 Package pdftex.def Info: figures/ch5_stat_scarcity.png used on input line 208.
 (pdftex.def)             Requested size: 418.25555pt x 127.71883pt.
 
-<figures/ch5_stat_authority.png, id=1131, 685.56125pt x 215.80624pt>
+<figures/ch5_stat_authority.png, id=1126, 685.56125pt x 215.80624pt>
 File: figures/ch5_stat_authority.png Graphic file (type png)
 
 <use figures/ch5_stat_authority.png>
@@ -2581,14 +2581,14 @@ Package pdftex.def Info: figures/ch5_stat_authority.png used on input line 219.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [64 <./figures/ch5_stat_reciprocity.png> <./figures/ch5_stat_scarcity.png>]
-<figures/ch5_stat_liking.png, id=1142, 766.865pt x 181.67876pt>
+<figures/ch5_stat_liking.png, id=1137, 766.865pt x 181.67876pt>
 File: figures/ch5_stat_liking.png Graphic file (type png)
 
 <use figures/ch5_stat_liking.png>
 Package pdftex.def Info: figures/ch5_stat_liking.png used on input line 230.
 (pdftex.def)             Requested size: 418.25555pt x 99.08919pt.
 
-<figures/ch5_stat_commitment.png, id=1144, 683.55376pt x 210.7875pt>
+<figures/ch5_stat_commitment.png, id=1139, 683.55376pt x 210.7875pt>
 File: figures/ch5_stat_commitment.png Graphic file (type png)
 
 <use figures/ch5_stat_commitment.png>
@@ -2600,7 +2600,7 @@ Package pdftex.def Info: figures/ch5_stat_commitment.png used on input line 241
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [65 <./figures/ch5_stat_authority.png> <./figures/ch5_stat_liking.png>]
-<figures/ch5_stat_social_proof.png, id=1157, 866.23625pt x 207.77625pt>
+<figures/ch5_stat_social_proof.png, id=1152, 866.23625pt x 207.77625pt>
 File: figures/ch5_stat_social_proof.png Graphic file (type png)
 
 <use figures/ch5_stat_social_proof.png>
@@ -2609,7 +2609,7 @@ Package pdftex.def Info: figures/ch5_stat_social_proof.png used on input line 2
 (pdftex.def)             Requested size: 418.25555pt x 100.32433pt.
  [66 <./figures/ch5_stat_commitment.png> <./figures/ch5_stat_social_proof.png>]
 
-<figures/ch5_stat_transpancy.png, id=1167, 602.25pt x 372.39125pt>
+<figures/ch5_stat_transpancy.png, id=1162, 602.25pt x 372.39125pt>
 File: figures/ch5_stat_transpancy.png Graphic file (type png)
 
 <use figures/ch5_stat_transpancy.png>
@@ -2633,7 +2633,7 @@ LaTeX Warning: Reference `' on page 68 undefined on input line 291.
 
 LaTeX Warning: Reference `' on page 68 undefined on input line 295.
 
-[68] <figures/ch5_stat_context.png, id=1183, 905.3825pt x 146.5475pt>
+[68] <figures/ch5_stat_context.png, id=1178, 905.3825pt x 146.5475pt>
 File: figures/ch5_stat_context.png Graphic file (type png)
 
 <use figures/ch5_stat_context.png>
@@ -2658,7 +2658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--341
  []
 
 
-<figures/ch5_stat_user_preference_recipe_info.png, id=1192, 806.01125pt x 180.6
+<figures/ch5_stat_user_preference_recipe_info.png, id=1187, 806.01125pt x 180.6
 75pt>
 File: figures/ch5_stat_user_preference_recipe_info.png Graphic file (type png)
  <use figures/ch5_stat_user_preference_recipe_info.png>
@@ -2666,7 +2666,7 @@ Package pdftex.def Info: figures/ch5_stat_user_preference_recipe_info.png used
 on input line 351.
 (pdftex.def)             Requested size: 301.1431pt x 67.50208pt.
 
-<figures/ch5_stat_user_preference_recipe_critique.png, id=1193, 757.83125pt x 1
+<figures/ch5_stat_user_preference_recipe_critique.png, id=1188, 757.83125pt x 1
 75.65625pt>
 File: figures/ch5_stat_user_preference_recipe_critique.png Graphic file (type p
 ng)
@@ -2675,7 +2675,7 @@ Package pdftex.def Info: figures/ch5_stat_user_preference_recipe_critique.png u
 sed on input line 355.
 (pdftex.def)             Requested size: 301.1431pt x 69.80292pt.
 
-<figures/ch5_stat_user_preference_recipe_explanation.png, id=1194, 827.09pt x 1
+<figures/ch5_stat_user_preference_recipe_explanation.png, id=1189, 827.09pt x 1
 78.6675pt>
 File: figures/ch5_stat_user_preference_recipe_explanation.png Graphic file (typ
 e png)
@@ -2692,49 +2692,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-[70] [71 <./figures/ch5_stat_user_preference_recipe_info.png> <./figures/ch5_st
-at_user_preference_recipe_critique.png> <./figures/ch5_stat_user_preference_rec
-ipe_explanation.png>]) (./chapters/summary.tex [72]
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
+
+ []
+
+[71 <./figures/ch5_stat_user_preference_recipe_info.png> <./figures/ch5_stat_us
+er_preference_recipe_critique.png> <./figures/ch5_stat_user_preference_recipe_e
+xplanation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+) (./chapters/conclusion.tex [72] [73]
 Chapter 6.
-)
-No file main.gls.
-No file main.acr.
-[73
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[74
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 45
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+)
+No file main.gls.
+No file main.acr.
+[75]
+Package tocbasic Info: character protrusion at lof deactivated on input line 46
 .
- (./main.lof [74
+ (./main.lof [76
 
 
 ])
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [75]
-Package tocbasic Info: character protrusion at lot deactivated on input line 46
+ [77]
+Package tocbasic Info: character protrusion at lot deactivated on input line 47
 .
  (./main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
- [76
+ [78
 
 
-] [77
+] [79
 
 
-] [78] [79]
+] [80] [81]
 No complaints by nag.
-[80]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+[82]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3781212164D4E7C38E804396FCC9786E;5672.
+(rerunfilecheck)             Checksum: BB01281A81BA41D1B8E3974378CE2B8B;5607.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2753,9 +2798,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  41809 strings out of 493117
- 886083 string characters out of 6135433
+ 886091 string characters out of 6135433
  1410083 words of memory out of 5000000
- 43714 multiletter control sequences out of 15000+600000
+ 43713 multiletter control sequences out of 15000+600000
  55941 words of font info for 303 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,83p,2007b,3087s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2764,10 +2809,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (88 pages, 3102171 bytes).
+Output written on main.pdf (90 pages, 3106573 bytes).
 PDF statistics:
- 1397 PDF objects out of 1440 (max. 8388607)
- 1194 compressed objects within 12 object streams
- 379 named destinations out of 1000 (max. 500000)
- 33689 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1400 PDF objects out of 1440 (max. 8388607)
+ 1195 compressed objects within 12 object streams
+ 380 named destinations out of 1000 (max. 500000)
+ 33681 words of extra memory for PDF output out of 35830 (max. 10000000)
 
