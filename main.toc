@@ -234,16 +234,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{69}{subsection.5.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Discussion}{69}{section.5.5}
+\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{69}{section*.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Future Work}{70}{chapter.6}
+\contentsline {subsubsection}{\nonumberline More Attributes}{69}{section*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Summary}{70}{section.6.1}
+\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{70}{section*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Work}{70}{section.6.2}
+\contentsline {subsubsection}{\nonumberline Allow sorting}{70}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{71}{appendix*.91}
+\contentsline {subsection}{\numberline {5.4.9}User Preferences}{70}{subsection.5.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{73}{appendix*.92}
+\contentsline {section}{\numberline {5.5}Discussion}{71}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{74}{appendix*.93}
+\contentsline {chapter}{\numberline {6}Summary and Future Work}{72}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Summary}{72}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Future Work}{72}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{73}{appendix*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{75}{appendix*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{76}{appendix*.98}
