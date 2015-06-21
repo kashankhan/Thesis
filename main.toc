@@ -220,38 +220,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Overall Control}{67}{section*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Scrutability}{68}{section*.87}
+\contentsline {subsubsection}{\nonumberline Scrutability}{68}{section*.88}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.5}Efficiency}{68}{subsection.5.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Cycles}{68}{section*.88}
+\contentsline {subsubsection}{\nonumberline Cycles}{68}{section*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Perceived Efficiency}{68}{section*.89}
+\contentsline {subsubsection}{\nonumberline Perceived Efficiency}{69}{section*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.6}Perceived Satisfaction}{68}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.6}Perceived Satisfaction}{69}{subsection.5.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.7}Perceived Context}{68}{subsection.5.4.7}
+\contentsline {subsection}{\numberline {5.4.7}Perceived Context}{70}{subsection.5.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{69}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{70}{subsection.5.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{69}{section*.91}
+\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{71}{section*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline More Attributes}{69}{section*.92}
+\contentsline {subsubsection}{\nonumberline More Attributes}{72}{section*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{70}{section*.93}
+\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{72}{section*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Allow sorting}{70}{section*.94}
+\contentsline {subsubsection}{\nonumberline Allow sorting}{73}{section*.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.9}User Preferences}{70}{subsection.5.4.9}
+\contentsline {subsection}{\numberline {5.4.9}User Preferences}{73}{subsection.5.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Discussion}{71}{section.5.5}
+\contentsline {section}{\numberline {5.5}Discussion}{73}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{74}{chapter.6}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{76}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Future Work}{74}{section.6.1}
+\contentsline {section}{\numberline {6.1}Future Work}{76}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{76}{appendix*.96}
+\contentsline {chapter}{\nonumberline List of Figures}{78}{appendix*.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{78}{appendix*.97}
+\contentsline {chapter}{\nonumberline List of Tables}{80}{appendix*.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{79}{appendix*.98}
+\contentsline {chapter}{\nonumberline Bibliography}{81}{appendix*.103}
