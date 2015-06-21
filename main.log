@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  21 JUN 2015 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  21 JUN 2015 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1727,6 +1727,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
 ) [4
 
 
@@ -2106,13 +2111,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[26] <figures/ch2_lee2005context.png, id=782, 263.98625pt x 250.9375pt>
+[26] <figures/ch2_lee2005context.png, id=782, 466.74374pt x 449.68pt>
 File: figures/ch2_lee2005context.png Graphic file (type png)
 
 <use figures/ch2_lee2005context.png>
 Package pdftex.def Info: figures/ch2_lee2005context.png used on input line 111.
 
-(pdftex.def)             Requested size: 230.04182pt x 218.66994pt.
+(pdftex.def)             Requested size: 230.04182pt x 221.63509pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
@@ -2144,13 +2149,13 @@ Package pdftex.def Info: figures/ch3_critique_algo.png used on input line 152.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30] [31 <./figures/ch3_critique_algo.png>] [32] [33]
-<figures/ch3_explanation_generator.png, id=847, 412.54124pt x 244.915pt>
+<figures/ch3_explanation_generator.png, id=847, 980.66376pt x 574.145pt>
 File: figures/ch3_explanation_generator.png Graphic file (type png)
 
 <use figures/ch3_explanation_generator.png>
 Package pdftex.def Info: figures/ch3_explanation_generator.png used on input li
 ne 195.
-(pdftex.def)             Requested size: 334.60571pt x 198.64911pt.
+(pdftex.def)             Requested size: 334.60571pt x 195.89882pt.
 ) (./chapters/system_design.tex
 [34 <./figures/ch3_explanation_generator.png>]
 Chapter 4.
@@ -2172,13 +2177,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[36] <figures/ch4_use_case_foodforme.png, id=866, 330.23375pt x 292.09125pt>
+[36] <figures/ch4_use_case_foodforme.png, id=866, 754.82pt x 664.4825pt>
 File: figures/ch4_use_case_foodforme.png Graphic file (type png)
 
 <use figures/ch4_use_case_foodforme.png>
 Package pdftex.def Info: figures/ch4_use_case_foodforme.png used on input line 
 44.
-(pdftex.def)             Requested size: 209.12778pt x 184.97668pt.
+(pdftex.def)             Requested size: 209.12778pt x 184.09697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2861,7 +2866,7 @@ xlive/2014/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (93 pages, 3183394 bytes).
+Output written on main.pdf (93 pages, 3326261 bytes).
 PDF statistics:
  1444 PDF objects out of 1728 (max. 8388607)
  1224 compressed objects within 13 object streams
