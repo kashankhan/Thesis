@@ -250,8 +250,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Future Work}{77}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{79}{appendix*.101}
+\contentsline {chapter}{\numberline {A}Appendix}{79}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{81}{appendix*.102}
+\contentsline {chapter}{\nonumberline List of Figures}{80}{appendix*.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{82}{appendix*.103}
+\contentsline {chapter}{\nonumberline List of Tables}{82}{appendix*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{83}{appendix*.103}

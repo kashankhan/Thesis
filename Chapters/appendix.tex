@@ -1,0 +1,23 @@
+\chapter{Appendix}
+
+\begin{algorithm}
+	\caption{PSO}
+	\label{pseudoPSO}
+	\begin{algorithmic}[1]
+		\State Initialize a population of particles with random values positions
+		and velocities from \textit{D} dimensions in the search space
+		\While{Termination condition not reached}
+		\For{Each particle $i$}
+		\State Adapt velocity of the particle using Equation \ref{eq:1}
+		\State Update the position of the particle using Equation \ref{eq:2}
+		\State Evaluate the fitness {$f(\overrightarrow{X}_i)$}
+		\If{$f(\overrightarrow{X}_i)<f(\overrightarrow{P}_i)$}
+		\State $\overrightarrow{P}_i \gets \overrightarrow{X}_i$
+		\EndIf
+		\If{$f(\overrightarrow{X}_i)<f(\overrightarrow{P}_g)$}
+		\State $\overrightarrow{P}_g \gets \overrightarrow{X}_i$
+		\EndIf
+		\EndFor
+		\EndWhile
+	\end{algorithmic}
+\end{algorithm}
