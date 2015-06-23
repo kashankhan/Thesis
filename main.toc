@@ -14,246 +14,246 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Outline}{4}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Background and Related Work}{6}{chapter.2}
+\contentsline {chapter}{\numberline {2}Background and Related Work}{5}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Definitions}{6}{section.2.1}
+\contentsline {section}{\numberline {2.1}Definitions}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Recommender System}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Recommender System}{5}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Content-based filtering}{7}{section*.3}
+\contentsline {subsubsection}{\nonumberline Content-based filtering}{6}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Collaborative-based}{7}{section*.4}
+\contentsline {subsubsection}{\nonumberline Collaborative-based}{6}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Demographic}{7}{section*.5}
+\contentsline {subsubsection}{\nonumberline Demographic}{6}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Knowledge-based}{7}{section*.6}
+\contentsline {subsubsection}{\nonumberline Knowledge-based}{6}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Community-based}{7}{section*.7}
+\contentsline {subsubsection}{\nonumberline Community-based}{6}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Hybrid Recommender Systems}{8}{section*.8}
+\contentsline {subsubsection}{\nonumberline Hybrid Recommender Systems}{7}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Contexts}{8}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Contexts}{7}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Representing and Modeling Context}{10}{section*.10}
+\contentsline {subsubsection}{\nonumberline Representing and Modeling Context}{9}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Paradigms for Using Contextual Information}{10}{section*.11}
+\contentsline {subsubsection}{\nonumberline Paradigms for Using Contextual Information}{9}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}User Profiling}{11}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}User Profiling}{10}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Explicit Profiling}{12}{section*.13}
+\contentsline {subsubsection}{\nonumberline Explicit Profiling}{11}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Implict Profiling}{12}{section*.14}
+\contentsline {subsubsection}{\nonumberline Implict Profiling}{11}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Conversation-based Critiquing Recommenders}{13}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.4}Conversation-based Critiquing Recommenders}{12}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Active Learning}{13}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.5}Active Learning}{12}{subsection.2.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Instance-based Methods}{14}{section*.16}
+\contentsline {subsubsection}{\nonumberline Instance-based Methods}{13}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Model-based Methods}{14}{section*.17}
+\contentsline {subsubsection}{\nonumberline Model-based Methods}{13}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Modes of Active Learning: Batch and Sequential}{14}{section*.18}
+\contentsline {subsubsection}{\nonumberline Modes of Active Learning: Batch and Sequential}{13}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}Persuasive Recommedations}{15}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.6}Persuasive Recommedations}{14}{subsection.2.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Persuasion factors}{15}{section*.19}
+\contentsline {subsubsection}{\nonumberline Persuasion factors}{14}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Explanations in Recommender Systems}{16}{section*.21}
+\contentsline {subsubsection}{\nonumberline Explanations in Recommender Systems}{15}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.7}Mobile Recommender Systems}{17}{subsection.2.1.7}
+\contentsline {subsection}{\numberline {2.1.7}Mobile Recommender Systems}{16}{subsection.2.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline General Issues}{18}{section*.22}
+\contentsline {subsubsection}{\nonumberline General Issues}{17}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Related Work}{18}{section.2.2}
+\contentsline {section}{\numberline {2.2}Related Work}{17}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}User's Food Preference Extraction for Personalised Cooking Recipe Recommendation}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}User's Food Preference Extraction for Personalised Cooking Recipe Recommendation}{17}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Knowledge Base Framework for Development of Personalised Food Recommendation System}{19}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Knowledge Base Framework for Development of Personalised Food Recommendation System}{18}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Recommending Food: Reasoning on Recipes and Ingredients}{20}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Recommending Food: Reasoning on Recipes and Ingredients}{19}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Recipe recommendation using ingredient networks}{20}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Recipe recommendation using ingredient networks}{19}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Critique-Based Mobile Recommender Systems}{21}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Critique-Based Mobile Recommender Systems}{20}{subsection.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}{21}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.6}Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}{20}{subsection.2.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.7}The Persuasive role of Explanations in Recommender Systems}{22}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.7}The Persuasive role of Explanations in Recommender Systems}{21}{subsection.2.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Design Decisions}{23}{chapter.3}
+\contentsline {chapter}{\numberline {3}Design Decisions}{22}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}User Profile}{23}{section.3.1}
+\contentsline {section}{\numberline {3.1}User Profile}{22}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Food Profile}{24}{section.3.2}
+\contentsline {section}{\numberline {3.2}Food Profile}{23}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Assumption}{26}{section*.29}
+\contentsline {subsubsection}{\nonumberline Assumption}{25}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline BigOven API}{26}{section*.30}
+\contentsline {subsubsection}{\nonumberline BigOven API}{25}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Contexts}{27}{section.3.3}
+\contentsline {section}{\numberline {3.3}Contexts}{26}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}User Context}{28}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}User Context}{27}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User's Health Context}{28}{section*.34}
+\contentsline {subsubsection}{\nonumberline User's Health Context}{27}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Accessibility Context}{29}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Accessibility Context}{28}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Device Context}{29}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Device Context}{28}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Critiquing}{29}{section.3.4}
+\contentsline {section}{\numberline {3.4}Critiquing}{28}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Persuasion}{31}{section.3.5}
+\contentsline {section}{\numberline {3.5}Persuasion}{30}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Visualization or Presentation}{32}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Visualization or Presentation}{31}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Explaination}{32}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.2}Explaination}{31}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}System Design and Implementation}{35}{chapter.4}
+\contentsline {chapter}{\numberline {4}System Design and Implementation}{34}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Overview}{35}{section.4.1}
+\contentsline {section}{\numberline {4.1}Overview}{34}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Requirment elicitation}{35}{section.4.2}
+\contentsline {section}{\numberline {4.2}Requirment elicitation}{34}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Functional Requirments}{36}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Functional Requirments}{35}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Non Requirments}{37}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Non Requirments}{36}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Use-Cases}{37}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Use-Cases}{36}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}User interface}{41}{section.4.3}
+\contentsline {section}{\numberline {4.3}User interface}{40}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Main Menu}{41}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Main Menu}{40}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Popular/Recommended Recipes}{42}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Popular/Recommended Recipes}{41}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Recipe Detail}{43}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Recipe Detail}{42}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Recipe's Explanation}{44}{section*.46}
+\contentsline {subsubsection}{\nonumberline Recipe's Explanation}{43}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Recipe critiquing}{44}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Recipe critiquing}{43}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Preferences}{46}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Preferences}{45}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.6}Core Data Model}{47}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Core Data Model}{46}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}System Architecture}{48}{section.4.4}
+\contentsline {section}{\numberline {4.4}System Architecture}{47}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Class Drigram}{49}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Class Drigram}{48}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Server Data model}{49}{section*.52}
+\contentsline {subsubsection}{\nonumberline Server Data model}{48}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Profiling Module}{50}{section*.54}
+\contentsline {subsubsection}{\nonumberline User Profiling Module}{49}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Recipe Module}{50}{section*.56}
+\contentsline {subsubsection}{\nonumberline Recipe Module}{49}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Recipe Recommendation Module}{51}{section*.58}
+\contentsline {subsubsection}{\nonumberline Recipe Recommendation Module}{50}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}ERD}{52}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}ERD}{51}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Authentication and User Data Authorization}{53}{section.4.5}
+\contentsline {section}{\numberline {4.5}Authentication and User Data Authorization}{52}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Facebook}{53}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Facebook}{52}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}System Services}{54}{section.4.6}
+\contentsline {section}{\numberline {4.6}System Services}{53}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Profiling Service}{54}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.1}Profiling Service}{53}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.2}Recipe Service}{54}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.2}Recipe Service}{53}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Databank Service}{54}{section*.62}
+\contentsline {subsubsection}{\nonumberline Databank Service}{53}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Critiquing Service}{54}{section*.63}
+\contentsline {subsubsection}{\nonumberline Critiquing Service}{53}{section*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.3}Recommendation Service}{55}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.3}Recommendation Service}{54}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{56}{chapter.5}
+\contentsline {chapter}{\numberline {5}Evaluation}{55}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Motivation and Goals}{56}{section.5.1}
+\contentsline {section}{\numberline {5.1}Motivation and Goals}{55}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Data set Generation}{57}{section.5.2}
+\contentsline {section}{\numberline {5.2}Data set Generation}{56}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Setup}{57}{section.5.3}
+\contentsline {section}{\numberline {5.3}Setup}{56}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Test Hardware}{58}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Test Hardware}{57}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Variants}{58}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Variants}{57}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Testing Framework}{58}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Testing Framework}{57}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Persuasion\IeC {\textquoteright }s Principle}{58}{section*.64}
+\contentsline {subsubsection}{\nonumberline Persuasion\IeC {\textquoteright }s Principle}{57}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Transparency}{59}{section*.65}
+\contentsline {subsubsection}{\nonumberline Transparency}{58}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Control}{59}{section*.66}
+\contentsline {subsubsection}{\nonumberline User Control}{58}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Efficiency}{60}{section*.67}
+\contentsline {subsubsection}{\nonumberline Efficiency}{59}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Satisfaction}{60}{section*.68}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{59}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Context}{61}{section*.69}
+\contentsline {subsubsection}{\nonumberline Context}{60}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline UserDemographic}{61}{section*.70}
+\contentsline {subsubsection}{\nonumberline UserDemographic}{60}{section*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Testing Procedure}{61}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.4}Testing Procedure}{60}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Results}{62}{section.5.4}
+\contentsline {section}{\numberline {5.4}Results}{61}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Participants}{62}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.1}Participants}{61}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Perceived Persuasion}{63}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Perceived Persuasion}{62}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Reciprocity}{63}{section*.73}
+\contentsline {subsubsection}{\nonumberline Reciprocity}{62}{section*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Scarcity}{64}{section*.75}
+\contentsline {subsubsection}{\nonumberline Scarcity}{63}{section*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Authority}{64}{section*.77}
+\contentsline {subsubsection}{\nonumberline Authority}{63}{section*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Liking}{65}{section*.79}
+\contentsline {subsubsection}{\nonumberline Liking}{64}{section*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Commitment}{65}{section*.81}
+\contentsline {subsubsection}{\nonumberline Commitment}{64}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Social Proof}{66}{section*.83}
+\contentsline {subsubsection}{\nonumberline Social Proof}{65}{section*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Perceived Transparency}{66}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.3}Perceived Transparency}{65}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Perceived User Control}{67}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.4}Perceived User Control}{66}{subsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Overall Control}{67}{section*.86}
+\contentsline {subsubsection}{\nonumberline Overall Control}{66}{section*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Scrutability}{68}{section*.88}
+\contentsline {subsubsection}{\nonumberline Scrutability}{67}{section*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Efficiency}{69}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.5}Efficiency}{68}{subsection.5.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Cycles}{69}{section*.90}
+\contentsline {subsubsection}{\nonumberline Cycles}{68}{section*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Perceived Efficiency}{70}{section*.92}
+\contentsline {subsubsection}{\nonumberline Perceived Efficiency}{69}{section*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.6}Perceived Satisfaction}{71}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.6}Perceived Satisfaction}{70}{subsection.5.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.7}Perceived Context}{72}{subsection.5.4.7}
+\contentsline {subsection}{\numberline {5.4.7}Perceived Context}{71}{subsection.5.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{73}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{72}{subsection.5.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{73}{section*.96}
+\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{72}{section*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline More Attributes}{73}{section*.97}
+\contentsline {subsubsection}{\nonumberline More Attributes}{72}{section*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{74}{section*.98}
+\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{73}{section*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Allow sorting}{74}{section*.99}
+\contentsline {subsubsection}{\nonumberline Allow sorting}{73}{section*.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.9}User Preferences}{74}{subsection.5.4.9}
+\contentsline {subsection}{\numberline {5.4.9}User Preferences}{73}{subsection.5.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Discussion}{74}{section.5.5}
+\contentsline {section}{\numberline {5.5}Discussion}{73}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{77}{chapter.6}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{76}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Future Work}{77}{section.6.1}
+\contentsline {section}{\numberline {6.1}Future Work}{76}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{79}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{78}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{80}{appendix*.101}
+\contentsline {chapter}{\nonumberline List of Figures}{79}{appendix*.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{82}{appendix*.102}
+\contentsline {chapter}{\nonumberline List of Tables}{81}{appendix*.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{83}{appendix*.103}
+\contentsline {chapter}{\nonumberline Bibliography}{82}{appendix*.103}

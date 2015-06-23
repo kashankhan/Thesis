@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12228 items from 5000.
+Reallocated field_info (elt_size=4) to 12367 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography/literature.bib
 Repeated entry---line 343 of file bibliography/literature.bib
@@ -42,45 +42,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Too many commas in name 2 of "Institute of Electrical and Electronics Engineers, Inc., 3 Park Avenue, 17 th Fl New York NY 10016-5997 USA" for entry ko2010social
 while executing---line 2659 of file biblatex.bst
-You've used 51 entries,
+You've used 52 entries,
             6047 wiz_defined-function locations,
-            1396 strings with 16700 characters,
-and the built_in function-call counts, 180110 in all, are:
-= -- 7423
-> -- 6738
-< -- 2114
-+ -- 2355
-- -- 2531
-* -- 13989
-:= -- 10673
+            1401 strings with 16890 characters,
+and the built_in function-call counts, 182581 in all, are:
+= -- 7506
+> -- 6816
+< -- 2138
++ -- 2370
+- -- 2555
+* -- 14142
+:= -- 10809
 add.period$ -- 0
-call.type$ -- 51
-change.case$ -- 1116
+call.type$ -- 52
+change.case$ -- 1124
 chr.to.int$ -- 34
-cite$ -- 100
-duplicate$ -- 19590
-empty$ -- 17675
-format.name$ -- 3915
-if$ -- 41428
+cite$ -- 102
+duplicate$ -- 19889
+empty$ -- 17964
+format.name$ -- 3963
+if$ -- 41999
 int.to.chr$ -- 0
-int.to.str$ -- 151
+int.to.str$ -- 153
 missing$ -- 0
-newline$ -- 1388
-num.names$ -- 2806
-pop$ -- 16094
+newline$ -- 1404
+num.names$ -- 2847
+pop$ -- 16415
 preamble$ -- 1
-purify$ -- 1303
+purify$ -- 1312
 quote$ -- 0
-skip$ -- 11236
+skip$ -- 11393
 stack$ -- 0
-substring$ -- 4840
-swap$ -- 6668
-text.length$ -- 1597
-text.prefix$ -- 50
+substring$ -- 4852
+swap$ -- 6756
+text.length$ -- 1621
+text.prefix$ -- 51
 top$ -- 1
-type$ -- 1926
+type$ -- 1964
 warning$ -- 0
-while$ -- 981
+while$ -- 997
 width$ -- 0
-write$ -- 1336
+write$ -- 1351
 (There were 6 error messages)

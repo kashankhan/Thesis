@@ -397,6 +397,22 @@
   \field{year}{2000}
 \endentry
 
+\entry{shawnhessinger2014mobiletraffic}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hessinger}{H.}%
+     {Shawn}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HS1}
+  \strng{fullhash}{HS1}
+  \field{sortinit}{H}
+  \field{howpublished}{\url{http://smallbiztrends.com/2014/07/online-traffic-report-mobile.html}}
+  \field{note}{Accessed Jul 8, 2014}
+  \field{title}{60 Percent of Online Traffic Now Comes From Mobile}
+\endentry
+
 \entry{kaptein2012adaptive}{article}{}
   \name{author}{4}{}{%
     {{}%
