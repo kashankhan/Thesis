@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  25 JUN 2015 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.24)  25 JUN 2015 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2373,12 +2373,12 @@ Package pdftex.def Info: figures/ch4_app_screen_shots/critique/critique_2.png u
 sed on input line 257.
 (pdftex.def)             Requested size: 120.45952pt x 171.20934pt.
 
-<figures/ch4_app_screen_shots/critique/critique_4.png, id=938, 433.62pt x 616.3
+<figures/ch4_app_screen_shots/critique/critique_3.png, id=938, 433.62pt x 616.3
 025pt>
-File: figures/ch4_app_screen_shots/critique/critique_4.png Graphic file (type p
+File: figures/ch4_app_screen_shots/critique/critique_3.png Graphic file (type p
 ng)
- <use figures/ch4_app_screen_shots/critique/critique_4.png>
-Package pdftex.def Info: figures/ch4_app_screen_shots/critique/critique_4.png u
+ <use figures/ch4_app_screen_shots/critique/critique_3.png>
+Package pdftex.def Info: figures/ch4_app_screen_shots/critique/critique_3.png u
 sed on input line 261.
 (pdftex.def)             Requested size: 120.45952pt x 171.20934pt.
 
@@ -2424,7 +2424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
 [46 <./figures/ch4_app_screen_shots/critique/critique_1.png> <./figures/ch4_app
 _screen_shots/critique/critique_2.png> <./figures/ch4_app_screen_shots/critique
-/critique_4.png> <./figures/ch4_app_screen_shots/preferences/peferences.png> <.
+/critique_3.png> <./figures/ch4_app_screen_shots/preferences/peferences.png> <.
 /figures/ch4_app_screen_shots/preferences/peferences_course.png> <./figures/ch4
 _app_screen_shots/preferences/peferences_cooking_time.png>]
 <figures/ch4_ios_data_model.png, id=962, 769.87625pt x 600.2425pt>
@@ -2852,7 +2852,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (94 pages, 3369919 bytes).
+Output written on main.pdf (94 pages, 3613179 bytes).
 PDF statistics:
  1454 PDF objects out of 1728 (max. 8388607)
  1230 compressed objects within 13 object streams
