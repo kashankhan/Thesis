@@ -1,77 +1,84 @@
 \BOOKMARK [0][-]{Doc-Start}{Acknowledgments}{}% 1
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Goals}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{Outline}{chapter.1}% 6
-\BOOKMARK [0][-]{chapter.2}{Background and Related Work}{}% 7
-\BOOKMARK [1][-]{section.2.1}{Definitions}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.1.1}{Recommender System}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.2}{Contexts}{section.2.1}% 10
-\BOOKMARK [2][-]{subsection.2.1.3}{User Profiling}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.4}{Conversation-based Critiquing Recommenders}{section.2.1}% 12
-\BOOKMARK [2][-]{subsection.2.1.5}{Active Learning}{section.2.1}% 13
-\BOOKMARK [2][-]{subsection.2.1.6}{Persuasive Recommedations}{section.2.1}% 14
-\BOOKMARK [2][-]{subsection.2.1.7}{Mobile Recommender Systems}{section.2.1}% 15
-\BOOKMARK [1][-]{section.2.2}{Related Work}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.1}{Food Recommender Systems}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.2}{Critique-Based Recommender Systems}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.3}{Persuasive Recommender Systems}{section.2.2}% 19
-\BOOKMARK [0][-]{chapter.3}{Design Decisions}{}% 20
-\BOOKMARK [1][-]{section.3.1}{User Profile}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.2}{Food Profile}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.3}{Contexts}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.1}{User Context}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.2}{Accessibility Context}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.3}{Device Context}{section.3.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Critiquing}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.5}{Persuasion}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.5.1}{Visualization or Presentation}{section.3.5}% 29
-\BOOKMARK [2][-]{subsection.3.5.2}{Explaination}{section.3.5}% 30
-\BOOKMARK [0][-]{chapter.4}{System Design and Implementation}{}% 31
-\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{Requirment elicitation}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.2.1}{Functional Requirments}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.2}{Non Requirments}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.3}{Use-Cases}{section.4.2}% 36
-\BOOKMARK [1][-]{section.4.3}{User interface}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.3.1}{Main Menu}{section.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.3.2}{Popular/Recommended Recipes}{section.4.3}% 39
-\BOOKMARK [2][-]{subsection.4.3.3}{Recipe Detail}{section.4.3}% 40
-\BOOKMARK [2][-]{subsection.4.3.4}{Recipe critiquing}{section.4.3}% 41
-\BOOKMARK [2][-]{subsection.4.3.5}{Preferences}{section.4.3}% 42
-\BOOKMARK [2][-]{subsection.4.3.6}{Core Data Model}{section.4.3}% 43
-\BOOKMARK [1][-]{section.4.4}{System Architecture}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.4.1}{Class Drigram}{section.4.4}% 45
-\BOOKMARK [2][-]{subsection.4.4.2}{ERD}{section.4.4}% 46
-\BOOKMARK [1][-]{section.4.5}{Authentication and User Data Authorization}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.5.1}{Facebook}{section.4.5}% 48
-\BOOKMARK [1][-]{section.4.6}{System Services}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.6.1}{Profiling Service}{section.4.6}% 50
-\BOOKMARK [2][-]{subsection.4.6.2}{Recipe Service}{section.4.6}% 51
-\BOOKMARK [2][-]{subsection.4.6.3}{Recommendation Service}{section.4.6}% 52
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 53
-\BOOKMARK [1][-]{section.5.1}{Motivation and Goals}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.2}{Data set Generation}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.3}{Setup}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.3.1}{Test Hardware}{section.5.3}% 57
-\BOOKMARK [2][-]{subsection.5.3.2}{Variants}{section.5.3}% 58
-\BOOKMARK [2][-]{subsection.5.3.3}{Testing Framework}{section.5.3}% 59
-\BOOKMARK [2][-]{subsection.5.3.4}{Testing Procedure}{section.5.3}% 60
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 61
-\BOOKMARK [2][-]{subsection.5.4.1}{Participants}{section.5.4}% 62
-\BOOKMARK [2][-]{subsection.5.4.2}{Perceived Persuasion}{section.5.4}% 63
-\BOOKMARK [2][-]{subsection.5.4.3}{Perceived Transparency}{section.5.4}% 64
-\BOOKMARK [2][-]{subsection.5.4.4}{Perceived User Control}{section.5.4}% 65
-\BOOKMARK [2][-]{subsection.5.4.5}{Efficiency}{section.5.4}% 66
-\BOOKMARK [2][-]{subsection.5.4.6}{Perceived Satisfaction}{section.5.4}% 67
-\BOOKMARK [2][-]{subsection.5.4.7}{Perceived Context}{section.5.4}% 68
-\BOOKMARK [2][-]{subsection.5.4.8}{Informal Feedback}{section.5.4}% 69
-\BOOKMARK [2][-]{subsection.5.4.9}{User Preferences}{section.5.4}% 70
-\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 71
-\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 72
-\BOOKMARK [1][-]{section.6.1}{Future Work}{chapter.6}% 73
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 74
-\BOOKMARK [0][-]{appendix*.101}{List of Figures}{}% 75
-\BOOKMARK [0][-]{appendix*.102}{List of Tables}{}% 76
-\BOOKMARK [0][-]{appendix*.103}{Bibliography}{}% 77
+\BOOKMARK [-1][-]{part.1}{Introduction and Theoretical Background}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 4
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Goals}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Outline}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Background and Related Work}{part.1}% 8
+\BOOKMARK [1][-]{section.2.1}{Definitions}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Recommender System}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Contexts}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.3}{User Profiling}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.4}{Conversation-based Critiquing Recommenders}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.5}{Active Learning}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.6}{Persuasive Recommedations}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.7}{Mobile Recommender Systems}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Related Work}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Food Recommender Systems}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Critique-Based Recommender Systems}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Persuasive Recommender Systems}{section.2.2}% 20
+\BOOKMARK [-1][-]{part.2}{System Design and Developement}{}% 21
+\BOOKMARK [0][-]{chapter.3}{Design Decisions}{part.2}% 22
+\BOOKMARK [1][-]{section.3.1}{User Profile}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Food Profile}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Contexts}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{User Context}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Accessibility Context}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.3}{Device Context}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Critiquing}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.5}{Persuasion}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.5.1}{Visualization or Presentation}{section.3.5}% 31
+\BOOKMARK [2][-]{subsection.3.5.2}{Explaination}{section.3.5}% 32
+\BOOKMARK [0][-]{chapter.4}{System Design and Implementation}{part.2}% 33
+\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Requirment elicitation}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.2.1}{Functional Requirments}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.2}{Non Requirments}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.3}{Use-Cases}{section.4.2}% 38
+\BOOKMARK [1][-]{section.4.3}{User interface}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.3.1}{Main Menu}{section.4.3}% 40
+\BOOKMARK [2][-]{subsection.4.3.2}{Popular/Recommended Recipes}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.3}{Recipe Detail}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.4}{Recipe critiquing}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.5}{Preferences}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.6}{Core Data Model}{section.4.3}% 45
+\BOOKMARK [1][-]{section.4.4}{System Architecture}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.1}{Class Drigram}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.2}{ERD}{section.4.4}% 48
+\BOOKMARK [1][-]{section.4.5}{Authentication and User Data Authorization}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.5.1}{Facebook}{section.4.5}% 50
+\BOOKMARK [1][-]{section.4.6}{System Services}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.6.1}{Profiling Service}{section.4.6}% 52
+\BOOKMARK [2][-]{subsection.4.6.2}{Recipe Service}{section.4.6}% 53
+\BOOKMARK [2][-]{subsection.4.6.3}{Recommendation Service}{section.4.6}% 54
+\BOOKMARK [-1][-]{part.3}{Evaluation and Conclusion}{}% 55
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{part.3}% 56
+\BOOKMARK [1][-]{section.5.1}{Motivation and Goals}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.2}{Data set Generation}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.3}{Setup}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.3.1}{Test Hardware}{section.5.3}% 60
+\BOOKMARK [2][-]{subsection.5.3.2}{Variants}{section.5.3}% 61
+\BOOKMARK [2][-]{subsection.5.3.3}{Testing Framework}{section.5.3}% 62
+\BOOKMARK [2][-]{subsection.5.3.4}{Testing Procedure}{section.5.3}% 63
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.4.1}{Participants}{section.5.4}% 65
+\BOOKMARK [2][-]{subsection.5.4.2}{Perceived Persuasion}{section.5.4}% 66
+\BOOKMARK [2][-]{subsection.5.4.3}{Perceived Transparency}{section.5.4}% 67
+\BOOKMARK [2][-]{subsection.5.4.4}{Perceived User Control}{section.5.4}% 68
+\BOOKMARK [2][-]{subsection.5.4.5}{Efficiency}{section.5.4}% 69
+\BOOKMARK [2][-]{subsection.5.4.6}{Perceived Satisfaction}{section.5.4}% 70
+\BOOKMARK [2][-]{subsection.5.4.7}{Perceived Context}{section.5.4}% 71
+\BOOKMARK [2][-]{subsection.5.4.8}{Informal Feedback}{section.5.4}% 72
+\BOOKMARK [2][-]{subsection.5.4.9}{User Preferences}{section.5.4}% 73
+\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 74
+\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{part.3}% 75
+\BOOKMARK [1][-]{section.6.1}{Future Work}{chapter.6}% 76
+\BOOKMARK [-1][-]{part.4}{Appendix}{}% 77
+\BOOKMARK [0][-]{appendix.A}{User Study Survey}{part.4}% 78
+\BOOKMARK [1][-]{section.A.1}{Demographic Questions}{appendix.A}% 79
+\BOOKMARK [1][-]{section.A.2}{Testing Framework}{appendix.A}% 80
+\BOOKMARK [2][-]{subsection.A.2.1}{Likert Scale Statements}{section.A.2}% 81
+\BOOKMARK [0][-]{appendix*.101}{List of Figures}{part.4}% 82
+\BOOKMARK [0][-]{appendix*.102}{List of Tables}{part.4}% 83
+\BOOKMARK [0][-]{appendix*.103}{Bibliography}{part.4}% 84
