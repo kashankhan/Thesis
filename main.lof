@@ -26,75 +26,75 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Attributes in Food Profile\relax }}{24}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Attributes in Food Profile\relax }}{25}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Context hierarchy of the Mobile Web.\relax }}{26}{figure.caption.33}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Context hierarchy of the Mobile Web.\relax }}{27}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces FoodForMe Critiquing Algorithm.\relax }}{30}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces FoodForMe Critiquing Algorithm.\relax }}{31}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Generation of recommendation explanations.\relax }}{33}{figure.caption.36}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces FoodForMe use case diagram\relax }}{37}{figure.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces FoodForMe Main Menu\relax }}{41}{figure.caption.43}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces FoodForMe Recipes List\relax }}{42}{figure.caption.44}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces FoodForMe Recipe Detail\relax }}{43}{figure.caption.45}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces FoodForMe Recipe Explanation\relax }}{44}{figure.caption.47}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces FoodForMe Recipe Detail\relax }}{45}{figure.caption.48}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces FoodForMe Recipe Detail\relax }}{45}{figure.caption.49}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces FoodForMe iOS Data Model\relax }}{46}{figure.caption.50}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces FoodForMe: Overview of Server application Architecture\relax }}{47}{figure.caption.51}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces FoodForMe Server Data model\relax }}{48}{figure.caption.53}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces FoodForMe Server User Profiling Module\relax }}{49}{figure.caption.55}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces FoodForMe Server Recipe Profiling Module\relax }}{49}{figure.caption.57}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces FoodForMe Server Recommendation Module\relax }}{50}{figure.caption.59}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces FoodForMe Server ERD\relax }}{51}{figure.caption.60}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.15}{\ignorespaces Facebook Connect\relax }}{52}{figure.caption.61}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Generation of recommendation explanations.\relax }}{34}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Participants Demographic Info\relax }}{61}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces FoodForMe use case diagram\relax }}{38}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces FoodForMe Main Menu\relax }}{42}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces FoodForMe Recipes List\relax }}{43}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces FoodForMe Recipe Detail\relax }}{44}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces FoodForMe Recipe Explanation\relax }}{45}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces FoodForMe Recipe Detail\relax }}{46}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces FoodForMe Recipe Detail\relax }}{46}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces FoodForMe iOS Data Model\relax }}{47}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces FoodForMe: Overview of Server application Architecture\relax }}{48}{figure.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces FoodForMe Server Data model\relax }}{49}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces FoodForMe Server User Profiling Module\relax }}{50}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces FoodForMe Server Recipe Profiling Module\relax }}{50}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces FoodForMe Server Recommendation Module\relax }}{51}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces FoodForMe Server ERD\relax }}{52}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.15}{\ignorespaces Facebook Connect\relax }}{53}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Participants Demographic Info\relax }}{62}{figure.caption.71}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Perceived Reciprocity\relax }}{63}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Perceived Scarcity\relax }}{63}{figure.caption.76}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Perceived Scarcity\relax }}{64}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Perceived Authority\relax }}{64}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Perceived Liking\relax }}{64}{figure.caption.80}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Perceived Liking\relax }}{65}{figure.caption.80}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Perceived Commitment\relax }}{65}{figure.caption.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Perceived Social Proof\relax }}{65}{figure.caption.84}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Perceived Social Proof\relax }}{66}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Perceived Transparency\relax }}{66}{figure.caption.85}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Perceived Transparency\relax }}{67}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Perceived Overall Control\relax }}{67}{figure.caption.87}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Perceived Overall Control\relax }}{68}{figure.caption.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Perceived Scrutability\relax }}{68}{figure.caption.89}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Perceived Scrutability\relax }}{69}{figure.caption.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Number of cycles\relax }}{69}{figure.caption.91}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Number of cycles\relax }}{70}{figure.caption.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Perceived Efficiency\relax }}{70}{figure.caption.93}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Perceived Efficiency\relax }}{71}{figure.caption.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Perceived Satisfaction\relax }}{71}{figure.caption.94}
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Perceived Satisfaction\relax }}{72}{figure.caption.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Perceived Context\relax }}{71}{figure.caption.95}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Perceived Context\relax }}{73}{figure.caption.95}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces User Preferences\relax }}{74}{figure.caption.100}
 \defcounter {refsection}{0}\relax 

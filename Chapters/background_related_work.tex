@@ -205,9 +205,9 @@ Besides, all the advancements and opportunities provided by mobile devices. Some
 \section{Related Work}
 This section gives an overview of previous work and related papers on the respective domain.
 
-\subsection{User's Food Preference Extraction for Personalised Cooking Recipe Recommendation}
+\subsection{Food Recommender Systems}
 
-Mayumi, M. et al., \cite{ueda2011user} design system to enlighten importance of personalized recipe recommendation system which is based on user’s food preferences. In this research user’s preferences are gathered by his browsing and cooking history. Recommendations provided by this system is not depends on what user ate in past. Moreover, system does not require particular action of user to collect his preferences.  Figure \ref{fig:ch2_ueda2011user} illustrate the idea estimating user’s favorite ingredients. Their approach breakdowns the recipes into like and dislike ingredients set. It calculate ingredient the score by incorporating the frequency of that ingredient in the dishes that has eaten by user and consider them in like ingredient. Whereas, ingredient is consider as dislike by user if he never browsed the recipe details or never cooked. Since system is working on implicit profiling therefore unable to consider addition context and preference of user while generating recommendations.
+Mayumi, M. et al.\cite{ueda2011user}, design system to enlighten importance of personalized recipe recommendation system which is based on user’s food preferences. In this research user’s preferences are gathered by his browsing and cooking history. Recommendations provided by this system is not depends on what user ate in past. Moreover, system does not require particular action of user to collect his preferences.  Figure \ref{fig:ch2_ueda2011user} illustrate the idea estimating user’s favorite ingredients. Their approach breakdowns the recipes into like and dislike ingredients set. It calculate ingredient the score by incorporating the frequency of that ingredient in the dishes that has eaten by user and consider them in like ingredient. Whereas, ingredient is consider as dislike by user if he never browsed the recipe details or never cooked. Considering the research gap, developed system is working on implicit profiling technique therefore unable to consider addition context and preference of user while generating recommendations. Moreover system does not allow user in correction of the wrong assumption made by the system. \newline
 
 \begin{figure}[h]
 	\centering
@@ -217,8 +217,11 @@ Mayumi, M. et al., \cite{ueda2011user} design system to enlighten importance of 
 	\label{fig:ch2_ueda2011user}
 \end{figure}
 
-\subsection{Knowledge Base Framework for Development of Personalised Food Recommendation System}
-Suksom, N. et al., \cite{suksom2010knowledge} focus on personalized food recommendation system aims to provide dietary recommendation based on individual diet and preferences by using knowledge base recommendation technique. Where as, knowledge based depends on ontology and rule-based knowledge development. Figure \ref{fig:ch2_suksom2010knowledge} gives an overview of system. All user preferences are set initially and recommendations are based on his heath preference infers system not supports critiquing approach.  
+
+Freyne, J. et al\cite{freyne2010recommending} research investigate recipe recommendation system techniques by applying different recommendation techniques \cite{freyne2010recommending}. Initially with collaborative filter approach with simple break down to relate recipe and ingredients result were not so good but by applying content based approach there were significant improvements in result. For optimal solution they used hybrid approach of content-based and collaborative filter. Summary of their work is stated as after breaking down the recipes into ingredients, give and compute score ingredient score, applying collaborative filter to narrow down the ingredient score and finally applying content based approach in which prediction of recipe rating is examine by the score of individual ingredients. This approach conveys the basic idea recipe recommendation system.  The purpose of our research not only to understand the recipe ontologies but also considering user context like cooking, like/dislike ingredients, recipe’s course which fills the gap of this research.\newline
+
+
+Suksom, N. et al.\cite{suksom2010knowledge}, focus on personalized food recommendation system aims to provide dietary recommendation based on individual diet and preferences by using knowledge base recommendation technique. Where as, knowledge based depends on ontology and rule-based knowledge development. Figure \ref{fig:ch2_suksom2010knowledge} gives an overview of system. This research allow user to setup there preferences on startup there is no method by which user can update their preference nor the system allows to correct the wrong assumption made by the system. With help of Active-Learning and Critiquing our research helps to learn about user and his current preferences. 
 
 \begin{figure}[h]
 	\centering
@@ -228,40 +231,46 @@ Suksom, N. et al., \cite{suksom2010knowledge} focus on personalized food recomme
 	\label{fig:ch2_suksom2010knowledge}
 \end{figure}
 
-\subsection{Recommending Food: Reasoning on Recipes and Ingredients}
 
-Focus of the research is to investigate recipe recommendation system techniques by applying different recommendation techniques \cite{freyne2010recommending}. Initially with collaborative filter approach with simple break down to relate recipe and ingredients result were not so good but by applying content based approach there were significant improvements in result. For optimal solution they used hybrid approach of content-based and collaborative filter. Summary of their work is stated as after breaking down the recipes into ingredients, give and compute score ingredient score, applying collaborative filter to narrow down the ingredient score and finally applying content based approach in which prediction of recipe rating is examine by the score of individual ingredients. This approach conveys the basic idea recipe recommendation system. With the addition of user preference and their feedback it could achieve more.
+Teng, C. et al.,\cite{teng2012recipe} research permits collaborative recipe generation and modification. Recipes data are gathered according to regional preferences and modification is done by individual ingredient preferences. By this approach two kinds of networks are created one is ingredient complement and other is ingredients substitution. The network suggests which substitution of ingredient increases the taste of the recipe and gives those recipes, which is high rated by user. System uses collaborative filter approach along with data mining techniques. System does not have diet specific recipes according to user preference nor consider any user context. \newline
 
-\subsection{Recipe recommendation using ingredient networks}
+\subsection{Critique-Based Recommender Systems}
 
-Teng, C. et al.,\cite{teng2012recipe} research permits collaborative recipe generation and modification. Recipes data are gathered according to regional preferences and modification is done by individual ingredient preferences. By this approach two kinds of networks are created one is ingredient complement and other is ingredients substitution. The network suggests which substitution of ingredient increases the taste of the recipe and gives those recipes, which is high rated by user. System uses collaborative filter approach along with data mining techniques. System does not have diet specific recipes according to user preference nor consider any user context. 
+Ricci \cite{ricci2005critique} described the critique based  mobile base recommendation in the domain of travel. Motivation behind this research to collect collects user preferences via critique with low amount of user effort. According to this research it is an advantage to collect user preference via critiquing and it is relatively fast. He modeled user preferences on the bases of long-term and session-specific preference. Given a user’s request, the system exploits the user’s preferences model to initialize the search query, which consists of the three following components. 
 
-\subsection{Critique-Based Mobile Recommender Systems}
+\begin{enumerate}
+		\item The logical query (QL) models must conditions that need to be independently satisfied by any of the recommended products. The logical query is a conjunction of logical conditions (constraint) on single product features. 
+		
+		\item The favorite pattern (p) models wish conditions that should be matched as many as possible. Wish conditions allow trade-offs to be made, i.e., a good match on a condition could compensate a bad match on another one. The favor- ite pattern is represented as a vector in the same vector space of the product representation. 
+		
+		\item The feature importance weights vector (w) is again n-dimensional and models how much each feature is important with respect to the others.
+			
+\end{enumerate}
 
-Ricci \cite{ricci2005critique} illustrates the critique based  mobile base recommendation in the domain of travel. Motivation behind this research to collect collects user preferences via critique with low amount of user effort. According to this research it is an advantage to collect user preference via critiquing and it is relatively fast. Figure \ref{fig:ch2_ ch2_ricci2005critique} shows how the critiquing is perform. On the other hand it does not support reactiveness if  use preferences has changed. It gives the basic idea how to gather information regarding user preferences in our system. 
- 
+
+Figure \ref{fig:ch2_ricci2005critique} shows rest how the critiquing is perform. We apart our research from Ricci’s by dealing in domain of food. Also our research improves the system reactiveness by providing the conversational-based recommendation. \newline
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=.70\linewidth]{figures/ch2_ricci2005critique.png}
+	\includegraphics[width=.50\linewidth]{figures/ch2_ricci2005critique.png}
 	\caption{Critique-Based recommendation model}
 	\cite{ricci2005critique}
 	\label{fig:ch2_ricci2005critique}
 \end{figure}
 
 
-\subsection{Active Learning Strategies for Exploratory Mobile Recommender Systems Interactive Explanations in Mobile Shopping Recommender Systems}
-
-Motivation behind this approach to developed a explorative shopping mobile recommendation system by using conversation-based active learning approach \cite{lamche2014active}. It uses the utility-based context and critiquing for feedback. Recommendations improvements are done by two-step critiquing process which illustrating in at Figure \ref{fig:ch2_lamche2014active_1}. Critiquing process is relies on either positive or negative feedback. Figure \ref{fig:ch2_lamche2014active_2} show the refine model of recommendation in a system. On the other hand it does not deals with the context and tell user why this recommendation is given to him. 
+Lamche, , C. et al. \cite{lamche2014active}, investigated shopping mobile recommendation system by using conversation-based active learning approach. It uses the utility-based context and critiquing for feedback. Recommendations improvements are done by two-step critiquing process which illustrating in at Figure \ref{fig:ch2_lamche2014active_1}. Critiquing process is relies on either positive or negative feedback. Figure \ref{fig:ch2_lamche2014active_2} shows the refine model of recommendation in a system.  However, system doesn’t consider the user’s context in making of recommendation that will be filled by our research.  Moreover, both research consider different scenarios of lifestyle, mean one deal with shopping and other food.
 
 \begin{figure}[h]
-	\begin{subfigure}{.49\textwidth}
-	\includegraphics[width=.9\linewidth]{figures/ch2_lamche2014active_1.png}
+	\centering
+	\begin{subfigure}{.70\textwidth}
+	\includegraphics[width=1\linewidth]{figures/ch2_lamche2014active_1.png}
 	\caption{The two-stepped critiquing process}
 	\cite{lamche2014active}
 	\label{fig:ch2_lamche2014active_1}
 	\end{subfigure}
-	\begin{subfigure}{.49\textwidth}
-	\includegraphics[width=.9\linewidth]{figures/ch2_lamche2014active_2.png}
+	\begin{subfigure}{.70\textwidth}
+	\includegraphics[width=1\linewidth]{figures/ch2_lamche2014active_2.png}
 	\caption{Active Learning recommenation model}
 	\cite{lamche2014active}
 	\label{fig:ch2_lamche2014active_2}
@@ -270,9 +279,9 @@ Motivation behind this approach to developed a explorative shopping mobile recom
 	\label{fig:lamche2014active}
 \end{figure}
 
-\subsection{The Persuasive role of Explanations in Recommender Systems}
+\subsection{Persuasive Recommender Systems}
 
-Ricci, F. et al.,\cite{gkika2014persuasive} design and analyze a movie recommendation system in which they tried to recommend those movies that are according user’s interest. It helps them to understand the persuasion effect that users are willing to accept recommendation or not. System is design to suggest persuasion recommendation based on Kaptein’s \cite{kaptein2012adaptive} methodology and follows the approach of six(6) best-matching explanation \ref{table:best-matching-explanation} to provide Persuasion Principle. This approach is does not support active learning and critiquing approach not handling of current context.\newline
+Ricci, F. et al.,\cite{gkika2014persuasive} designed and analyzed a movie recommendation system. The purpose of the system was to investigate the role of persuasion. In that scenario he  tried to recommend those movies that are according user’s interest. It helps them to understand the persuasion effect that users are willing to accept recommendation or not. System is design to suggest persuasion recommendation based on Kaptein’s \cite{kaptein2012adaptive} methodology and follows the approach of six(6) best-matching explanation \ref{table:best-matching-explanation} to provide Persuasion Principle.\newline
 
 \begin{table}[ht]
 	\centering % used for centering table
@@ -293,5 +302,7 @@ Ricci, F. et al.,\cite{gkika2014persuasive} design and analyze a movie recommend
 	\label{table:best-matching-explanations}
 \end{table}
 
+
+Discussed system does not provided any explanation that are involved in recommendation making, nor dealing the contextual factor, neither allow user to correct wrong assumption create by system. Our research also follows the same approach as Ricci but the dimension of domain is different and considers all the mentioned factors that Ricci’s didn’t.
 
 
