@@ -176,90 +176,94 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.2}Variants}{60}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Testing Framework}{60}{subsection.5.3.3}
+\contentsline {subsubsection}{\nonumberline Experiment (EXP)}{60}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Persuasion\IeC {\textquoteright }s Principle}{60}{section*.64}
+\contentsline {subsubsection}{\nonumberline Basic (BASE)}{60}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Transparency}{61}{section*.65}
+\contentsline {subsection}{\numberline {5.3.3}Testing Framework}{61}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Control}{61}{section*.66}
+\contentsline {subsubsection}{\nonumberline Persuasion\IeC {\textquoteright }s Principle}{61}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Efficiency}{62}{section*.67}
+\contentsline {subsubsection}{\nonumberline Transparency}{62}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Satisfaction}{62}{section*.68}
+\contentsline {subsubsection}{\nonumberline User Control}{62}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Context}{62}{section*.69}
+\contentsline {subsubsection}{\nonumberline Efficiency}{63}{section*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline UserDemographic}{63}{section*.70}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{63}{section*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Testing Procedure}{63}{subsection.5.3.4}
+\contentsline {subsubsection}{\nonumberline Context}{63}{section*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Results}{64}{section.5.4}
+\contentsline {subsubsection}{\nonumberline UserDemographic}{64}{section*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Participants}{64}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.3.4}Testing Procedure}{64}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Perceived Persuasion}{65}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.4}Results}{65}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Reciprocity}{65}{section*.73}
+\contentsline {subsection}{\numberline {5.4.1}Participants}{65}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Scarcity}{66}{section*.75}
+\contentsline {subsection}{\numberline {5.4.2}Perceived Persuasion}{66}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Authority}{66}{section*.77}
+\contentsline {subsubsection}{\nonumberline Reciprocity}{66}{section*.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Liking}{67}{section*.79}
+\contentsline {subsubsection}{\nonumberline Scarcity}{67}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Commitment}{67}{section*.81}
+\contentsline {subsubsection}{\nonumberline Authority}{67}{section*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Social Proof}{68}{section*.83}
+\contentsline {subsubsection}{\nonumberline Liking}{68}{section*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Perceived Transparency}{68}{subsection.5.4.3}
+\contentsline {subsubsection}{\nonumberline Commitment}{68}{section*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Perceived User Control}{69}{subsection.5.4.4}
+\contentsline {subsubsection}{\nonumberline Social Proof}{69}{section*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Overall Control}{69}{section*.86}
+\contentsline {subsection}{\numberline {5.4.3}Perceived Transparency}{69}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Scrutability}{70}{section*.88}
+\contentsline {subsection}{\numberline {5.4.4}Perceived User Control}{70}{subsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Efficiency}{71}{subsection.5.4.5}
+\contentsline {subsubsection}{\nonumberline Overall Control}{70}{section*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Cycles}{71}{section*.90}
+\contentsline {subsubsection}{\nonumberline Scrutability}{71}{section*.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Perceived Efficiency}{72}{section*.92}
+\contentsline {subsection}{\numberline {5.4.5}Efficiency}{72}{subsection.5.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.6}Perceived Satisfaction}{73}{subsection.5.4.6}
+\contentsline {subsubsection}{\nonumberline Cycles}{72}{section*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.7}Perceived Context}{74}{subsection.5.4.7}
+\contentsline {subsubsection}{\nonumberline Perceived Efficiency}{73}{section*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{75}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.6}Perceived Satisfaction}{74}{subsection.5.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{75}{section*.96}
+\contentsline {subsection}{\numberline {5.4.7}Perceived Context}{75}{subsection.5.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline More Attributes}{75}{section*.97}
+\contentsline {subsection}{\numberline {5.4.8}Informal Feedback}{76}{subsection.5.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{76}{section*.98}
+\contentsline {subsubsection}{\nonumberline Explanation Enhancements}{76}{section*.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Allow sorting}{76}{section*.99}
+\contentsline {subsubsection}{\nonumberline More Attributes}{76}{section*.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.9}User Preferences}{76}{subsection.5.4.9}
+\contentsline {subsubsection}{\nonumberline Endless set of recommenadations}{77}{section*.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Discussion}{76}{section.5.5}
+\contentsline {subsubsection}{\nonumberline Allow sorting}{77}{section*.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{79}{chapter.6}
+\contentsline {subsection}{\numberline {5.4.9}User Preferences}{77}{subsection.5.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Future Work}{79}{section.6.1}
+\contentsline {section}{\numberline {5.5}Discussion}{77}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Appendix}{81}{part.4}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{80}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}User Study Survey}{82}{appendix.A}
+\contentsline {section}{\numberline {6.1}Future Work}{80}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Demographic Questions}{82}{section.A.1}
+\contentsline {part}{\numberline {IV}Appendix}{82}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Testing Framework}{82}{section.A.2}
+\contentsline {chapter}{\numberline {A}User Study Survey}{83}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Likert Scale Statements}{82}{subsection.A.2.1}
+\contentsline {section}{\numberline {A.1}Demographic Questions}{83}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{85}{appendix*.101}
+\contentsline {section}{\numberline {A.2}Testing Framework}{83}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{87}{appendix*.102}
+\contentsline {subsection}{\numberline {A.2.1}Likert Scale Statements}{83}{subsection.A.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{88}{appendix*.103}
+\contentsline {chapter}{\nonumberline List of Figures}{86}{appendix*.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{88}{appendix*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{89}{appendix*.106}

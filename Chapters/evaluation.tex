@@ -14,8 +14,28 @@ This section leads our discussion toward the selection of test hardware, differe
 \subsection{Test Hardware}
 Recommended hardware must have at least 320x 480 resolution and above, running iOS version 8.0 or later. In order words required device to run application is iPhone 4S and above.  
 \subsection{Variants}
-Two variants of system are developed to test. Both variants use the same recommendation algorithm. However they are different to each other by have unique interface design, explanation of recommendation and critiquing methodology. 
-\begin{enumerate}	\item \textbf{Experiment (EXP)} This variant refers to the proposed developed system as discuss in chapter 4. It allows users to change their preferences while interacting to the system by critiquing on ingredients and recipes. System provides explanation to each recommended item. Additionally interface follows the user centric design, which contains more information about the recipe to draw user attention towards recipes.		\item \textbf{Basic (BASE)}  Consider as baseline to compared the needs and effectiveness of actual system. In this system mostly provides textual information about the recipe. User can critique only recipes by given stars. System does not provide any explanation along with recipes. \end{enumerate}
+Two variants of system are developed to test. Both variants use the same recommendation algorithm. However they are different to each other by have unique interface design, explanation of recommendation and critiquing methodology.
+\subsubsection{Experiment (EXP)} 
+This variant refers to the proposed developed system as discuss in chapter 4. It allows users to change their preferences while interacting to the system by critiquing on ingredients and recipes. System provides explanation to each recommended item. Additionally interface follows the user centric design, which contains more information about the recipe to draw user attention towards recipes.		\subsubsection{Basic (BASE)}
+Consider as baseline to compared the needs and effectiveness of actual system. EXP is the extension BASE.  Both variants (BASE and EXP) share the same app but have different interfaces, from app main menu users can select which system they would like to use. Amount of information provided by BASE is similar to existing apps that are currently available in market. To display a recipe the content that is considered by the system are recipe title, recipe avatar (indicates how does it look), ingredients, preparation method and star rating that shows the popularity of recipe. It presents the recipes in a list fashion, on tapping on a recipe detail screen open. User can critique on recipe by tapping on critique button at the top right corner presented on recipe detail screen.  Besides providing recipe avatar all the information provided by BASE is textual form. It does not provide explanation to user why this recipe recommends to her, not indicates the factors that system consider while making a recommendation. Also user can critique on a recipe by giving stars. Figure \ref{fig:foodforme_base_recpie} represents it's user-interface. 
+
+	  \begin{figure}[h]
+	  	\begin{subfigure}{.32\textwidth}
+	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/test_system/evaluation_recipe}
+	  		\caption{Recipe}
+	  	\end{subfigure}
+	  	\begin{subfigure}{.32\textwidth}
+	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/test_system/evaluation_recipe_detail}
+	  		\caption{Recipe Detail}
+	  	\end{subfigure}
+	  	\begin{subfigure}{.32\textwidth}
+	  		\includegraphics[width=.9\linewidth]{figures/ch4_app_screen_shots/test_system/crtiquing_evaluation_sysetm}
+	  		\caption{Recipe's Critique}
+	  	\end{subfigure}
+	  	\caption{FoodForMe BASE Recipe}
+	  	\label{fig:foodforme_base_recpie}
+	  \end{figure}
+\newpage
 \subsection{Testing Framework}
 Testing framework that is applied in user study is a subset of the aspect that are relevant for persuasion and critiquing in recommend system. It follows the user-centric design approaches \cite{pu2006trust} and framework that applied for evaluation of recommend recommendation system \cite{shani2011evaluating}. Measure data is divided into following areas:
 \subsubsection{Persuasion’s Principle}
