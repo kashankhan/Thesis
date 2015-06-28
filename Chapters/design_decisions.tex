@@ -153,8 +153,77 @@ Following our goal to develop the user profile over time using active learning m
 	  	\caption{FoodForMe Critiquing Algorithm.}
 	  	\label{fig:ch3_critique_algo}
 	  \end{figure}
-	  
 \newpage	  
+ \begin{algorithm}
+ 	\caption{Recipe Critiquing}
+ 	\label{pseudo_recipe_critiquing}
+ 	\begin{algorithmic}[1]
+ 		 \Require{ Recipe Id = $rid$, User Id = $uid$, Star Rating = $s$, List of like ingredients = $li$, List of Dislike ingredients = $di$,  where $li$ and $di$ can be empty or n}
+ 	   	\State
+ 		 \Function{RecipeCritique}{$rid, uid, s, li, di$}
+	     \State \Call{RateRecipe}{$rid, uid, s$}
+	     \State \Call{SetUserIngredientPreference}{$uid, li, true$}
+         \State \Call{SetUserIngredientsPreference}{$uid, di, false$}
+         \EndFunction
+         \State
+         \Function{RateRecipe}{$rid, uid, s$}
+           \State $r\gets$ \Call{getRecipe}{$rid$}
+           \State $u\gets$ \Call{getUserRecipePrefernce}{$uid$}
+          \If{($r$ AND $u$ != nil) AND ($u > 0$)}
+	         \State $u.rid \gets rid$
+	         \State $u.s \gets s$
+	        \State recalculate overall star rating of recipe
+          \EndIf
+          \EndFunction
+          \State
+          \Require{User Id = $uid$, List of ingredients = $i$, Favorite = $f$}
+          \State
+          \Function{SetUserIngredientsPreference}{$uid, i, f$}
+			\For{Each ingredient $i$}
+			\State $u\gets$ \Call{getUserIngredientPreference}{$uid$}
+			\State $u.iid\gets ingredient.i$
+			\State $u.f\gets f$
+			\EndFor
+            \EndFunction
+ 	\end{algorithmic}
+ \end{algorithm}
+ 
+  \begin{algorithm}
+  	\caption{User Recipe Recommendation}
+  	\label{pseudo_rser_recipe_recommendation}
+  	\begin{algorithmic}[1]
+  		\Require{User Id = $uid$ , Cooking Time $ct$, Page Size = $ps$, Course = $c$, List of user like ingredients = $uli$, List of user dislike ingredients = $udli$ }
+  		\State
+  		\Function{GetUserRecipeRecommendations}{$uid, ct, ps, c$}
+			\State $uli\gets$ \Call{GetUserLikeIngredients}{$uid$}
+		    \State $udli\gets$ \Call{GetUserDislikeIngredients}{$uid$}
+		    \If{$uli.count > 0$ OR $udli.count > 0$}
+		    \State $r\gets$ \Call{GetRecommendations}{$uid$}
+		    \Else 
+		    \State $r\gets$ \Call{GetPopularRecipes}{$ct , ps, c$}
+		    \EndIf
+		    \State \Return $r$
+  	    \EndFunction
+  	    \State
+  	    \Function{GetRecommendations}{$uid, ct,  ps, c, uli, udli$}
+  	       \State $pr\gets$\Call{GetPreferRecipes}{$uli,  c$}
+  	        \State Initialize $rr$ as list of recommend recipes
+  	      	\For{Each r $pr$}
+  	        \State $u\gets$ \Call{getUserIngredientPreference}{$uid$}
+  	        \State $tasteMacthes\gets$ \Call{MatchUserTaste}{$r,  udli, ct$}
+  	        \If{$tasteMacthes == true$}
+	  	    \State  $rr \gets r$
+	  	    \State To get the diverse set of recommendation in next page of recommendation assign date to recipe in user recipe preference so that this recipe will not be appear in that list. 
+	  	    \EndIf
+	  	    \If{$rr.count == ps$}
+	  	    \State \textbf{break}
+	  	    \EndIf
+  	        \EndFor
+		    \State \Return $r$
+  	   \EndFunction
+  	\end{algorithmic}
+  \end{algorithm}
+\newpage 
 \section{Persuasion} \label{ch4_persuasion}
 
 Developing persuasive recommendation system (RS) is mainstream of this research. Traditionally, RS has been more focused towards algorithmic approaches and relied on them for providing accurate recommendations. As there was an assumption that the accuracy of algorithm is the key factor that affects the quality of recommendation. Recent studies shows there are other factors that plays a significant role in the acceptance of recommendation. Main factors are User-centric design for presenting recommendation, transparency of system (explain user how system works) via message and source. An other important factor that way influenced on acceptance is explanation of recommendation\cite{gkika2014persuasive}. In order to achieve Persuasion in our system we focus on   “Visualization or Presentation \cite{nanou2010effects} \cite{pu2006trust} and “Explanation of recommendation\cite{cialdini2009influence}\cite{fogg1998persuasive}”.
@@ -196,3 +265,25 @@ Explanation of recommended item depends on: (1) How much calories are contained 
   	\caption{Generation of recommendation explanations.}
   	\label{fig:ch3_explanation_generator}
   \end{figure}
+    \begin{algorithm}
+    	\caption{Generating recipe explanation}
+    	\label{pseudo_recipe_explanation}
+    	\begin{algorithmic}[1]
+    		\Require{User Id = $uid$, Recipe = $r$ , User Cooking Time $uct$, List of user like ingredients = $uli$.}
+    		\State 
+    		\Function{GetUserRecipeExplanation}{$uid, r, ct$}
+    	    \State Initialize $rr$ as recommended recipe
+    	      \State $rr.calories \gets ct$
+    	      \State $rr.calories \gets$\Call{GetRecipeCalorie}{$r$}
+    	      \State $rr.exerciseTime \gets$\Call{GetCalorieBurningTime}{$uid, rr.calories$}.  \Comment{This method calculate ratio between the user’s BMI rate and recipe’s calories and returns the amount of time in mins, how much user need to do exercise to achieve his health target.}
+    			\For{Each ${R}_i$ $r.ingredients$}
+    			   \For{Each ${U}_i$ $uli$}
+	    			   \If {${R}_i == {U}_i$}
+	    			   \State $rr.addPreferIngredient \gets {R}_i$ \Comment{$rr.preferIngredients$ is a list of prefer Ingredients}
+				  	   \EndIf
+    			    \EndFor
+    			\EndFor
+    			\Return $rr$
+    		\EndFunction
+    	\end{algorithmic}
+    \end{algorithm}
