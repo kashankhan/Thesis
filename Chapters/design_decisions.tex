@@ -145,16 +145,16 @@ Second is conversational approach a new paradigm for the collection of user pref
 
 Moreover, Critiquing by conversational approach is not enough in our case. It can answer to the cold startup problem and are unable to deliver quick results. Therefore Active Learning (AL) is the additional approach, which is used by our system in order to quickly deliver good results without preexisting knowledge about user preferences. \cite{lamche2014active}. We followed Model-based AL methodology in order to construct user model regarding ingredient and recipe selection, avoid expected error in model. As far as AL mode is concerned we followed the Sequential model states as: recalculate the rating of item once user rated that specific item. In our case ingredients and recipe \cite{rashid2008learning}.\newline
 
-Following our goal to develop the user profile over time using active learning methods in recipe recommendation scenario. Training points of our application is recipe rating, ingredient like/dislike that will build over time in order to make accurate suggestion. Initially when we have no training point based on conversational approach our system recommends top ten recipes according to given contextual information based on Cuisine and Current Preferred cooking time of user. As it is unlikely that user always wish to eat same type of food and have same cooking time. At some point user have a tough schedule due to other activities and have less time to cook. Similarly eating preferences changes with respect to meal ‘s time like breakfast, lunch, dinner and drinks. Considering the dynamic behavior of user and interest conversational approach is more suited. We followed Knowledge based recommendation approach, as our system is more specific to user’s health and taste and the more knowledge about the user have more strong recommendation would be. We also consider content-based approach in our system in order to select popular recipes among the users to drag the attention of user. Initially when system does not have user preference, it follows collaborative filter approach by suggestion him top ten recipes of system. In order to improve the critiquing we are categorized in two manners, First, How much to like the recipe based on star rating. Second user likes particular ingredient or not which is Boolean in nature. Where system categories each ingredients in three state like, dislike and neutral (these are neither like nor dislike by user). Figure \ref{fig:ch3_critique_algo} explains our appoach of critiquing.
-
+Following our goal to develop the user profile over time using active learning methods in recipe recommendation scenario. Training points of our application is recipe rating, ingredient like/dislike that will build over time in order to make accurate suggestion. Initially when we have no training point based on conversational approach our system recommends top ten recipes according to given contextual information based on Cuisine and Current Preferred cooking time of user. As it is unlikely that user always wish to eat same type of food and have same cooking time. At some point user have a tough schedule due to other activities and have less time to cook. Similarly eating preferences changes with respect to meal ‘s time like breakfast, lunch, dinner and drinks. Considering the dynamic behavior of user and interest conversational approach is more suited. We followed Knowledge based recommendation approach, as our system is more specific to user’s health and taste and the more knowledge about the user have more strong recommendation would be. We also consider content-based approach in our system in order to select popular recipes among the users to drag the attention of user. Initially when system does not have user preference, it follows collaborative filter approach by suggestion him top ten recipes of system. In order to improve the critiquing we are categorized in two manners, First, How much to like the recipe based on star rating. Second user likes particular ingredient or not which is Boolean in nature. Where system categories each ingredients in three state like, dislike and neutral (these are neither like nor dislike by user). Figure \ref{fig:ch3_critique_algo} explains our appoach of critiquing. Moreover, Algorithm \ref{pseudo_recipe_critiquing}  and \ref{pseudo_rser_recipe_recommendation} describe  the how critiquing and recommendations work in our system.  
+\newpage
 	  \begin{figure}[h]
 	  	\centering
-	  	\includegraphics[width=.6\linewidth]{figures/ch3_critique_algo.png}
+	  	\includegraphics[width=.7\linewidth]{figures/ch3_critique_algo.png}
 	  	\caption{FoodForMe Critiquing Algorithm.}
 	  	\label{fig:ch3_critique_algo}
-	  \end{figure}
-\newpage	  
- \begin{algorithm}
+	  \end{figure}	
+\newpage
+ \begin{algorithm}[H] 
  	\caption{Recipe Critiquing}
  	\label{pseudo_recipe_critiquing}
  	\begin{algorithmic}[1]
@@ -188,7 +188,7 @@ Following our goal to develop the user profile over time using active learning m
  	\end{algorithmic}
  \end{algorithm}
  
-  \begin{algorithm}
+  \begin{algorithm}[H] 
   	\caption{User Recipe Recommendation}
   	\label{pseudo_rser_recipe_recommendation}
   	\begin{algorithmic}[1]
@@ -265,7 +265,7 @@ Explanation of recommended item depends on: (1) How much calories are contained 
   	\caption{Generation of recommendation explanations.}
   	\label{fig:ch3_explanation_generator}
   \end{figure}
-    \begin{algorithm}
+    \begin{algorithm}[H] 
     	\caption{Generating recipe explanation}
     	\label{pseudo_recipe_explanation}
     	\begin{algorithmic}[1]

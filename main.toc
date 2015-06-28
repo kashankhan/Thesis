@@ -98,7 +98,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Critiquing}{30}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Persuasion}{32}{section.3.5}
+\contentsline {section}{\numberline {3.5}Persuasion}{35}{section.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}Visualization or Presentation}{35}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
